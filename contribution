@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+
+
+	<title>iGEM &mdash; Contribution</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children active">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li class="active"><a href="contribution">Contribution</a></li>
+								<li><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+						<li><a href="partnership">Partnership</a></li>
+						<li class="has-children">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/contribution.png')">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Contribution</h2>
+				</div>
+			</div>
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h3>
+						<ul>
+							<li><b>New parts added to the Registry of Standard Biological Parts</b></li>
+					</h3>
+					<p class="text-black-50" align="justify">Since our project Apt4UTI focuses on developing a novel
+						aptamer-based diagnostic kit for detecting UTI-causing pathogens, we have created a prototype
+						through the designing of our Biobricks parts that will be useful for teams to test their
+						aptamers on E.coli or other uropathogenic bacterial strains that will express a particular
+						protein as either a virulence factor or an adhesive protein. We have also designed several
+						assays by which we can test our parts:
+					<ol type="I">
+						<h3>
+							<li><b>Basic Parts</b></li>
+						</h3>
+						<ul>
+							<li><b><a href="http://parts.igem.org/Part:BBa_K4449000">FimH1 (BBa_K4449000)</a></b> </li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 3rem;">The
+								DNA part contains the coding sequence of the E.coli UTI89 FimH1 signal peptide and
+								lectin domain<sup>5</sup> which forms a subunit of type 1 fimbriae, located at the tip
+								of the
+								organelle as an integral part of short fimbriae. These structural organelles help the
+								Uropathogens to mediate specific adhesion to alpha -D-mannoside receptors of the host
+								and represent hair-like structures on the surface of E.coli.<sup>1</sup> Therefore, FimH
+								1 acts as a
+								receptor-recognition element and hence as an adhesin that is responsible for the
+								pathogenesis in urinary tract infection.<sup>1</sup> For further information related to
+								this part
+								please visit our parts page <a href="http://parts.igem.org/Part:BBa_K4449000">FimH1
+									(BBa_K4449000)</a></p>
+
+							<li><b><a href="http://parts.igem.org/Part:BBa_K4449001">FimH2 (BBa_K4449001)</a></b></li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 3rem;">The
+								DNA part contains the coding sequence of the E.coli UTI89 FimH2 signal peptide and
+								lectin domain<sup>5</sup> which forms a subunit of type 1 fimbriae, located at the tip
+								of the
+								organelle as an integral part of short fimbriae.<sup>1</sup> This part will be first
+								expressed as a
+								fusion protein with the N terminal fusion tag in the pET15b expression vector and the
+								purified protein will subsequently be tested for binding with the selected candidate
+								aptamers ( obtained from a later stage of ligand-basedSELEX) via ELISA-based binding
+								assay.<sup>2</sup> Here the expression vector contains a "Thrombin site" which refers to
+								a DNA
+								sequence which contains the recognition site of thrombin (a protease). As a control
+								experiment,after purification of the induced FimH2 protein carrying 6 X His affinity tag
+								at its N-terminal end, thrombin enzyme will be used to cleave the His tag and the tag
+								free protein will be again tested with the selected candidate aptamers ( obtained from a
+								later stage of ligand-based SELEX) to validate if the aptamers are truly binding to the
+								purified FimH2 protein and is showing no interaction with the His Tag.Thus by
+								engineering this part we will be setting up a platform to purify His tag-free protein.
+								For further information related to this part please visit our parts page <a
+									href="http://parts.igem.org/Part:BBa_K4449001">FimH2 (BBa_K4449001)</p>
+
+							<li><b><a href="http://parts.igem.org/Part:BBa_K4449002"> Staphylococcus epidermidis Bap
+										like protein Bhp (Bhp) (BBa_K4449002)</a></b> </li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem;">This basic part encodes a
+								virulence factor of S. epidermidis that helps in biofilm accumulation and is known as a
+								surface adhesion protein or Bap (biofilm associated protein) that is commonly found in
+								S. epidermidis strains.<sup>3</sup> In our project this part will be expressed under the
+								control of
+								the T7 promoter of pET 28b+ expression vector. We will express this protein with a C
+								terminal 6X His tag in BL21DE3 strain of E coli under IPTG induction and purify the
+								protein using Ni NTA affinity column.
+							</p>
+							<p style="margin-bottom: 3rem;">This part will be used for the negative selection round of
+								ligand based SELEX and will serve as a negative control in our ELISA based binding
+								assays. We have chosen this part encoding a virulence factor from Staphylococcus
+								epidermidis because Staphylococcus epidermidis comprises a minority of the microflora of
+								the lower part of the Urethra, and can be expected to be present as a contaminant in the
+								urine cultures.<sup>4</sup> This is an exclusively
+								new part that has been added to the registry. For further information related to this
+								part please visit our parts page <a
+									href="http://parts.igem.org/Part:BBa_K4449002">Staphylococcus epidermidis Bap like
+									protein Bhp (Bhp) (BBa_K4449002)</a></p>
+
+						</ul>
+
+						<h3>
+							<li><b>Primer parts</b></li>
+						</h3>
+						<p class="text-black-50" align="justify" style="margin-top: 1rem;">The following primer parts
+							have been added to the Registry of Standard biological parts:
+						<ul>
+							<li>pET28b FimH1F: <a href="http://parts.igem.org/Part:BBa_K4449003">BBa_K4449003</a></li>
+							<li>pET28b FimH1R: <a href="http://parts.igem.org/Part:BBa_K4449004">BBa_K4449004</a></li>
+							<li>pET15b FimH2F: <a href="http://parts.igem.org/Part:BBa_K4449005">BBa_K4449005</a></li>
+							<li>pET15b FimH2F: <a href="http://parts.igem.org/Part:BBa_K4449006">BBa_K4449006</a></li>
+							<li>pET28b BhpF: <a href="http://parts.igem.org/Part:BBa_K4449007">BBa_K4449007</a></li>
+							<li>pET28b BhpR: <a href="http://parts.igem.org/Part:BBa_K4449008">BBa_K4449008</a></li>
+						</ul>
+						</p>
+
+						<h3 style="margin-top: 3rem;">
+							<li><b>Composite parts</b></li>
+						</h3>
+
+						<p class="text-black-50" align="justify" style="margin-top: 1rem;">The following composite parts
+							have been added to the Registry of Standard biological parts:
+						<ul>
+							<li>Apt4UTI C1: <a href="http://parts.igem.org/Part:BBa_K4449009">BBa_K40009</a></li>
+							<li>Apt4UTI C2: <a href="http://parts.igem.org/Part:BBa_K4449010">BBa_K40010</a></li>
+							<li>Apt4UTIC3: <a href="http://parts.igem.org/Part:BBa_K4449011">BBa_K40011</a></li>
+						</ul>
+						</p>
+					</ol>
+					</p>
+
+
+					<h3 style="margin-top: 3rem;">
+						<li><b>Generation of Aptamer sequences <a
+									href="https://parts.igem.org/Part:BBa_K4449012">(BBa_K4449012)</a></b></li>
+					</h3>
+					<ul>
+
+						<p class="text-black-50" align="justify" style="margin-top: 1rem;">
+						<h5>Description</h5>
+						<li>
+							<p>Through this project we
+								have generated a library of 500 random oligonucleotide sequences that have 40 random
+								nucleotides in between flanked by a common forward and reverse primer sequence on both
+								sides. These primers were added so that the selected sequence can be subjected to PCR
+								amplification in the positive selection rounds of SELEX technique. Here in the 40 random
+								nucleotide sequence a ratio of 3:2:2:3 is followed between A:T:G:C. The random
+								oligonucleotide sequences were generated using python with the help of Jupyter
+								Notebook.<sup>2</sup></p>
+						</li>
+						<li>Primer sequences:
+							<p>
+							<ul>
+								<li>Forward primer sequence: 5’-GTCTATATGATCTGTAACAC-3’</li>
+								<li>Reverse primer sequence: 5’- CCAGCAGTGAGTCATCAGAT-3’</li>
+							</ul>
+							</p>
+						</li>
+
+						<h5>Utilization</h5>
+						<li>The plan is to use this library to carry out multiple rounds of SELEX techniques to get a
+							suitable nucleotide sequence that will effectively bind to our targeted proteins fIMH1 and
+							FimH2.</li>
+
+						<li>Here is the link to see the generated sequence: <a
+								href="https://docs.google.com/spreadsheets/d/1MICJ94mhiy_pHvqC_b31TbRaymPHyPen/edit?usp=sharing&ouid=112980351422820178528&rtpof=true&sd=true">Click
+								Here</a></p>
+						</li>
+					</ul>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+	<!-- Image with sentence sidewise -->
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h3>
+						<ul>
+							<li><b>Improvement of an Existing Part</b></li>
+						</ul>
+
+					</h3>
+					<p class="text-black-50" align="justify">
+					<ol type="I">
+						<b>
+							<li><a href="http://parts.igem.org/Part:BBa_K3953004">fimH HIS Tag (BBa_K3953004)</a></li>
+						</b>
+						<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;"><a
+								href="http://parts.igem.org/Part:BBa_K3953004">fimH HIS Tag (BBa_K3953004)</a> is a DNA
+							part that was developed by iGEM21_Pittsburgh (2021-10-21) which consists of the histidine
+							tag sequence that codes for consecutive histidine amino acid residues within the fimH gene.
+							Although this is an excellent tool in which the affinity of histidine tags for NiNTA beads
+							will serve as a proof of concept for fimH binding, from literature surveys we found that an
+							N or a C terminal His tag is more desirable for NiNTA based purification.<sup>6</sup> In
+							our project Apt4UTI, we have developed a platform to express C terminal and N terminal His
+							tagged FimHprotein, since we think that putting a His tag at C terminal or N terminal end
+							will be a better approach without interfering with the protein conformation and will ease
+							purification process. The C terminal and N terminal His tag would enable proper folding of
+							our protein of interest FimH1 and FimH2. FimH1 and FimH2 are the modified versions of the
+							gene sequences derived from the plasmid pBAD-FimH-9x His (Addgene # 97305) which were
+							developed for cloning into pET28 b+ (EMD Biosciences)and pET15b+( Novagen ,EMD Millipore)
+							respectively. </a></p>
+
+						<li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;"><a
+									href="http://parts.igem.org/Part:BBa_K4449009">Apt4UTI C1 ( BBa_K4449009)</a> will
+								express our insert FimH1 with C terminal His tag.</p>
+						</li>
+
+						<li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;"><a
+									href="http://parts.igem.org/Part:BBa_K4449010">Apt4UTI C2 (BBa_K4449010)</a> to
+								express our insert FimH2 with N terminal His tag.</p>
+						</li>
+
+						<li>
+							<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;">In
+								the construct <a href="http://parts.igem.org/Part:BBa_K4449010">Apt4UTI C2
+									(BBa_K4449010)</a>, the FimH2 will be expressed with a N terminal His tag along with
+								a thrombin site, so that the enzyme thrombin can be used to remove the His tag in order
+								to purify a tag free protein and validate that the aptamers are not showing any
+								non-specific binding with the His tag.
+							</p>
+						</li>
+					</ol>
+					</p>
+
+					<h6><b>
+							<p>Moreover with the help of our literature surveys we have devised several methodologies to
+								measure our parts:</p>
+						</b></h6>
+					<h6>Methodologies to test our construct <a href="http://parts.igem.org/Part:BBa_K4449009">Apt4UTI
+							C1</a> which will express C terminal
+						6X His tagged FimH1. </h6>
+					<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;">
+					<ol>
+						<li><b>SDS PAGE:</b>After purification of the 6X -His tagged protein, we will perform an SDS
+							PAGE where we will run the molecular mass markers ( lane 1),Coomassie blue stained
+							cytoplasmic soluble fraction preparation( lane 2), the purified FimH1-6X His protein ( lane
+							3) and the purified Staphylococcal Bap like Bhp protein-6X His (lane5 – negative
+							control))<sup>1</sup>. This will help us to validate our isolation and purification steps.
+						</li>
+
+						<li><b>Receptor blots:</b>Upon running the purified sample on an SDS PAGE the samples will be
+							transferred to PVDF microporous membrane filters using a semi-dry blotting
+							apparatus.Receptor blots of FimH1 6XHis and Bhp-6X His to α-D-mannosylated BSA (Sigma) will
+							be then carried out by first incubating the filterblots with α-D-mannosylated BSA (0.5 mg
+							l-1) followed by incubation with rabbit anti-BSA serum and finally with
+							peroxidase-conjugated anti-rabbit serum to demonstrate the functionality of the FimH1
+							protein)<sup>1</sup>, whereas Bhp is expected to show no interaction with the receptors that
+							are specific for FimH1. Moreover the signal intensity of the obtained bands will be directly
+							proportional to the concentration of our target protein.</li>
+
+
+
+
+						<!-- Image sidewise -->
+
+						<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+							<div class="container">
+
+								<div class="row text-left mb-5">
+									<div class="col-lg-7" style="width: 100%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/fimh1-receptor-blot.png"
+													alt="Image" class="img-fluid"
+													style="display: block; box-sizing: border-box; margin-right: auto; margin-left: auto;">
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Image sidewise ends-->
+
+
+						<li><b>ELISA based Binding assays</b> - His-tagged protein (FimH1 -6X His) will be incubated
+							with a biotin-labelled anti-His antibody, which will be immobilized in streptavidin-coated
+							wells.<sup>2</sup> After incubation of FITC-labelled aptamers with protein-coated wells,
+							HRPlabelled anti-FITC antibodies will be added. After washing, QuantaBlu Fluorogenic
+							Peroxidase Substrate will be added as a readout of the aptamer-target binding and the
+							fluorescence intensity is measured using a plate reader.<sup>2</sup> We would select those
+							aptamer candidates which shows high intensity fluorescence signal upon interacting with Fim
+							H1 and no or low signal intensity on interacting with Bhp .On the other hand we need to rule
+							out those aptamers which emits positive signals upon interacting with Bhp.
+						</li>
+
+						<!-- Image sidewise -->
+
+						<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+							<div class="container">
+
+								<div class="row text-left mb-5">
+									<div class="col-lg-7" style="width: 100%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/image5.png"
+													alt="Image" class="img-fluid">
+												<p align="center">Figure: Schematic illustration of ELISA-based binding
+													assay. His-tagged protein is incubated with biotin-labeled anti-His
+													antibody, which is immobilized to streptavidin coated wells. After
+													incubation of FITC labeled aptamers with protein coated wells,
+													HRPlabelled anti-FITC antibody is added. After washing, QuantaBlu
+													Fluorogenic Peroxidase Substrate is added as a readout of the
+													aptamer-target binding and the fluorescence intensity is measured
+													using a plate reader. We expect an amplified positive signal for
+													FimH 1-6X His and no signal for Bhp-6X His.(Adapted from Wang et al,
+													2019 Feb 30, Hum Gene Ther methods)
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Image sidewise ends-->
+
+
+
+					</ol>
+					</p>
+
+
+					<h6>Methodologies to test our construct <a href="http://parts.igem.org/Part:BBa_K4449010">Apt4UTI
+							C2</a> which will express N terminal
+						6X His tagged FimH2.</h6>
+					<p class="text-black-50" align="justify" style="margin-top: 1rem; margin-bottom: 1rem;">
+					<ol>
+						<li><b>SDS PAGE:</b>After purificationof the 6X -His tagged protein, we will perform an SDS
+							PAGE where we will run the molecular mass markers (lane 1),Coomassie blue stained
+							cytoplasmic soluble preparation(lane 2), the purified FimH2-6X His protein (lane 3) and the
+							purified Staphylococcal Bap like Bhp protein-6X His (lane5 – negative control).<sup>1</sup>.
+							This will help us to validate our isolation and purification steps.</li>
+						<li><b>Receptor blots:</b>Upon running the purified sample on an SDS PAGE the samples will be
+							transferred to PVDF microporous membrane filters using a semi-dry blotting
+							apparatus.Receptor blots of FimH2 6XHis and Bhp-6X His to α-D-mannosylated BSA (Sigma) will
+							be then carried out by first incubating the filterblots with α-D-mannosylated BSA (0.5 mg
+							l-1) followed by incubation with rabbit anti-BSA serum and finally with
+							peroxidase-conjugated anti-rabbit serum to demonstrate the functionality of the FimH2
+							protein<sup>1</sup>, whereas Bhp is expected to show no interaction with the receptors
+							that are specific for FimH2. Moreover the signal intensity of the obtained bands will be
+							directly proportional to the concentration of our target protein.
+						</li>
+
+
+						<!-- Image sidewise -->
+
+						<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+							<div class="container">
+
+								<div class="row text-left mb-5">
+									<div class="col-lg-7" style="width: 100%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/fimh2-receptor-blot.png"
+													alt="Image" class="img-fluid"
+													style="display: block; box-sizing: border-box; margin-right: auto; margin-left: auto;">
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Image sidewise ends-->
+
+
+						<li><b>ELISA based Binding assays</b>: His-tagged protein (FimH2 -6XHis) will be incubated with
+							a
+							biotin-labelled anti-His antibody, which will be immobilized in streptavidin-coated wells.
+							After incubation of FITC-labelled aptamers with protein-coated wells, HRPlabelled anti-FITC
+							antibodies will be added.<sup>2</sup> After washing, QuantaBlu Fluorogenic Peroxidase
+							Substrate will be added as a readout of the aptamer-target binding and the fluorescence
+							intensity is measured using a plate reader.<sup>2</sup> We would select those aptamer
+							candidates which shows high intensity fluorescence signal upon interacting with FimH2 and
+							no or low signal intensity on interacting with Bhp .On the other hand we need to rule out
+							those aptamers which emits positive signals upon interacting with Bhp.
+						</li>
+
+						<!-- Image sidewise -->
+
+						<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+							<div class="container">
+
+								<div class="row text-left mb-5">
+									<div class="col-lg-7" style="width: 100%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/image5.png"
+													alt="Image" class="img-fluid">
+												<p align="justify">Figure -. Schematic illustration of ELISA-based
+													binding assay. His-tagged protein is incubated with biotin-labeled
+													anti-His antibody, which is immobilized to streptavidin coated
+													wells. After incubation of FITC labeled aptamers with protein coated
+													wells, HRPlabelled anti-FITC antibody is added. After washing,
+													QuantaBlu Fluorogenic Peroxidase Substrate is added as a readout of
+													the aptamer-target binding and the fluorescence intensity is
+													measured using a plate reader. We expect an amplified positive
+													signal for FimH 2-6X His and no signal for Bhp-6X His. ( Adapted
+													from Wang et al , 2019 Feb 30, Hum Gene Ther methods)
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Image sidewise ends-->
+
+					</ol>
+					</p>
+
+
+					<h3><b>Documentation of an existing part<a
+								href="http://parts.igem.org/Part:BBa_K1104102">(BBa_K1104102)</a></b></h3>
+
+					<p> In our project Apt4UTI we will be expressing FimH protein which is a major component of the Type
+						1 pilli that specifically helps the uropathogens to adhere to a spectrum of alpha-D-mannosides
+						found in mammalian tissue surface.</p>
+
+					<p>For this we have developed two constructs <a
+							href="http://parts.igem.org/Part:BBa_K4449009">Apt4UTI C1</a> and <a
+							href="http://parts.igem.org/Part:BBa_K4449010">Apt4UTI C2</a> which will be expressing 6X
+						his tagged FimH protein. Our team went through countless literature surveys in order to find out
+						a suitable methodology to test the functionality of our purified 6X His tagged Fim H.</p>
+
+					<p>We found that Team iGEM13_NYMU-Taipei devised a fluorescence based methodology to test the
+						functionality of the plac+RFP-FimH protein by expressing a in fusion protein of RFP-FimH and
+						then checking the FimHbinding to the mannose on E Coli.Later From our literature surveys
+						related to the testing of FimH protein, we have found another in vitro methodology that can
+						serve as a functionality check of purified FimH binding to mannose which used alpha-D
+						mannosylated BSA ( mimicking the mannose receptor) as a matrix for FimH binding .The technique
+						is termed as Receptor Blot and involves:
+					<ol>
+						<li>SDS PAGE of periplasmic preparations of purified proteins</li>
+						<li>Transfer to PVDF microporous membrane filters</li>
+						<li>Incubation with alpha-D mannosylated BSA.</li>
+						<li>Incubation with rabbit anti-BSA serum and finally with peroxidase-conjugated anti-rabbit
+							serum.</li>
+					</ol>
+					</p>
+
+					<p>For further details regarding the methodology visit <a
+							href="http://parts.igem.org/Part:BBa_K1104102">pLac+RFP-FimH(BBa_K1104102) </a>
+					</p>
+
+
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h3>
+						<ul>
+							<li><b>References:</b></li>
+						</ul>
+					</h3>
+					<p class="text-black-50" align="justify">
+					<ol>
+						<li>Schembri, M.A., Hasman, H. and Klemm, P; Expression and purification of the mannose
+							recognition domain of the FimH adhesin; 01 July 2000; FEMS Microbiology Letters, 188(2),
+							pp.147–151. DOI:<a
+								href="https://doi.org/10.1111/j.1574-6968.2000.tb09186.x">10.1111/j.1574-6968.2000.tb09186.x</a>
+						</li>
+						<li>Tao Wang , Wang Yin,Hadi AlShamaileh, Yumei Zhang, Phuong Ha-Lien Tran , Tuong Ngoc-Gia
+							Nguyen, Yong Li, Kuisheng Chen, Miaomiao Sun, Yingchun Hou, Weihong Zhang, Qingxia Zhao,
+							Changying Chen, Pei-Zhuo Zhang, and Wei Duan; A detailed protein-SELEX protocol allowing
+							visual assessments of individual steps for high success rate, 2019 Feb30, Human Gene Therapy
+							MethodsVol. 30, DOI:<a
+								href="https://doi.org/10.1089/hgtb.2018.237">10.1089/hgtb.2018.237</a> </li>
+
+						<li> Amirmorteza ,EbrahimzadehNamvar,Sara Bastarahang,Niloufar Abbasi,Ghazaleh Sheikhi,Ghehi
+							,Sara,Farhadbakhtiarian,Parastoo Arezi,Mahsa Hosseini,Sholeh Zaeemi Baravati, Zahra
+							Jokar,Sara Ganji Chermahin ,Clinical characteristics of Staphylococcus epidermidis: a
+							systematic review ,2014 Sep 30, GMS Hygiene and Infection Control, Vol. 9(3), DOI: <a
+								href="https://doi.org/10.3205/dgkh000243">10.3205/dgkh000243</a> </li>
+
+						<li> Shankar Upadhyayula, Mamatha Kambalapalli, and Basim. Asmar, Staphylococcus epidermidis
+							Urinary Tract Infection in an Infants;24 July 2012,Case Reports in Infectious Disease,Volume
+							2012, Article ID 983153. DOI: <a
+								href="https://doi.org/10.1155/2012/983153">10.1155/2012/983153</a> </li>
+
+						<li>pBAD-FimH-9xHis; Adgene #97305 <a
+								href="https://www.addgene.org/97305/">https://www.addgene.org/97305/</a></li>
+						<li>His tagged Proteins; Creative biostrucrure <a
+								href="https://www.creative-biostructure.com/his-tagged-proteins-553.htm">https://www.creative-biostructure.com/his-tagged-proteins-553.htm</a>
+						</li>
+					</ol>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- Sponsor Section begins -->
+
+	<section class="site-section">
+		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+			<div class="row">
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+						class="img-fluid" style="margin-top: 2rem;">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="200">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="300">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+						class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An
+							Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative
+							Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+	<script src="js/progress.js"></script>
+
+</body>
+
+</html>

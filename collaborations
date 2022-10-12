@@ -10,7 +10,6 @@
 	<meta name="description" content="iGEM IISER Berhampur" />
 	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
 
-
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
@@ -20,7 +19,7 @@
 	<link rel="stylesheet" href="css/loader1.css">
 
 
-	<title>iGEM &mdash; Project</title>
+	<title>iGEM &mdash; Collaboration</title>
 </head>
 
 <body onload="loaderFunc()">
@@ -43,7 +42,7 @@
 						style="max-width:3rem">
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li class="has-children">
 							<a href="#">Project</a>
 							<ul class="dropdown">
@@ -64,12 +63,12 @@
 							</ul>
 						</li>
 						<li><a href="model">Modelling</a></li>
-						<li class="has-children">
+						<li class="has-children active">
 							<a href="#">Human Practices</a>
 							<ul class="dropdown">
 								<li><a href="human-practices">Integrated Human Practices</a></li>
 								<li><a href="communication">Education & Communication</a></li>
-								<li><a href="collaborations">Collaboration</a></li>
+								<li class="active"><a href="Collaborations">Collaboration</a></li>
 							</ul>
 						</li>
 						<li class="has-children">
@@ -80,14 +79,14 @@
 							</ul>
 						</li>
 						<li><a href="biobricks">Biobricks</a></li>
-						<li><a href="partnership">Partnership</a></li>
+                        <li><a href="partnership">Partnership</a></li>						
 						<li class="has-children">
 							<a href="#">Achievements</a>
 							<ul class="dropdown">
 								<li><a href="awards">Awards and Medals</a></li>
 							</ul>
 						</li>
-
+						
 						<li class="has-children">
 							<a href="#">Entrepreneurship</a>
 							<ul class="dropdown">
@@ -116,7 +115,7 @@
 
 		<div class="hero-slide">
 			<div class="img overlay"
-				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/home/try-2.gif')">
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/collaboration.jpg')">
 			</div>
 		</div>
 
@@ -136,33 +135,11 @@
 
 	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-1.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">What are Urinary Tract Infections?</h2>
-					<p class="text-black-50" align="justify">Urinary Tract Infections are bacterial infections affecting
-						the epithelium lining the organs of the urinary tract, including the kidney, ureters, urinary
-						bladder and the urethra. These infections occur when bacteria enter the urinary tract via the
-						urethra and begin multiplying. They can be divided into the following categories based on the
-						organs affected:
-					<ol>
-						<li>Upper UTI: These infections can be divided into pyelonephritis, renal abscess, and
-							Perinephric abscess. </li>
-						<li>Lower UTI: These infections can be divided into cystitis, urethritis, and prostatitis. </li>
-					</ol>
-					<p class="text-black-50">The most common bacterial species that cause Urinary Tract Infections are
-						Escherichia coli K-12, Proteus mirabilis, and Klebsiella pneumoniae.</P>
-					</p>
+            <div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Collaboration</h2>
 				</div>
 			</div>
-
 		</div>
 	</div>
 
@@ -177,24 +154,16 @@
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-lg-6">
-					<h2 class="heading text-primary">Current statistics on Urinary Tract Infections</h2>
-					<p class="text-black-50">Urinary Tract Infections are the third most prevalent bacterial infections
-						and the second most diagnosed infectious disease worldwide. Based on the data gathered by Global
-						Burden of Diseases (GHDx), India had showed a total of nearly 100 million cases in the year 2019
-						and about 55,500 deaths the same year.</p>
-					<p class="text-black-50">With the global data available regarding deaths caused by UTIs from the
-						same source, we generated a heat map with the mortality rates normalized to the respective
-						countries.</p>
+					<h2 class="heading text-primary">IISER Tirupati</h2>
+					<p class="text-black-50">Our first collaboration meeting was with team IISER Tirupati regarding the possibility of Wet-Lab Collaborations and feasibility of modeling strategies. Since both teams are working on aptamers, it was a very insightful discussion regarding the pros and cons of using SELEX as our selection strategy of aptamers and the expected timelines of our projects.</p>
 				</div>
 				<div class="col-lg-6">
 
 					<div class="col-lg-7" style="width: 80%;">
 						<div class="img-property-slide-wrap">
 							<div class="img-property-slide">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/graph.png"
-									alt="Image" class="img-fluid">
-								<P>Figure 1 and 2: Global data from 1990 regarding the number of cases and deaths
-									regarding Urinary tract infections in India.</P>
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/copy-of-img-20220605-wa0046.jpg"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
 
 							</div>
 						</div>
@@ -209,61 +178,54 @@
 	<!-- Image with sentence sidewise ends-->
 
 
-	<!-- Image with sentence sidewise -->
+    	<!-- Image with sentence sidewise -->
 
 	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
 			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-3.jpg" alt="Image" class="img-fluid">
+				<div class="col-lg-6">
+					<h2 class="heading text-primary">IISER Mohali</h2>
+					<p class="text-black-50">Our discussion with IISER Mohali had a common point regarding the use of aptamers in both the projects. Their work on neural computations was extremely interesting and we discussed their project’s scale-up in the industry. We moved on to discussing the modeling strategies of our project and discussed the feasibility of having the whole cell as our target. We brainstormed ideas on how we could select the positive and negative controls, in order to account for false positives and negatives in our output and analyses.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 80%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/copy-of-img-20220621-wa0046.jpg"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
+
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">Why did we choose UTIs?</h2>
-					<p class="text-black-50" align="justify">Lack of sanitary hygiene, awareness of UTI and the
-						unavailability of easy-to-use diagnosis methods at the point-of-care leads to the high
-						prevalence of UTIs, particularly in the rural set-up. Currently, only antibody-based testing
-						methods are available for the identification of uropathogenic bacteria, which require the
-						availability of a cold chain and technical expertise in performing the culture of the urine
-						samples and the analysis of these cultures. Due to the lack of such infrastructure and
-						laboratory personnel in the rural set-up, UTIs often are overlooked or misdiagnosed and the
-						patients are prescribed common antipyretics and broad-spectrum antibiotics without UTI specific
-						drug administration.</p>
+
 				</div>
 			</div>
+
 		</div>
 	</div>
-
 
 	<!-- Image with sentence sidewise ends-->
 
 
-	<!-- Image with sentence sidewise -->
+    	<!-- Image with sentence sidewise -->
 
-	<div class="section">
+	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-lg-6">
-					<h2 class="heading text-primary">Apt4UTI</h2>
-					<p class="text-black-50">Our project aims at developing an aptamer-based solution for the detection
-						of uropathogenic bacteria at the point-of-care. This diagnostic toolkit has the potential to
-						detect several uropathogenic bacterial strains due to a multiplex aptamer tuned to accuracy by
-						repeated testing against negative controls. The aptamer generated is verified via both in vitro
-						and in silico methods. This toolkit is accurate, rapid and efficient, does not need a cold
-						chain, and can be employed in regions without a laboratory set-up.</p>
+					<h2 class="heading text-primary">NU Kazakhstan</h2>
+					<p class="text-black-50">We discussed the feasibility of implementing the MAWS (Making Aptamers Without SELEX) and how we could generate the three-dimensional conformation of aptamers. We discussed the different strategies to predict the 3D structures of our target protein (FimH). We also discussed NU Kazakhstan’s excellent initiative to combine Synthetic Biology and Art, and the ethical issues regarding surveys that both teams had planned to propagate.
+                    </p>
 				</div>
 				<div class="col-lg-6">
 
-					<div class="col-lg-7" style="width: 60%;">
+					<div class="col-lg-7" style="width: 80%;">
 						<div class="img-property-slide-wrap">
-							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/fig-4-apt4uti-logo.png"
-									alt="Image" class="img-fluid">
-								<P>Figure: Apt4UTI: An Aptamer-based solution to detect uropathogenic bacteria at the
-									point-of-care</P>
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/copy-of-img-20220629-wa0044.jpg"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
+
 							</div>
 						</div>
 					</div>
@@ -274,30 +236,26 @@
 		</div>
 	</div>
 
+	<!-- Image with sentence sidewise ends-->
 
-	<!-- Promo Video Layout -->
 
-	<div class="section">
+    	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-lg-6">
-					<h2 class="heading text-primary">Our Promotional Video</h2>
-					<p class="text-black-50">Urinary Tract Infection is the third most prevalent infectious disease worldwide. The lack of awareness regarding its symptoms has led to Chronic UTIs which cause recurrence, antibiotic resistance and kidney infections. The current diagnostic methods include antibody-based assays which require cold-chain, technical expertise and laboratory conditions. We therefore propose a novel, cost-effective and point-of-care solution for the detection of UTI-causing bacteria using an aptamer-based strategy.</p>
+					<h2 class="heading text-primary">Rochester University</h2>
+					<p class="text-black-50">We reached out to Team Rochester, who are also working on aptamers, regarding some guidance in the modeling strategy. The lack of substantial common points between the projects helped us move on to Human Practices and the prospects of having a comic-book panel or the meme competitions to extend awareness regarding the use of aptamers in synthetic biology.</p>
 				</div>
 				<div class="col-lg-6">
 
-					<div class="col-lg-7" style="width: 75%;">
+					<div class="col-lg-7" style="width: 80%;">
 						<div class="img-property-slide-wrap">
-							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-									<iframe
-										title="IISER_Berhampur: Apt4UTI: An Aptamer Based Diagnostic Kit for UTI (2022) - Project Promotion [English]"
-										width="100%" height="100%"
-										src="https://video.igem.org/videos/embed/05c68943-687d-441a-a82d-33aeda76eeba"
-										frameborder="0" allowfullscreen=""
-										sandbox="allow-same-origin allow-scripts allow-popups"
-										style="position:absolute; top:0; left: 0"></iframe>
-								</div>
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/copy-of-img-20220701-wa0014.jpg"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
+
 							</div>
 						</div>
 					</div>
@@ -308,36 +266,100 @@
 		</div>
 	</div>
 
-	<!-- Promo Video Ends -->
+	<!-- Image with sentence sidewise ends-->
+
+
+    	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6">
+					<h2 class="heading text-primary">IISER Thiruvananthapuram</h2>
+					<p class="text-black-50">IISER Thiruvananthapuram has greatly and significantly helped us work out the logistics of Human Practices and the outreach regarding Women’s Health and Synthetic Biology.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 80%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/copy-of-img-20220625-wa0046.jpg"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+    	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6">
+					<h2 class="heading text-primary">ICT Mumbai</h2>
+					<p class="text-black-50">Our collaborator and partner, ICT Mumbai, has supported us throughout the duration of our project. Starting from the All India iGEM Meet (AIIM) held in IISc Bangalore, their consistent support has been thoroughly appreciated by us. We partnered with them on improving the presentation of our project on our website and in the modelling aspects, regarding the screening and docking of aptamers with our target protein. Our partnership with the team during the project helped us finish the milestones we planned. We helped them with developing their wiki. We had brainstorming sessions on how to design responsive layouts for the wiki page and include dynamic elements, along with better loading animation of the content for the web pages. They helped us gain insights into new modelling techniques and tools for the structure prediction of DNA aptamers. They offered to help spread our survey to areas local to their institute and help us garner responses from a larger demographic. We offered to spread their questionnaire regarding the 5 'UTR libraries amongst our faculty and research fellows.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 80%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/hp/collab/2022-10-01-2.png"
+									alt="Image" class="img-fluid" style="width: calc(80%);">
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
 
 	<!-- Sponsor Section begins -->
 
-	<section class="site-section">
-		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
-			<div class="row">
-				<div class="col" data-aos="fade-in" data-aos-delay="0">
-					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
                         class="img-fluid" style="margin-top: 2rem;">
-				</div>
-				<div class="col" data-aos="fade-in" data-aos-delay="0">
-					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
                         class="img-fluid">
-				</div>
-				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
-					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
-				</div>
-				<div class="col" data-aos="fade-in" data-aos-delay="200">
-					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
                         class="img-fluid">
-				</div>
-				<div class="col" data-aos="fade-in" data-aos-delay="300">
-					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
                         class="img-fluid">
-				</div>
-			</div>
-		</div>
-	</section>
-
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
 	<!-- Sponsor Section ends -->
 
 

@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="iGEM IISER Berhampur">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader1.css">
+    <link rel="stylesheet" href="css/journal.css">
+
+
+    <title>iGEM &mdash; Notebook</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="menu-bg-wrap" style="padding: 8px 20px;">
+                <div class="site-navigation">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+                        style="max-width:3rem">
+
+                    <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="has-children active">
+                            <a href="#">Project</a>
+                            <ul class="dropdown">
+                                <li><a href="description">Description</a></li>
+                                <li class="active"><a href="engineering">Engineering</a></li>
+                                <li><a href="implementation">Implementation</a></li>
+                                <li><a href="experiment">Experiment</a></li>
+                                <li class="has-children active">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li class="active"><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+                                <li><a href="proof-of-concept">Proof of Concept</a></li>
+                                <li><a href="contribution">Contribution</a></li>
+                                <li><a href="results">Result</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="model">Modelling</a></li>
+                        <li class="has-children">
+                            <a href="#">Human Practices</a>
+                            <ul class="dropdown">
+                                <li><a href="human-practices">Integrated Human Practices</a></li>
+                                <li><a href="communication">Education & Communication</a></li>
+                                <li><a href="collaborations">Collaboration</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Team</a>
+                            <ul class="dropdown">
+                                <li><a href="members">Members</a></li>
+                                <li><a href="attributions">Attribution</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="biobricks">Biobricks</a></li>
+                        <li><a href="partnership">Partnership</a></li>
+                        <li class="has-children">
+                            <a href="#">Achievements</a>
+                            <ul class="dropdown">
+                                <li><a href="awards">Awards and Medals</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-children">
+                            <a href="#">Entrepreneurship</a>
+                            <ul class="dropdown">
+                                <li><a href="overview">Overview</a></li>
+                                <li><a href="market-size">Market Size</a></li>
+                                <li><a href="businessplan">Competitors and Business Plan</a></li>
+                                <li><a href="entrepreneurship_team">Our team</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <a href="#"
+                        class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                        data-toggle="collapse" data-target="#main-navbar">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+
+        <div class="hero-slide">
+            <div class="img overlay"
+                style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/lab-journal.jpg')">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center">
+                    <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Notebook Section starts -->
+    <div class="ag-timeline-block">
+        <div class="ag-timeline_title-box">
+            <div class="ag-timeline_tagline">Notebook</div>
+            <!-- <div class="ag-timeline_title">No Flex</div> -->
+        </div>
+        <section class="ag-section">
+            <div class="ag-format-container">
+                <div class="js-timeline ag-timeline">
+                    <div class="js-timeline_line ag-timeline_line">
+                        <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+                    </div>
+                    <div class="ag-timeline_list">
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">May</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 04</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">22nd May, 2022: The formation of the new iGEM team of IISER Berhampur
+                                            </p>
+                                            <p align="justify">26th May, 2022: Had a team meeting with the mentors.
+                                            </p>
+                                            <p align="justify">28th May, 2022: Team elections about the sub leaders and leaders took place.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 01</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">June</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">5th June, 2022: The first collaboration meeting with the iiser tirupati team was held on the topic of possible wet lab collaboration and Human practices.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">June</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 02</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <!-- <div class="ag-timeline-card_img-box">
+                      <img src="#" class="ag-timeline-card_img" width="640" height="360" />
+                    </div> -->
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">11th June, 2022:  start of the social media presence of igem bpr</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 03</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">June</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">16th June, 2022: Team meeting regarding the whole cell selex and protein based selex</p>
+                                            <p align="justify">17th June, 2022: 
+                                            <ul>
+                                                <li align="justify">Posting our logos in the social media platforms </li>
+                                                <li align="justify">Wet lab got instructions from the ug lab about the lab instructor about e coli </li>
+                                                <li align="justify">The team met Dr blessy regarding the talk on 24th June and also verified the question in the students awareness survey. </li>
+                                                </p>
+                                            </ul>
+                                            <p align="justify">20th June, 2022: posting out the student awareness survey to multiple parts of India and across the world</p>
+                                            <p align="justify">21st June, 2022: Collaboration meeting with IISER Mohali Team regarding the wetlab and modeling prospects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">June</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 04</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <!-- <div class="ag-timeline-card_img-box">
+                      <img src="#" class="ag-timeline-card_img" width="640" height="360" />
+                    </div> -->
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">24th June, 2022:  talk conducted inside the campus by our medical officer blessy ma'am about the basics and clinical aspects of UTI.</p>
+                                            <p align="justify">29 June, 2022: Collaboration meeting with NU Kazakhstan regarding Synthetic Biology Art, MAWS, Biosecurity-based advice and spreading the team’s surveys with our local population.</p>
+                                            <p align="justify">30th June, 2022: 
+                                            <ol>
+                                                <li>Talk conducted by Dr Anjana about diabetes and its association with UTI. which was an open talk in online format. </li>
+                                                <li>Meeting with the Director of our Institute to pitch our project and the logistics regarding the funding, future prospects and outreach. He suggested for us to go and visit local villages to do the groundwork and understand the prevalence of Urinary Tract Infections amongst the villagers.</li>
+                                            </ol>
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 01</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">July</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">1st July, 2022: Collaboration meeting with Rochester University regarding the possibility of aptamer-based modeling support.</p>
+                                            <p align="justify">1st, 2nd and 3rd July, 2022: Summer Boot Camp attended by the three members of the team.</p>
+                                            <p align="justify">5th July, 2022: Meeting with Dr. Swapnil Sinha, regarding the industrial scaling up of the project.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">July</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 02</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <!-- <div class="ag-timeline-card_img-box">
+                      <img src="#" class="ag-timeline-card_img" width="640" height="360" />
+                    </div> -->
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">12th July, 2022: We started our meme making compensation to increase awareness amongst the youth about Urinary Tract Infections.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 03</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">July</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">24th, 25th and 26th July, 2022: All India iGEM meeting (AIIM) was held in IISc bangalore. Two team members, one from the Wetlab team and one from Modeling, attended.
+                                            </p>
+                                            <p align="justify">31st July, 2022: meeting with ICT Mumbai regarding wet lab , modelling and human practices collaboration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+                        
+
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">August</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 01</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <!-- <div class="ag-timeline-card_img-box">
+                      <img src="#" class="ag-timeline-card_img" width="640" height="360" />
+                    </div> -->
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">                                            
+                                            <p align="justify">2nd August, 2022: Phone conversation with Dr. Narendra Chirmule (PhD, Co-founder of SymphonyTech Biologics) regarding Sponsors and Investment in our project. Very enlightening conversation regarding Intellectual Property Rights and the possibility of scaling-up our project in the industry.</p>
+                                            <p align="justify">4th August, 2022: Zoom meeting with Dr. Vasan Sambandamurthy regarding how to pitch our project and had further conversations on how to choose aptamers for our project and what kind of SELEX would be suitable.</p>
+                                            <p align="justify">5th August, 2022: Obtained Permission, planned out and prepared to work on experiments.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 02</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">August</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">8th August, 2022: Prepared three heat maps regarding Incidence, Prevalence and Deaths of Urinary Tract Infections in 176 countries all over the globe.
+                                            </p>
+                                            <p align="justify">10th August, 2022: Preparation of LB Broth.</p>
+                                            <p align="justify">11th August, 2022: Inoculation of pET28+ in LB for growth for incubation of 16 hours.</p>
+                                            <p align="justify">12th August, 2022: Plasmid isolation using alkaline lysis and nanopore quantification.</p>
+                                            <p align="justify">13th August, 2022: Preparation of gel electrophoresis buffers and arrangement of setup. 
+                                            </p>
+                                            <p align="justify">14th August, 2022: Gel electrophoresis run and visualisation of bands.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">August</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 03</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">15th August, 2022: Discussion on troubleshooting for the next experiment.
+                                            </p>
+                                            <p align="justify">17th August, 2022: LB broth inoculation and incubation for 16 hours.
+                                            </p>
+                                            <p align="justify">18th August, 2022: Plasmid isolation using Promega kit. 
+                                            </p>
+                                            <p align="justify">19th August, 2022: Gel electrophoresis run and visualisation. 
+                                            </p>
+                                            <p align="justify">19th August, 2022: The team requested the help of Mr. Madan Mohan Padhy and Ms Usha Kiran Sahoo (3rd Year bio major from IISER Berhampur) for their expertise in Odia so that we can communicate with the villagers with ease. 
+                                            </p>
+                                            <p align="justify">20th August, 2022: We took the Director sir’s advice and visited four villages, Laudigaum, Solabindha, Kirtipur and Keluapalli. We conducted a survey on the symptoms of UTI and its treatment by the local PHCs. 
+                                            </p>
+                                            <p align="justify">21st August, 2022: Troubleshooting discussion of promega plasmid kit isolation.  
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 04</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">August</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">22nd August, 2022: Plasmid isolation with Promega kit with modifications and optimisation in inoculation media and incubation time.</p>
+                                            <p align="justify">23rd August, 2022: Plasmid isolation with promega kit and nanopore quantification.</p>
+                                            <p align="justify">24th August, 2022: Repetition of the same experiment to replicate the result. Need for more optimisation. </p>
+                                            <p align="justify">25th August, 2022: We presented our project to our director and he offered to help us fund the Grand Jamboree registration. He also offered to reach out to L&T on our behalf to present our project and help us in building toilets in the villages.</p>
+                                            <p align="justify">25th August, 2022: We presented our project to our director.</p>
+                                            <p align="justify">26th August, 2022: Discussion on further optimisation. 
+                                            </p>
+                                            <p align="justify">26th August, 2022: Started recording our video for the Promotional Video. 
+                                            </p>
+                                            <p align="justify">27th August, 2022: Plasmid isolation using QIAGEN kit. </p>
+                                            <p align="justify">28th August, 2022: Compiled the presentation slides and animations for the Promotion Video. </p>
+                                            <p align="justify">30th August, 2022: Verified our promotion video with the PI and mentors. Paid the Registration fee for Grand jamboree. </p>
+                                            <p align="justify">31st August, 2022: Submitted our logo for the Grand Jamboree. </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">Sept</div>
+                                </div>
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 01</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <!-- <div class="ag-timeline-card_img-box">
+                      <img src="#" class="ag-timeline-card_img" width="640" height="360" />
+                    </div> -->
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">2nd September, 2022: Gel run for quality check and visualisation of bands. Found the optimised result.</p>
+                                            <p align="justify">2nd September, 2022: Submitted our Promotional Video.</p>
+                                            <p align="justify">5th September, 2022: Primers and FimH fragment resuspension and PCR. </p>
+                                            <p align="justify">6th September, 2022: Gel electrophoresis of PCR mixture and visualisation. 
+                                            </p>
+                                            <p align="justify">7th September, 2022: gel extraction and digestion of FimH insert and plasmid.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+
+                        <div class="js-timeline_item ag-timeline_item">
+                            <div class="ag-timeline-card_box">
+                                <div class="ag-timeline-card_meta-box">
+                                    <div class="ag-timeline-card_meta">Week 02</div>
+                                </div>
+                                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                                    <div class="ag-timeline-card_point">Sept</div>
+                                </div>
+                            </div>
+                            <div class="ag-timeline-card_item">
+                                <div class="ag-timeline-card_inner">
+                                    <div class="ag-timeline-card_info">
+                                        <div class="ag-timeline-card_title"></div>
+                                        <div class="ag-timeline-card_desc">
+                                            <p align="justify">8th September, 2022: gel run and visualisation of results. Gel extraction and ligation. </p>
+                                            <p align="justify">9th September, 2022: gel run and visualisation of ligation. Transformation.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ag-timeline-card_arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Notebook Section Ends -->
+
+
+
+
+
+    <!-- Sponsor Section begins -->
+
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+                        class="img-fluid" style="margin-top: 2rem;">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section ends -->
+
+
+    <!-- Footer Setion begins -->
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>About us</h3>
+                        <address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+                            solution to detect uropathogenic bacteria at the point-of-care" </address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>Address</h3>
+                        <address>IISER Berhampur </br>
+                            Transit campus (Govt. ITI Building) </br>
+                            Engg. School Junction, Berhampur </br>
+                            Odisha 760010</address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4" style="width: 30%;">
+                    <div class="widget">
+                        <h3>Links</h3>
+                        <!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+                                        class="icon-instagram"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+                            <li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+                                        class="icon-linkedin"></span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+            </div> <!-- /.row -->
+
+
+
+
+
+            <div class="row mt-5" style="margin-top: 1rem !important;">
+                <div class="col-12 text-center">
+                    <p>Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> &mdash; Content on this site is
+                        licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+                            Attribution 4.0 International license.</a>
+                        <br>The repository used to create this website is available at <a
+                            href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+                        <br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+                            wiki Team</a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <!-- Footer Setion Ends -->
+
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript Links -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/loader1.js"></script>
+    <script src="js/progress.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="js/journal.js"></script>
+
+</body>
+
+</html>

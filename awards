@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER" />
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+
+	<title>iGEM &mdash; Awards</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<!-- <a href="home.html" class="logo m-0 float-start">iGEM</a> -->
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index">Home</a></li>
+						<li class="has-children">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li><a href="contribution">Contribution</a></li>
+								<li><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+						<li><a href="partnership">Partnership</a></li>
+						<li class="has-children active">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li class="active"><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/awards-and-medals.jpg')">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Medal Criteria</h2>
+				</div>
+			</div>
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<p class="text-black-50" align="justify">
+
+					<h2 style="margin-top: 3rem;"><b>Bronze Medal (All Criteria must be met)</b></h2>
+					<ol>
+
+						<h3><b>
+								<li>Competition Deliverables</li>
+							</b></h3>
+						<p>
+						<ul>
+							<li>Wiki Freeze</li>
+							<li>Project Promotion Video</li>
+							<li>Presentation</li>
+							<li>Judging form</li>
+						</ul>
+						</p>
+
+						<h3><b>
+								<li>Attributions</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> The modelling team has simulated the 3-D structures of
+							our protein and the aptamer and conducted preliminary rounds of docking to isolate the
+							correct aptamer in silico. The Human Practices Team has highlighted details about UTIs that
+							are often overlooked by conducting seminars and talks. The BioBricks and the Wet-Lab Teams
+							have added basic and composite parts to the registry related to the FimH protein and have
+							expressed our protein in strains available in the laboratory. We have also worked tirelessly
+							to find sponsors for our project.</p>
+						<p class="text-black-50" align="justify"> The director of our institute offered his invaluable
+							advice to reach out to the local villages and get a different perspective on our project.
+							Our professors and the administrative officials of our institute were instrumental in our
+							survey in the villages. Our friends and family members have helped us by promoting our
+							project in order to reach out to a larger population.</p>
+
+						<h3><b>
+								<li>Project Description</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> Our project focuses on the development of an
+							aptamer-based solution to detect uropathogenic bacteria at the point-of-care. Urinary Tract
+							Infections (UTIs) are the third most prevalent bacterial infection in India and the second
+							most diagnosed infectious disease worldwide. Lack of sanitary hygiene, lack of awareness of
+							UTI and unavailability of easy-to-use diagnosis methods at point of care leads to high
+							prevalence of UTI particularly in the rural set-up. Several villages located near our
+							institute, as per our survey, have shown a frequent occurrence of UTIs, which often go
+							ignored and then develop into complications like kidney infections and sepsis. These
+							infections, misdiagnosed as common fevers, are treated with a common group of antibiotics
+							and paracetamol, leading to antibiotic resistance. These chronic infections are known to be
+							highly fatal if not treated in time. In addition, the stigma regarding UTIs and other
+							complications have prevented people from approaching doctors regarding treatments.</p>
+
+						<h3><b>
+								<li>Contribution</li>
+							</b></h3>
+							<h5><b>Documentation of an existing part <a href="http://parts.igem.org/Part:BBa_K1104102">(BBa_K1104102)</a></b></h5>
+						<p class="text-black-50" align="justify">We found that Team iGEM13_NYMU-Taipei devised a
+							fluorescence
+							based methodology to test the functionality of the plac+RFP-FimH
+							protein by expressing a in fusion protein of RFP-FimH and then checking
+							the Fim H binding to the mannose .Later From our literature surveys (Schembri et al
+							Expression and purification of the mannose recognition domain of the FimH adhesin; 01 July
+							2000; FEMS Microbiology Letters )related to the testing of FimH protein, we have found
+							another in vitro methodology that can serve as a functionality check of purified FimH
+							binding to mannose which used alpha-D mannosylated BSA (mimicking the mannose receptor) as
+							a matrix for FimH binding .The technique is termed as Receptor Blot.
+						</p>
+					</ol>
+
+
+					<h2 style="margin-top: 3rem;"><b>Silver Medal (All criteria must be fulfilled)</b></h2>
+					<ol>
+
+						<h3><b>
+								<li>Engineering Success</li>
+							</b></h3>
+						<p>
+						<ul>
+							<li><b>Build:</b>
+								<p>We have designed the modelling workflow for aptamer screening for our target ligand
+									FimH protein which is more common in uropathogenic bacteria. Our modelling protocol
+									goes as follows:
+								<ul>
+									<li><b>For 3D structure prediction of DNA Aptamers:</b> RNAFold(from sequence to 3D
+										predicti on), RNAComposer (from 2D to 3D structure prediction).
+									</li>
+									<li><b>For 3D structure prediction of Target protein:</b> We have leveraged the
+										state of
+										the art deep learning model AlphaFold 2 for predicting the 3D structure of FimH
+										protein. Further docking procedure is done using AutoDock Tools.
+									</li>
+								</ul>
+								</p>
+							</li>
+							<li><b>Test:</b>
+								We generated results from a small aptamer library interaction with our target protein.
+							</li>
+							<li><b>Learn:</b>
+								We characterized all the dockings by our screening features like minimum binding free
+								energy and generated data for the screening the potential candidate aptamer for our
+								detection kit
+							</li>
+							<li><b>Design:</b>
+								We plan to design a multi-plex aptamer to detect several uropathogenic bacteria using
+								the current modeling protocol.
+							</li>
+						</ul>
+						</p>
+
+						<h3><b>
+								<li>Collaboration</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> We had collaboration meetings with IISER Mohali, IISER
+							Tirupati, IISER Thiruvananthapuram, NU Kazhakshtan, Rochester University and ICT Mumbai. We
+							had insightful discussions on the drylab aspects of the projects. We brainstormed on methods
+							to improve the existing molecular simulation protocols for better results and quicker
+							workflow cycle. Our meeting with IISER Thiruvananthapuram also extended to Human Practices
+							and how we can reach out to larger populations and educate them in the form of fun games and
+							presentations regarding the upcoming developments in Synthetic Biology. We are also
+							collaborating with them and a few other teams to form a Talk Series on Women’s Health and
+							Hygiene, bound to start from the first week of October, 2022. The other teams we had
+							meetings with were instrumental in helping us shape our projects to be more efficient and we
+							benefited greatly from their advice.</p>
+
+						<h3><b>
+								<li>Human Practices</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> Though the prevalence of UTI is very high, knowledge
+							about its symptoms, causes, and treatment is still not widely known in rural settings of
+							developing countries like India. To get more in-field information about the prevalence of
+							this disease, people from different backgrounds, age groups, and genders were asked
+							questions regarding the sanitation conditions of their restrooms and the frequency of the
+							symptoms pertaining to urinary tract infections.</p>
+						<p class="text-black-50" align="justify"> From this initiative we discovered the stigma that the
+							rural folks have about, there is this fear that disclosing any information about their
+							sanitary hygiene would make them a social outcast. Therefore we decided to develop an POC ,
+							a rapid and easy to use tool kit for the detection of UTI, so that they can be assured of
+							their privacy while also properly getting diagnosed and treated.</p>
+
+						<h3><b>
+								<li>Proposed Implementation</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> Our project has the potential to reach out to a large
+							sector of the population since the affected populations are people from the rural area,
+							people with uncontrolled diabetes, and women, in general. We intend to continue this project
+							beyond the boundaries of iGEM, the resulting prototype of which will be sent to our industry
+							partners for scale-up . We are in constant contact with research labs and industries from
+							the healthcare sector, focusing on aptamer selection as well as tagging protocols, who can
+							help us fine-tune our project. We have also pitched our project in start-up initiatives like
+							‘Start-up Odisha Yatra 2.0’ and have been qualified to discuss our project with the Chief
+							Minister of the state of Odisha. Succeeding in this initiative can help us fund projects to
+							develop into a large-scale solution for the diagnosis of urinary tract infections.
+						</p>
+					</ol>
+
+
+
+					<h2 style="margin-top: 3rem;"><b>Gold Medal (Any 3 or more criteria to be fulfilled)
+						</b></h2>
+					<ol>
+
+						<h3><b>
+								<li>Integrated Human Practices</li>
+							</b></h3>
+
+						<p class="text-black-50" align="justify">Our work under integrated human practices has been a
+							consistent effort to learn and improve our project. Dr. R. M. Anjana, a renowned diabetes
+							specialist, helped us rethink how diabetes medications can cause urinary tract infections.
+							This talk has also helped us understand UTI complications, such as how asymptomatic UTIs can
+							manifest as chronic kidney complications.</p>
+						<p class="text-black-50" align="justify">Our initiative to reach out to local villages has
+							brought to light the dismal condition of the restrooms, or lack thereof, as well as the
+							correlation between the frequency of usage and cleanliness of the restrooms. Symptoms of
+							UTIs, often overlooked in the preliminary stages of infection, become complicated in the
+							form of kidney infections . Conversations with the local research laboratories have also
+							helped us understand the prevalence of UTIs and the age groups of the affected patients.
+							These interactions have helped us shape the way we put our project forward to the public.
+						</p>
+
+						<h3><b>
+								<li>Project Modeling</li>
+							</b></h3>
+						<p class="text-black-50" align="justify">Through modelling, we intend to screen and simulate
+							aptamers that dock with the highest affinity to our target protein, FimH. For this purpose,
+							we generated a random aptamer library, and using softwares like RNA Fold and RNA Composer,
+							we generated three dimensional structures of the oligonucleotide sequences. Twist
+							Biosciences also provided us with the gene sequence for FimH, which we translated into a 3-D
+							structure using AlphaFold2. Our modelling pipeline enable us to run multiple molecular
+							docking simulations in parallel inorder to screen a large aptamer library. Using AutoDock
+							and visualization softwares like PyMOL we have begun our preliminary screening by
+							individually performing molecular docking between the target protein and the aptamer. Our
+							Modelling team has also helped generate the program to visualize global data regarding the
+							prevalence, incidence and mortality rates of urinary tract infections in a normalized manner
+							using heat maps.</p>
+
+						<h3><b>
+								<li>Partnership</li>
+							</b></h3>
+						<p class="text-black-50" align="justify">Surveys regarding the UTI symptoms were sent throughout
+							the country via Google forms. These surveys were approved by the medical officer of our
+							institute and yielded about 300 to 400 responses from students.</p>
+						<p class="text-black-50" align="justify">In collaboration with the Jigyansa team, known for
+							their expertise in the local language of our region, Odia, we distributed flyers in Odia in
+							multiple villages and learned about their sanitary conditions and their prescription for
+							UTI.</p>
+						<p class="text-black-50" align="justify">In collaboration with the IISER TVM team, our team
+							plans to conduct a small discussion about Synthetic Biology with bright high schoolers from
+							various parts of our country.
+							In collaboration with IISER Thiruvananthapuram, IISER Tirupati, and IIT Roorkee, we are
+							conducting 'We-talk', a women's health talk series, a three-day event in which the speakers
+							are women from various fields of health sciences educating young women about the various
+							health issues related to their gender.
+						</p>
+
+						<h3><b>
+								<li>Education and Communication</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> We partnered with iGEM Team ICT Mumbai on improving
+							the presentation of our project on our website and in the modelling aspects, regarding the
+							screening and docking of aptamers with our target protein. Our partnership with the team
+							during the project helped us finish the milestones we planned. We helped them with
+							developing their wiki. We had brainstorming sessions on how to design responsive layouts for
+							the wiki page and include dynamic elements, along with better loading animation of the
+							content for the web pages. They helped us gain insights into new modelling techniques and
+							tools for the structure prediction of DNA aptamers. They offered to help spread our survey
+							to areas local to their institute and help us garner responses from a larger demographic. We
+							offered to spread their questionnaire regarding the 5 'UTR libraries amongst our faculty and
+							research fellows.
+						</p>
+
+
+						<h3><b>
+								<li>Improvement of an existing part - FimH HIS Tag <a
+										href="http://parts.igem.org/Part:BBa_K3953004">(BBa_K3953004)</a>
+								</li>
+							</b></h3>
+						<p class="text-black-50" align="justify"> On the basis of literature survey our team made an
+							improvement of an Existing Part in the registry.
+							fimH HIS Tag <a href="http://parts.igem.org/Part:BBa_K3953004">(BBa_K3953004)</a> is a DNA
+							part that was developed by iGEM21_Pittsburgh (2021-10-21) which consists of the histidine
+							tag sequence that codes for consecutive histidine amino acid residues within the fimH gene.
+							From our literature survey (<a
+								href="https://www.creative-biostructure.com/his-tagged-proteins-553.htm">His tagged
+								Proteins; Creative biostrucrure</a>) we studied that a N teminal or a C terminal His tag
+							is usually more desirable to enable easy purification of His tagged Fim H without
+							interfering with its conformation. For this we devoloped two constructs Apt4UTI C1(<a
+								href="http://parts.igem.org/Part:BBa_K4449009">BBa_K4449009</a>) and Apt4UTI C2(<a
+								href="http://parts.igem.org/Part:BBa_K4449010">BBa_K4449010</a>) for expressing C
+							terminal and N terminal 6X His tagged Fim H protein respectively. We have also devised some
+							methodologies to test our His tagged proteins from our constructs.
+						</p>
+
+
+
+
+					</ol>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- Sponsor Section begins -->
+
+	<section class="site-section">
+		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+			<div class="row">
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+						class="img-fluid" style="margin-top: 2rem;">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="200">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="300">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+</body>
+
+</html>

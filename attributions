@@ -1,0 +1,1506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+	<link rel="stylesheet" href="css/card_att.css">
+	<link rel="stylesheet" href="css/gallery.css">
+
+	<title>iGEM &mdash; Attribution</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<!-- <a href="home.html" class="logo m-0 float-start">iGEM</a> -->
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li><a href="contribution">Contribution</a></li>
+								<li><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children active">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li class="active"><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+                        <li><a href="partnership">Partnership</a></li>						
+						<li class="has-children">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/attribution.png')">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- SLider Section begins -->
+	<div class="section section-5 bg-light">
+		<div class="container">
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Attributions</h2>
+				</div>
+			</div>
+
+			<div class="section" style="padding-top: 1rem;">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200" style="width: 100%;">
+
+							<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="pills-mission-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-mission" type="button" role="tab"
+										aria-controls="pills-mission" aria-selected="true">Team</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-values-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-values" type="button" role="tab"
+										aria-controls="pills-values" aria-selected="true">Mentors & Advisors</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-history-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-history" type="button" role="tab"
+										aria-controls="pills-history" aria-selected="false">Experts
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-signs-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-signs" type="button" role="tab"
+										aria-controls="pills-signs" aria-selected="false">Special Thanks</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="pills-model-tab" data-bs-toggle="pill"
+										data-bs-target="#pills-model" type="button" role="tab"
+										aria-controls="pills-model" aria-selected="false">Gallery</button>
+								</li>
+							</ul>
+
+							<div class="tab-content" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-mission" role="tabpanel"
+									aria-labelledby="pills-mission-tab">
+									<h2 class="mb-3 text-primary fw-bold" style="margin-bottom: -4 rem!important;">Team
+									</h2>
+									<!-- Attribution section begins -->
+									<!-- Card Design begins -->
+									<!-- #01 Member -->
+									<div class="container">
+										<div class="row">
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/alphonza.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Alphonza Joseph</h2>
+															<p>She is a member of the wetlab team and many a time functioned as the team's mouthpiece in multiple events.
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/auromic.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Auromic Behera</h2>
+															<p>Being the youngest in the team he worked in the design team and helped us create all that is to see in the handles. He made valuable contributions to designing the project logo and the flyers.
+															</p>
+														
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/gayatri.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Gayathri M</h2>
+															<p>She is an active member of the human practice team who has contributed to multiple aspects of the project such as collaboration, design, and sponsorship.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/hanan.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Hanan Fathima</h2>
+															<p>She is an active member of the wet lab who has played a pivotal role in many aspects of the project.
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/harsha.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Harsha P</h2>
+															<p>She is an active member of wetlab team who has contributed to multiple outreach activities and has been a part of various collaborations.
+															</p>
+														
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/muskan.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Muskan Mittal</h2>
+															<p>She has given valuable number of hours planning, optimisation and performing the web lab experiments. With her resiliencewe have obtained the results.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/neeharika.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Neeharika Raguram</h2>
+															<p>She is our steadfast team lead who has led us throughout the highs and lows of our long journey. She is an active part of the human practices team and additionally helped in modeling and design aspects.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/prasun.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Prasun Chakraborty</h2>
+															<p>He is the lead of the design team and his work is what is widely out for the world to see on our multiple social media platforms.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/ranjit.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Ranjit Patro</h2>
+															<p>He bore the whole weight of the wiki part of the team all by himself. Whatever one sees here is the fruit of his toil. He was also active in the social media aspects of the project.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/rashmi.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Rashmi Ranjan Behera</h2>
+															<p>He is a member of the wetlab team and has also contributed to biobricks. 
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/sandesh.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Sandesh Katakam</h2>
+															<p>He is a part of the modeling team and many a time helped in multiple aspects like raising the crowdfunding and offering a helping hand to the design team.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/saran.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Saran Valsan</h2>
+															<p>He is the human Practices lead for the iGEM team this year around. He was at the heart of all our collaborations and meets. He was also the frontman for all the outreach activities and additionally helped the design team.</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/satyam.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Satyam Kumar Singh</h2>
+															<p>He is the lead of the wetlab team. He put in much effort and was at the forefront of all wet lab activities. He also is an integral part of biobricks.
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/sneha.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Sneha Das</h2>
+															<p>She is a member of the modeling team and made an active effort in terms of handling the social media handles.
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/srijani.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Srijani Saha</h2>
+															<p> She is a core member of the wetlab team.She is also an integral part of biobricks.
+															</p>
+
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											
+
+										</div>
+									</div>
+									<!-- Card design ends -->
+
+									<!-- Attribution section ends -->
+									<p class="mt-5">
+									</p>
+								</div>
+
+
+
+								<div class="tab-pane fade" id="pills-values" role="tabpanel"
+									aria-labelledby="pills-values-tab">
+									<h2 class="mb-3 text-primary fw-bold" style="margin-bottom: -4 rem!important;">
+										Mentors & Advisors</h2>
+									<!-- Attribution section begins -->
+									<!-- Card Design begins -->
+									<div class="container">
+										<div class="row">
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/whatsapp-image-2022-06-14-at-9-06-29-pm.png"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Dr. Vivek Tiwari</h2>
+															<p>Dr. Vivek Tiwari is currently an Assistant Professor at IISER Berhampur. His wisdom and experience have guided us throughout the entire duration of this project.Without him the completion of the project would not have been possible.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/whatsapp-image-2022-06-14-at-9-04-28-pm.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Dr. Bhavana Tiwari</h2>
+															<p> She is a visiting scientist (DBS). She was a constant source of information and reassurance to the wetlab team.</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/whatsapp-image-2022-06-14-at-9-04-28-pm-1.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2 style="height: 75px;">Dr. Shanti Swaroop Srivastava</h2>
+															<p>He is an Assistant Professor (DBS) at IISER Berhampur. He was a constant source of support for the design team. </p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/whatsapp-image-2022-06-14-at-9-04-29-pm.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Dr. Prosenjit Daw</h2>
+															<p>He is an Assistant Professor (DCS) at IISER Berhampur. He was a constant source of advice and guidance.</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/whatsapp-image-2022-06-14-at-9-04-28-pm-2.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Dr. Malay Kumar Rana</h2>
+															<p>He is an Assistant Professor (DCS) at IISER Berhampur. He provided many valuable resources for the modeling team such as operating system. 
+
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+																						<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/utkarsh.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Utkarsh Bhore</h2>
+															<p>This former iGEMer (2021) gave valuable advice about crowdfunding and the giant Jamboree and wiki. </p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+																						<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/manish.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Manish Dwari</h2>
+															<p>He was a former iGEMer (2021) who worked closely with the design team providing them with valuable critique.
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+																						<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/sayantani.png"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Sayatani Biswas</h2>
+															<p>A member of the 2020 iGEM IISER Berhampur team, she helped us in the initial stages of our project by providing us guidance as and when necessary.
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+																						<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/kshitij.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Kshitij Behera</h2>
+															<p>He was a former iGEMer (2021) and helped us gain a better understanding of the structure of the entire procedure and many a time provided us with valuable advice on the social media handling front.
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+																						<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/prakhar.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2>Prakhar Varshney</h2>
+															<p>He was a former iGEMer (2021) and gave us a general idea of what was in store for us and how to successfully navigate through them.
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/qazi.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2 style="height: 75px;">Qazi Saaheelur Rahaman</h2>
+															<p>He was a former iGEMer (2021) who was a great source of advice for the wiki and design aspects of the project.
+</p>
+															<!-- <div class="effect-btn">
+                                <a href="#" class="btn"><i class="fa fa-eye"></i> Read More</a>
+                            </div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/prajwal.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h2 style="height: 75px;">Prajwal Patil</h2>
+															<p>He was a former iGEMer (2021) and the team lead of the 2021 iGEM Team of IISER Berhampur. He was instrumental in mentoring and guiding us through the logistics and the different deliverables of the project.
+</p>
+															
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+
+											
+
+										</div>
+									</div>
+									<!-- Card design ends -->
+
+									<!-- Attribution section ends -->
+									<p class="mt-5">
+									</p>
+								</div>
+
+
+								<div class="tab-pane fade" id="pills-history" role="tabpanel"
+									aria-labelledby="pills-history-tab">
+									<h2 class="mb-3 text-primary fw-bold" style="margin-bottom: -4 rem!important;">
+										Experts</h2>
+									<!-- Attribution section begins -->
+									<!-- Card Design begins -->
+									<div class="container">
+										<div class="row">
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/blessymal-1.jpeg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Dr.Blessymol Varghese</h4>
+															<p>Chief Medical Officer, IISER Berhampur</p>
+															<i style="color: white;">She advised us about the
+																sensitivity of the survey and aided us in revising and
+																updating the questionnaire to suit the mindsets of
+																people.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/dranjana.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Dr. R M Anjana</h4>
+															<p>Managing Director of Dr. Mohan’s Diabetes Specialities
+																Centre and Vice President of Madras Diabetes Research
+																Foundation</p>
+															<i style="color: white;">Her advice has helped us shape how we approach diabetics regarding our project and how to modify our questions when we reach out to diabetologists for a statistical perspective.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/kvrchary.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Dr. K V R Chary</h4>
+															<p>Director, IISER Berhampur</p>
+															<i style="color: white;">Our honorable Director prompted us in making our project have a ground level impact by interacting with the rural populations local to Brahmapur, Odisha.We largely owe him for being able  to conduct an awareness initiative in villages near our campus to understand sanitary practices in these villages.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<!-- Card design ends -->
+
+									<!-- Attribution section ends -->
+									<p class="mt-5">
+									</p>
+								</div>
+
+
+
+								<div class="tab-pane fade" id="pills-signs" role="tabpanel"
+									aria-labelledby="pills-signs-tab">
+									<h2 class="mb-3 text-primary fw-bold" style="margin-bottom: -4 rem!important;">
+										Special Thanks</h2>
+									<!-- Attribution section begins -->
+									<!-- Card Design begins -->
+									<div class="container">
+										<div class="row">
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/narendra.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Dr. Narendra Chirmule</h4>
+															<i style="color: white;">He gave valuable advice regarding
+																how to approach sponsors and investors.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/prabhat.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Dr.Prabhat Singh</h4>
+															<i style="color: white;">He is the Scientific Officer of
+																IISER Berhampur and helped us with the lab space.
+
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/usha.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Usha Kiran Sahoo</h4>
+															<i style="color: white;">She is a third-year student from
+																our institute who played an instrumental role in the
+																village awareness project by being a translator for our
+																team.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/mrunal.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Mrunal Nanda</h4>
+															<i style="color: white;"> He is a third-year student who
+																played an instrumental role in translating the awareness
+																flyers to Odia for the local villages.
+
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/madan.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Madhan Mohan Tripathy</h4>
+															<i style="color: white;">A staff member from the IISER
+																Berhampur family who lent his valuable time by escorting
+																through multiple village areas and his connections with
+																the village authorities proved vital throughout the
+																program.
+
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/baisakhi.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Baisakhi Baruda</h4>
+															<i style="color: white;">She is a laboratory staff and
+																helped us by giving vital instructions and instruments
+																to the wetlab team.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/advisors/neelam.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Neelam Kumari</h4>
+															<i style="color: white;">She is a laboratory staff and
+																helped us by giving vital instructions and instruments
+																to the wetlab team.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/gyan.jpg"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Gyan Ranjan Paik</h4>
+															<i style="color: white;">He is a laboratory staff and helped
+																us by giving vital instructions and instruments to the
+																wetlab team.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="column">
+												<div class="effect">
+													<div class="effect-img">
+														<img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/jigaynsya-logo.png"
+															alt="">
+													</div>
+													<div class="effect-text">
+														<div class="inner">
+															<h4 style="color: white;">Jigyansa</h4>
+															<i style="color: white;">This club of IISER Berhampur aimed
+																at science communication in Odia, it helped in
+																translating the informative flyers to Odia which were
+																then distributed to the rural public. They collaborated
+																closely with the iGEM team for village program, school
+																program etc.
+															</i>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+
+									<!-- Attribution section ends -->
+									<p class="mt-5">
+									</p>
+								</div>
+
+
+								<div class="tab-pane fade" id="pills-model" role="tabpanel"
+									aria-labelledby="pills-model-tab">
+									<h2 class="mb-3 text-primary fw-bold" style="margin-bottom: -4 rem!important;">
+										Gallery</h2>
+									<!-- Attribution section begins -->
+
+
+									<!-- Gallery New Section begins -->
+									<ul class="honeycomb">
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/alphonza.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/alphonza.jpg" alt="">
+													<!-- <span class="title"></span> -->
+													<span class="text">Alphonza Joseph</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/auromic.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/auromic.jpg"
+														alt="">
+													<!-- <span class="title"></span> -->
+													<span class="text">Auromic Behera</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/gayatri.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/gayatri.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Gayathri M</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/hanan.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/hanan.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Hanan Fathima</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/harsha.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/harsha.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Harsha P</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/muskan.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/muskan.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Muskan Mittal</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/neeharika.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/neeharika.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Neeharika Raguram</span>
+												</a>
+											</div>
+										</li>
+										<li>
+
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/prasun.jpeg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/prasun.jpeg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Prasun Chakraborty </span>
+												</a>
+											</div>
+										</li>
+										<li>
+										
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/ranjit.jpeg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/ranjit.jpeg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Ranjit Patro</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/rashmi.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/rashmi.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Rashmi Ranjan Behera</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/sandesh.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/sandesh.jpg"
+														alt="">
+													<!-- <span class="title">Honeycomb Gallery</span> -->
+													<span class="text">Sandesh Katakam</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/saran.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/saran.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Saran Valsan</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/satyam.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/satyam.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Satyam Kumar Singh</span>
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/sneha.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/sneha.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Sneha Das</span>
+												</a>
+											</div>
+										</li>
+										<li>
+                                            <div class="cell">
+												<!-- <a href="#">
+													<img src="#"
+														alt=""> -->
+													<!-- <span class="title">TITLE</span> -->
+													<!-- <span class="text">Sneha Das</span> -->
+												</a>
+											</div>
+										</li>
+										<li>
+											<div class="cell">
+												<a href="https://static.igem.wiki/teams/4449/wiki/team/srijani.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/srijani.jpg"
+														alt="">
+													<!-- <span class="title">TITLE</span> -->
+													<span class="text">Srijani Saha</span>
+												</a>
+											</div>
+										</li>
+
+										<li>
+                                            <div class="cell">
+												<!-- <a href="https://static.igem.wiki/teams/4449/wiki/team/sneha.jpg">
+													<img src="https://static.igem.wiki/teams/4449/wiki/team/sneha.jpg"
+														alt=""> -->
+													<!-- <span class="title">TITLE</span> -->
+													<!-- <span class="text">Sneha Das</span> -->
+												</a>
+											</div>
+										</li>
+									</ul>
+											<!-- Gallery new section ends -->
+
+
+
+
+                                            <div class="section section-4 bg-light" style="padding-bottom: 0rem;">
+                                                <div class="container">
+                                                    <div class="row justify-content-center  text-center mb-5">
+                                                        <div class="col-lg-5">
+                                                            <h2 class="font-weight-bold heading text-primary mb-4" style="padding-bottom: 0rem;">More Galleries
+                                                            </h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+
+
+
+											<!-- Gallery New begins -->
+
+											<div class="container">
+												<div class="row">
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/aa.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/comp.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/hello.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/lab2.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/lab3.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/new.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/scr.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/sdf.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/solve.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/stage-talk.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/sth.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/two.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+													<div class="column">
+														<div class="effect">
+															<div class="effect-img" style="border-radius: 35px;">
+																<img src="https://static.igem.wiki/teams/4449/wiki/gallery/world.png"
+																	alt="">
+															</div>
+															<div class="inner">
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+
+											<!-- Gallery New Ends -->
+
+
+									<!-- Attribution section ends -->
+									<p class="mt-5">
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- Slider Section ends -->
+
+
+
+	</div>
+
+
+	<!-- Sponsor Section begins -->
+
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+                        class="img-fluid" style="margin-top: 2rem;">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a
+									href="https://www.instagram.com/igem.iiserbpr/"><span class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a
+									href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+</body>
+
+</html>

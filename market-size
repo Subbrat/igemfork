@@ -10,7 +10,6 @@
 	<meta name="description" content="iGEM IISER Berhampur" />
 	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
 
-
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
@@ -20,7 +19,7 @@
 	<link rel="stylesheet" href="css/loader1.css">
 
 
-	<title>iGEM &mdash; Project</title>
+	<title>iGEM &mdash; Market Size</title>
 </head>
 
 <body onload="loaderFunc()">
@@ -43,7 +42,7 @@
 						style="max-width:3rem">
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li class="has-children">
 							<a href="#">Project</a>
 							<ul class="dropdown">
@@ -88,11 +87,11 @@
 							</ul>
 						</li>
 
-						<li class="has-children">
+						<li class="has-children active">
 							<a href="#">Entrepreneurship</a>
 							<ul class="dropdown">
 								<li><a href="overview">Overview</a></li>
-								<li><a href="market-size">Market Size</a></li>
+								<li class="active"><a href="market-size">Market Size</a></li>
 								<li><a href="businessplan">Competitors and Business Plan</a></li>
 								<li><a href="entrepreneurship_team">Our team</a></li>
 							</ul>
@@ -116,7 +115,7 @@
 
 		<div class="hero-slide">
 			<div class="img overlay"
-				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/home/try-2.gif')">
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/entrepreneurship.png')">
 			</div>
 		</div>
 
@@ -136,134 +135,60 @@
 
 	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-1.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Market Size</h2>
 				</div>
+			</div>
 
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">What are Urinary Tract Infections?</h2>
-					<p class="text-black-50" align="justify">Urinary Tract Infections are bacterial infections affecting
-						the epithelium lining the organs of the urinary tract, including the kidney, ureters, urinary
-						bladder and the urethra. These infections occur when bacteria enter the urinary tract via the
-						urethra and begin multiplying. They can be divided into the following categories based on the
-						organs affected:
-					<ol>
-						<li>Upper UTI: These infections can be divided into pyelonephritis, renal abscess, and
-							Perinephric abscess. </li>
-						<li>Lower UTI: These infections can be divided into cystitis, urethritis, and prostatitis. </li>
-					</ol>
-					<p class="text-black-50">The most common bacterial species that cause Urinary Tract Infections are
-						Escherichia coli K-12, Proteus mirabilis, and Klebsiella pneumoniae.</P>
-					</p>
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<p class="text-black-50" align="justify">Our project focuses on the development of a user-friendly,
+						cost-effective and stable, aptamer-based solution to detect uropathogenic bacteria at the point
+						of care. We aim to develop a multiplex aptamer capable of screening and identifying several
+						pathogenic bacterial species that cause Urinary Tract Infections.
 				</div>
 			</div>
 
 		</div>
 	</div>
 
-	<!-- Image with sentence sidewise ends-->
 
-
-
-
-	<!-- Image with sentence sidewise -->
-
-	<div class="section" style="padding-bottom: 1rem;">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading text-primary">Current statistics on Urinary Tract Infections</h2>
-					<p class="text-black-50">Urinary Tract Infections are the third most prevalent bacterial infections
-						and the second most diagnosed infectious disease worldwide. Based on the data gathered by Global
-						Burden of Diseases (GHDx), India had showed a total of nearly 100 million cases in the year 2019
-						and about 55,500 deaths the same year.</p>
-					<p class="text-black-50">With the global data available regarding deaths caused by UTIs from the
-						same source, we generated a heat map with the mortality rates normalized to the respective
-						countries.</p>
-				</div>
-				<div class="col-lg-6">
-
-					<div class="col-lg-7" style="width: 80%;">
-						<div class="img-property-slide-wrap">
-							<div class="img-property-slide">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/graph.png"
-									alt="Image" class="img-fluid">
-								<P>Figure 1 and 2: Global data from 1990 regarding the number of cases and deaths
-									regarding Urinary tract infections in India.</P>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Image with sentence sidewise ends-->
-
-
-	<!-- Image with sentence sidewise -->
-
-	<div class="section" style="padding-bottom: 1rem;">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-3.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">Why did we choose UTIs?</h2>
-					<p class="text-black-50" align="justify">Lack of sanitary hygiene, awareness of UTI and the
-						unavailability of easy-to-use diagnosis methods at the point-of-care leads to the high
-						prevalence of UTIs, particularly in the rural set-up. Currently, only antibody-based testing
-						methods are available for the identification of uropathogenic bacteria, which require the
-						availability of a cold chain and technical expertise in performing the culture of the urine
-						samples and the analysis of these cultures. Due to the lack of such infrastructure and
-						laboratory personnel in the rural set-up, UTIs often are overlooked or misdiagnosed and the
-						patients are prescribed common antipyretics and broad-spectrum antibiotics without UTI specific
-						drug administration.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Image with sentence sidewise ends-->
-
-
-	<!-- Image with sentence sidewise -->
 
 	<div class="section">
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-lg-6">
-					<h2 class="heading text-primary">Apt4UTI</h2>
-					<p class="text-black-50">Our project aims at developing an aptamer-based solution for the detection
-						of uropathogenic bacteria at the point-of-care. This diagnostic toolkit has the potential to
-						detect several uropathogenic bacterial strains due to a multiplex aptamer tuned to accuracy by
-						repeated testing against negative controls. The aptamer generated is verified via both in vitro
-						and in silico methods. This toolkit is accurate, rapid and efficient, does not need a cold
-						chain, and can be employed in regions without a laboratory set-up.</p>
+					<h2 class="heading text-primary">Who are our customers?</h2>
+					<p class="text-black-50" align="justify">Our solution benefits women of all age groups, people
+						living in rural set-ups or are from economically weaker sections of the society and people with
+						uncontrolled diabetes, both in the urban and the rural environments. Women tend to experience
+						Urinary Tract Infections more frequently due to their shorter urethra. Nearly fifty to sixty
+						percent of women, worldwide, experience urinary tract infections at least once in their
+						lifetime, with twenty to thirty percent of these women experiencing recurring infections.</p>
+					<p class="text-black-50" align="justify">People living in the rural set-ups suffer from two main
+						problems: lesser washrooms with good sanitation and hygiene, and the lack of proper healthcare
+						services. Villages do not have public washrooms that are regularly maintained by the Municipal
+						Corporations. This prompts the villagers to defecate openly and therefore have poor genital
+						hygiene. Also, doctors tend to misdiagnose Urinary Tract Infections due to its symptoms
+						overlapping with other common infections. The consistent prescription of antibiotics and
+						paracetamol also causes antibiotic resistance in the patients.</p>
+					<p class="text-black-50" align="justify">People with uncontrolled diabetes have a higher tendency to
+						experience UTIs due to their compromised immune system. Studies show that 46.9 out of 1000
+						diabetic patients have been affected by UTIs, as compared to 29.9 out of 1000 for patients
+						without diabetes. The pathogenesis of UTIs, as explained by Dr. R. M. Anjana, Managing Director,
+						Dr. Mohan’s Diabetes Specialities Centre, and Vice President of Madras Diabetes Research
+						Foundation, is as follows:</p>
 				</div>
 				<div class="col-lg-6">
 
 					<div class="col-lg-7" style="width: 60%;">
 						<div class="img-property-slide-wrap">
 							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/fig-4-apt4uti-logo.png"
-									alt="Image" class="img-fluid">
-								<P>Figure: Apt4UTI: An Aptamer-based solution to detect uropathogenic bacteria at the
-									point-of-care</P>
+								<img src="https://static.igem.wiki/teams/4449/wiki/entrepreneurship/market-size-fig-2-customers.png"
+									alt="Image" class="img-fluid" style="height: 20rem;">
+
+
 							</div>
 						</div>
 					</div>
@@ -275,29 +200,77 @@
 	</div>
 
 
-	<!-- Promo Video Layout -->
+
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+	<!-- Image sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+		<div class="container">
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-7" style="width: 100%;">
+					<div class="img-property-slide-wrap">
+						<div class="img-property-slide">
+							<img src="https://static.igem.wiki/teams/4449/wiki/entrepreneurship/fig-1-pathogenesis-of-uti-in-diabetics.jpg"
+								alt="Image" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image sidewise ends-->
+
+
+	<!-- Image with sentence sidewise -->
+
 
 	<div class="section">
 		<div class="container">
 			<div class="row text-left mb-5">
 				<div class="col-lg-6">
-					<h2 class="heading text-primary">Our Promotional Video</h2>
-					<p class="text-black-50">Urinary Tract Infection is the third most prevalent infectious disease worldwide. The lack of awareness regarding its symptoms has led to Chronic UTIs which cause recurrence, antibiotic resistance and kidney infections. The current diagnostic methods include antibody-based assays which require cold-chain, technical expertise and laboratory conditions. We therefore propose a novel, cost-effective and point-of-care solution for the detection of UTI-causing bacteria using an aptamer-based strategy.</p>
+					<h2 class="heading text-primary">How will people benefit from this solution?</h2>
+					<p class="text-black-50" align="justify">Our solution has several advantages, some of them are
+						highlighted below:
+					<ol>
+						<li>Cost-effective: In the rural set-up, it is very difficult to develop high-end infrastructure
+							like laboratory conditions and maintenance of a cold chain required to conduct the
+							antibody-based tests. Setting up a laboratory costs immensely. Our solution will benefit
+							people from economically weaker backgrounds due to its lack of a need for a cold chain.</li>
+						<li>No need for technical expertise: For antibody-based tests, people with technical expertise
+							are required to perform the cell culture and analyse the results obtained on the petridish.
+							However, in the rural set-up, this is not feasible. Our solution is extremely user-friendly
+							and requires just a basic knowledge regarding the collection of samples. The colorimetric
+							detection scheme provided in a legend will help the patient determine easily if they are
+							affected with UTIs or not.</li>
+						<li>Rapid: While antibody-based tests take 2-3 days to provide a result, our solution can
+							determine the result within 5-10 minutes.</li>
+					</ol>
+					<p class="text-black-50">This provides the users within an unprecedented advantage over the patients
+						undergoing the antibody-tests and allows them to detect UTIs at the early stage. The mortality
+						rates of patients with UTIs can be predicted to drop drastically once patients begin using our
+						solution.</P>
+					</p>
 				</div>
 				<div class="col-lg-6">
 
-					<div class="col-lg-7" style="width: 75%;">
+					<div class="col-lg-7" style="width: 60%;">
 						<div class="img-property-slide-wrap">
 							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-									<iframe
-										title="IISER_Berhampur: Apt4UTI: An Aptamer Based Diagnostic Kit for UTI (2022) - Project Promotion [English]"
-										width="100%" height="100%"
-										src="https://video.igem.org/videos/embed/05c68943-687d-441a-a82d-33aeda76eeba"
-										frameborder="0" allowfullscreen=""
-										sandbox="allow-same-origin allow-scripts allow-popups"
-										style="position:absolute; top:0; left: 0"></iframe>
-								</div>
+								<img src="https://static.igem.wiki/teams/4449/wiki/entrepreneurship/market-size-fig-3-novelty-of-aptamers.png"
+									alt="Image" class="img-fluid">
+								<P align="justify">Figure: Novelty of Aptamers</P>
 							</div>
 						</div>
 					</div>
@@ -308,7 +281,43 @@
 		</div>
 	</div>
 
-	<!-- Promo Video Ends -->
+
+	<!-- Image with sentence sidewise ends-->
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6">
+					<h2 class="heading text-primary">The Start-Up Initiative</h2>
+					<p class="text-black-50" align="justify">IISER Berhampur, situated in the state of Odisha, India,
+						was provided the opportunity to participate in a State Government organized initiative called
+						the Odisha Start-up Yatra 2.0, that encourages students to put forth their start-up ideas and
+						compete amongst themselves to be awarded monetarily by the Chief Minister of the State. Our team
+						members represented and presented our project at the National Institute of Science and
+						Technology, Brahmapur, and competed amongst several other teams to get selected for the final
+						round, where we would have to present directly to the Chief Minister. This was a great
+						achievement for our team and we are incredibly proud and excited to present our project on such
+						a large stage, nationally.</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 60%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
+								<img src="https://static.igem.wiki/teams/4449/wiki/entrepreneurship/startup.png"
+									alt="Image" class="img-fluid">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
 
 	<!-- Sponsor Section begins -->
 
@@ -317,23 +326,26 @@
 			<div class="row">
 				<div class="col" data-aos="fade-in" data-aos-delay="0">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
-                        class="img-fluid" style="margin-top: 2rem;">
+						class="img-fluid" style="margin-top: 2rem;">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="0">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="200">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="300">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
+				<!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
 			</div>
 		</div>
 	</section>
@@ -376,14 +388,14 @@
 							</ul> -->
 
 						<ul class="list-unstyled social">
-							<li><a
-									href="https://www.instagram.com/igem.iiserbpr/"><span class="icon-instagram"></span></a>
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
 							</li>
 							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
 							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
 							</li>
-							<li><a
-									href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span class="icon-linkedin"></span></a>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
 							</li>
 						</ul>
 					</div> <!-- /.widget -->

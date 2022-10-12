@@ -1,0 +1,1745 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+	<link rel="stylesheet" href="css/table_1.css">
+
+
+	<title>iGEM &mdash; Experiment</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children active">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li class="active"><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li><a href="contribution">Contribution</a></li>
+								<li><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+						<li><a href="partnership">Partnership</a></li>
+						<li class="has-children">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/experiment.jpg')">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Experiment</h2>
+				</div>
+			</div>
+
+
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h1 class="heading text-primary"><b>Experiments we performed</b></h1>
+
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-6" style="width: 100%;">
+									<h2 class="heading text-primary"><b>Good Lab Practices (GLP)</b></h2>
+									<p class="text-black-50" align="justify">“Say What You Do (with written standard
+										operating procedures), do what you say (follow the procedures), be able to prove
+										it (with good record keeping)” (Jean Cobb, 2007) these are some of the rules
+										while working in a lab. Before beginning the wet lab work, we all had a session
+										with the mentors where they showed us the importance of GLP and how it should be
+										maintained even if we don’t need to maintain the standards. A log book was
+										maintained to record all the procedures and observations during the experiments
+										done.
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<ol>
+						<h3>
+							<li><b>Plasmid Isolation</b></li>
+						</h3>
+						<h4><u>Media and Buffers:</u></h4>
+						<p class="text-black-50" align="justify">
+						<ul>
+							<li>2.5% LB BROTH - Mix 0.5 g of agar in 20 ml double distilled water. It was then
+								autoclaved and stored at 4 degree celsius.</li>
+							<li>4% LB AGAR - 2g agar was added to 50ml double distilled water and then it was autoclaved
+								and stored at 4 degree celsius for further use.</li>
+						</ul>
+						</p>
+						<h4><u>pET-28b+ transformed colonies were used for plasmid isolation:</u></h4>
+						<p class="text-black-50" align="justify">
+						<ul>
+							<li>Two methods were used for the isolation of pET-28b+:
+								<ol>
+									<li>Alkaline lysis method</li>
+									<li>isolation using promega plasmid isolation kit</li>
+								</ol>
+							</li>
+						</ul>
+						</p>
+
+						<h4><u>Inoculation of Bacteria</u></h4>
+						<ul>
+							<li>Kanamycin plates with colonies of competent cells that were transformed with pET28b+
+								vector have been obtained from the Cellular Metabolism Lab of IISER Berhampur.</li>
+							<li>5 ml of LB broth was taken in two, 15 ml Falcon tubes.</li>
+							<li>5 μl of kanamycin was added to each tube. ( Since kanamycin stock concentration is
+								generally 50mg/ml so to obtain a working concentration of 50μg/ml, we add 5μl of
+								kanamycin in 5 ml broth).</li>
+							<li>A single colony was inoculated in each tube. ( C1 colony was inoculated with the help of
+								an inoculation needle and colony (C2) with the help of a micropipette tip in the 1st and
+								2nd tube respectively)</li>
+							<li>The tubes were incubated in a BOD incubator shaker under shaking conditions at 37
+								degrees Celsius at 162 rpm for 16 hours.</li>
+						</ul>
+
+						<p style="margin-top: 25px;">Here, Plasmid Isolation were done using these two process:</p>
+
+						<!-- SLider Section begins -->
+						<div class="section section-5 bg-light" style="padding-bottom: 0rem; padding-top: 1rem; 
+						--bs-light-rgb: #fff;">
+							<div class="container">
+								<div class="section" style="padding-top: 1rem;">
+									<div class="container">
+										<div class="row justify-content-between">
+											<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200"
+												style="width: 100%;">
+
+												<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab"
+													role="tablist">
+													<li class="nav-item" role="presentation">
+														<button class="nav-link active" id="pills-mission-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-mission"
+															type="button" role="tab" aria-controls="pills-mission"
+															aria-selected="true">Alkaline lysis method</button>
+													</li>
+													<li class="nav-item" role="presentation">
+														<button class="nav-link" id="pills-values-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-values"
+															type="button" role="tab" aria-controls="pills-values"
+															aria-selected="false">Using QIAGEN Kit</button>
+													</li>
+												</ul>
+												<div class="tab-content" id="pills-tabContent">
+													<div class="tab-pane fade show active" id="pills-mission"
+														role="tabpanel" aria-labelledby="pills-mission-tab">
+														<h2 class="mb-3 text-primary fw-bold">Alkaline lysis method</h2>
+														<p class="text-black-50" align="justify">
+														<ul>
+															<li>After 16 hours of incubation , both the tubes containing
+																LB broth were showing noticeable turbidity indicating
+																bacterial growth.
+															</li>
+															<li>All centrifugation steps were carried out at 17000 rpm
+																at 4 degrees Celsius.
+															</li>
+															<li>5 ml bacterial overnight culture was pelleted by
+																centrifugation at 17000 rpm for 1 min.
+															</li>
+															<li>Pellet was resuspended in ice cold 100microlitre
+																alkaline solution one by vigorous vortexing.
+															</li>
+															<li>200 microliter of alkaline solution two was added to it
+																in RT and contents were mixed by inverting the tube
+																several times and was stored in ice.
+															</li>
+															<li>150 microlitre of ice cold alkaline solution three was
+																added to this viscous bacterial lysate and was dispersed
+																by inverting the tube.And store in ice for 3-5 minutes.
+															</li>
+															<li>Centrifuge the bacterial lysate for 5 minutes and
+																collect the supernatant.
+															</li>
+															<li>Equal volume of phenol: chloroform (1:1) was added and
+																the organic and aqueous phases were mixed by vortexing
+																followed by centrifugation (2min). The aqueous upper
+																layer was transferred to a fresh tube.</li>
+															<li>Two volumes of ethanol was added to it and the solution
+																was vortexed for mixing and then stand it in RT for 2
+																minutes for the nucleic acids to precipitate.
+															</li>
+															<li>Then it was Centrifuged for 5 minutes at 17000 rpm and 4
+																degree Celsius and the precipitate was collected.</li>
+															<li>The supernatant was discarded and the tube was kept in
+																an inverted position to drain all fluids in the tube.
+																Inorder to remove some drops on the walls of the tube
+																pipette tip was used.</li>
+															<li>1 ml of 70% ethanol was added to the pellet and was
+																inverted several times. The DNA was retained by
+																centrifuging at maximum speed for 2 minutes at 4 degree
+																Celsius.</li>
+															<li>Supernatant was removed by aspiration (pellet won’t be
+																tightly adhered to the tube in this step)</li>
+															<li>Ethanol was removed from the tube and it was kept in the
+																RT for the evaporation of ethanol until there was no
+																fluid visible in the tube (Around 10 minutes).</li>
+															<li>The pellet was then dissolved in 50 microlitres of TE
+																buffer (pH 8.0).</li>
+															<li>The tube was gently tapped for a few seconds and was
+																kept at -20 degree Celsius.</li>
+														</ul>
+														</p>
+
+														<h5>Quantification of concentration and purity of the isolated
+															plasmid </h5>
+														<p>
+														<ul>
+															<li>Concentration and purity of the isolated plasmid DNA
+																from colonies C1 and C2 were quantified by a Nanodrop
+																spectrophotometer.</li>
+															<li>TE Buffer was used for Blanking.</li>
+														</ul>
+														</p>
+
+														<h3>Agarose gel electrophoresis protocol</h3>
+														<h5>Sample preparation</h5>
+														<ol>
+															<li>C1 SAMPLE – 2 μl ( Sample ) + 3 μl (Milli-Q water) + 1
+																μl (6X Gel loading dye)</li>
+															<li>C2 SAMPLE – 2 .5 μl ( Sample ) + 2.5 μl (Milli-Q water)
+																+ 1 μl (6X Gel loading dye)</li>
+														</ol>
+
+														<ul style="margin-top: 1rem;">
+															<li> Setup the gel tray</li>
+															<li> Weighed 0.4 g of Agarose in a laboratory weighing
+																balance.</li>
+															<li>Dissolved 0.4 g of Agarose in 50 ml of 1X TAE in a 100
+																ml conical flask by heating in a microwave.</li>
+															<li>Allowed the dissolved agarose to cool down to a
+																temperature that can be tolerated by touching on skin.
+															</li>
+															<li>Added 2.5 μl of Ethidium Bromide then swirled the
+																conical flask to mix EtBr well and poured it on the gel
+																tray.</li>
+															<li>Allowed the gel to harden (30 minutes)
+															</li>
+															<li>After the gel has hardened, the gel comb was withdrawn,
+																taking care not to tear the sample wells.</li>
+															<li>The gel casting platform containing the set gel was
+																placed in the electrophoresis tank.</li>
+															<li>Sufficient electrophoresis buffer (1X TAE)was added to
+																cover the gel to a depth of about 1mm.
+															</li>
+															<li> Loaded 3 μl of 1Kb DNA Ladder in lane 1, 6 μl of C1
+																Sample in lane 3, and 6 μl of C2 Sample in Lane 5.</li>
+															<li>The leads were attached so that the DNA will migrate
+																into the gel toward the anode or positive lead.
+															</li>
+															<li>The voltage was set to 100V for 35 minutes.</li>
+															<li>After the electrophoresis was completed the Gel was
+																visualized under a UV Transilluminator.</li>
+														</ul>
+														<p class="mt-5">
+														</p>
+													</div>
+
+
+													<div class="tab-pane fade" id="pills-values" role="tabpanel"
+														aria-labelledby="pills-values-tab">
+														<h2 class="mb-3 text-primary fw-bold">Using QIAGEN Kit</h2>
+														<p class="text-black-50" align="justify">
+														<ul>
+															<li> 2 ml of Bacterial overnight culture was pelleted by
+																centrifugation at 13000 rpm for 3 min at room
+																temperature (15–25°C) and the supernatant was discarded.
+															</li>
+															<li>The process was repeated till the whole 5ml of bacterial
+																culture was pelleted.</li>
+															<li>Pelleted bacterial cells were resuspended in 250 μl
+																Buffer P1 and were transferred to a microcentrifuge tube
+															</li>
+															<li>250 μl Buffer P2 was added and was mixed thoroughly by
+																inverting the tube 4–6 times until the solution becomes
+																clear. (Do not allow the lysis reaction to proceed for
+																more than 5 min. If you use the LyseBlue reagent, the
+																solution will turn blue.)
+															</li>
+															<li>350 μl Buffer N3 was added and was mixed immediately and
+																thoroughly by inverting the tube 4–6 times.(If using
+																LyseBlue reagent, the solution will turn colorless.)
+															</li>
+															<li>The sample was Centrifuged for 10 min at 13,000 rpm
+																(~17,900 x g) in a table-top microcentrifuge.</li>
+															<li>800 μl of the supernatant was transferred to the QIAprep
+																2.0 spin column by pipetting.</li>
+															<li>It was then Centrifuged for 30–60 s (13000rpm) and
+																discard the flow-through.</li>
+															<li>The QIAprep 2.0 spin column was washed by adding 0.75 ml
+																Buffer PE. Followed by Centrifugation for 30–60 s
+																(13000rpm) and the flow-through was discarded.</li>
+															<li>To elute DNA, we added 30 μl Buffer EB (10 mM TrisCl, pH
+																8.5), let it stand for 1 min, and centrifuged for 1 min.
+															</li>
+															<li>We added 1 volume of Loading Dye to 5 volumes of
+																purified DNA and Mixed the solution well by pipetting
+																before loading the Plasmid for analyzing on a gel.</li>
+														</ul>
+														</p>
+
+														<p class="mt-5">
+														</p>
+
+
+
+
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!-- Slider Section ends -->
+
+
+
+						<h3>
+							<li><b>Cloning and expression of fimH</b></li>
+						</h3>
+
+
+						<!-- SLider Section begins -->
+						<div class="section section-5 bg-light" style="--bs-light-rgb: #fff;  padding-bottom: 0rem;">
+							<div class="container">
+								<div class="section" style="padding-top: 1rem;">
+									<div class="container">
+										<div class="row justify-content-between">
+											<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200"
+												style="width: 100%;">
+
+												<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab"
+													role="tablist">
+													<li class="nav-item" role="presentation">
+														<button class="nav-link active" id="pills-mission1-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-mission1"
+															type="button" role="tab" aria-controls="pills-mission1"
+															aria-selected="true">Gel Extraction</button>
+													</li>
+													<li class="nav-item" role="presentation">
+														<button class="nav-link" id="pills-values1-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-values1"
+															type="button" role="tab" aria-controls="pills-values1"
+															aria-selected="false">PCR for primer resuspension</button>
+													</li>
+													<li class="nav-item" role="presentation">
+														<button class="nav-link" id="pills-history1-tab"
+															data-bs-toggle="pill" data-bs-target="#pills-history1"
+															type="button" role="tab" aria-controls="pills-history1"
+															aria-selected="false">Restriction digestion of Vector and
+															Insert</button>
+													</li>
+												</ul>
+												<div class="tab-content" id="pills-tabContent">
+													<div class="tab-pane fade show active" id="pills-mission1"
+														role="tabpanel" aria-labelledby="pills-mission1-tab">
+														<h2 class="mb-3 text-primary fw-bold">Gel Extraction</h2>
+														<ul>
+															<li>Excise the DNA fragment from the agarose gel with a
+																clean, sharp scalpel.</li>
+															<li>Weigh the gel slice in a colorless tube. Add 3 volumes
+																of Buffer QG to 1 volume of gel (100 mg ~100 µl).</li>
+															<li>Incubate at 50°C for 10 min (or until the gel slice has
+																completely dissolved). To help dissolve gel, mix by
+																vortexing the tube every 2–3 min during the incubation.
+															</li>
+															<li>After the gel slice has dissolved completely, check that
+																the color of the mixture is yellow (similar to Buffer QG
+																without dissolved agarose).</li>
+															<li>Add 1 gel volume of isopropanol to the sample and mix.
+															</li>
+															<li>Place a QIAquick spin column in a provided 2 ml
+																collection tube.</li>
+															<li>To bind DNA, apply the sample to the QIAquick column,
+																and centrifuge for 1 minute.</li>
+															<li>Discard flow-through and place QIAquick column back in
+																the same collection tube.</li>
+															<li>(Optional): Add 0.5 ml of Buffer QG to QIAquick column
+																and centrifuge for 1 min.</li>
+															<li>To wash, add 0.75 ml of Buffer PE to QIAquick column and
+																centrifuge for 1 min.</li>
+															<li>Discard the flow-through and centrifuge the QIAquick
+																column for an additional 1 min at ≥10,000 x g (~13,000
+																rpm).</li>
+															<li>Place QIAquick column into a clean 1.5 ml
+																microcentrifuge tube.</li>
+															<li>To elute DNA, add 35 µl of Nuclease free water to the
+																center of the QIAquick membrane and centrifuge the
+																column for 1 min at maximum speed.</li>
+														</ul>
+														<p class="mt-5">
+														</p>
+													</div>
+
+
+													<div class="tab-pane fade" id="pills-values1" role="tabpanel"
+														aria-labelledby="pills-values1-tab">
+														<h2 class="mb-3 text-primary fw-bold">PCR for primer
+															resuspension</h2>
+														<p>In a sterile PCR tube, mix the contents in the following
+															order:</p>
+
+
+														<!-- Table design begins -->
+
+														<div class="container_1">
+															<table class="rwd-table">
+																<tbody>
+																	<tr>
+																		<th>Column 1</th>
+																		<th>Column 2</th>
+																	</tr>
+																	<tr>
+																		<td data-th="Column 1">
+																			Nuclease free Water
+
+																		</td>
+																		<td data-th="Column 2">
+																			38μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Column 1">
+																			2x PCR master mix
+																		</td>
+																		<td data-th="Column 2">
+																			50 μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Column 1">
+																			Template DNA (Plasmid)
+																		</td>
+																		<td data-th="Column 2">
+																			4μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Column 1">
+																			FimH Forward primer
+																		</td>
+																		<td data-th="Column 2">
+																			4μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Column 1">
+																			FimH Reverse primer
+																		</td>
+																		<td data-th="Column 2">
+																			4μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Column 1">
+																			Total reaction volume
+																		</td>
+																		<td data-th="Column 2">
+																			100 μl
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+
+
+														<!-- Table design ends -->
+
+														<p style="padding-top: 5px; padding-bottom: 25px;">
+
+														<ul>
+															<li>Mix the contents gently (pipette it), quickly centrifuge
+																it and carry out amplification in the thermal cycler for
+																30 cycles using the following reaction conditions.</li>
+														</ul>
+
+
+
+														<!-- Table design begins -->
+
+														<div class="container_1" style="margin-top: 2rem;">
+															<table class="rwd-table">
+																<tbody>
+																	<tr>
+																		<th>Step 1</th>
+																		<th>Step 2</th>
+																		<th>Step 3</th>
+																		<th>Step 4</th>
+																		<th>Step 5</th>
+																	</tr>
+																	<tr>
+																		<td data-th="Step 1">
+																			Initial denaturation
+
+																		</td>
+																		<td data-th="Step 2">
+																			Denaturation 30 cycles
+
+																		</td>
+																		<td data-th="Step 3">
+																			Annealing
+																			30 cycles
+
+																		</td>
+																		<td data-th="Step 4">
+																			Extension
+																			30 cycles
+
+																		</td>
+																		<td data-th="Step 5">
+																			Final extension
+																		</td>
+
+																	</tr>
+																	<tr>
+																		<td data-th="Step 1">
+																			95˚C
+
+																		</td>
+																		<td data-th="Step 2">
+																			95˚C
+																		</td>
+																		<td data-th="Step 3">
+																			58˚C
+																		</td>
+																		<td data-th="Step 4">
+																			68˚C
+																		</td>
+																		<td data-th="Step 5">
+																			68˚C
+																		</td>
+
+																	</tr>
+
+																	<tr>
+																		<td data-th="Step 1">
+																			1.5 minute
+
+																		</td>
+																		<td data-th="Step 2">
+																			30 sec
+																		</td>
+																		<td data-th="Step 3">
+																			30 sec
+																		</td>
+																		<td data-th="Step 4">
+																			30 sec
+																		</td>
+																		<td data-th="Step 5">
+																			5 min
+																		</td>
+
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!-- Table design ends -->
+
+
+														<!-- Image with sentence sidewise -->
+
+														<div class="section" style="padding-bottom: 1rem;">
+															<div class="container">
+																<div class="row text-left mb-5">
+																	<div class="col-lg-6">
+																		<p class="text-black-50">
+																		<ul>
+																			<li> Add 10 μl gel loading buffer.</li>
+																			<li>Carefully pipette out 50 μl reaction
+																				mixture and load in the well of the 0.8
+																				% agarose gel.</li>
+																			<li>Loaded 3μl of the ready to use marker
+																				(1KB)</li>
+																			<li>Electrophoresis the samples at 100 volts
+																				for 1 to 2 hrs till the tracking dye
+																				(bromophenol blue) reaches 3/4 th of the
+																				length of the gel and the DNA marker is
+																				resolved properly</li>
+																			<li>Visualize the gel under UV
+																				transilluminator.</li>
+																		</ul>
+																		</p>
+																	</div>
+
+
+																	<div class="col-lg-6">
+
+																		<div class="col-lg-7" style="width: 80%;">
+																			<div class="img-property-slide-wrap">
+																				<div class="img-property-slide">
+																					<img src="https://static.igem.wiki/teams/4449/wiki/entrepreneurship/fig-4-nidan-data.jpeg"
+																						alt="Image" class="img-fluid">
+																					<p>The size of insert 536bp was
+																						confirmed using 1kb ladder.</p>
+																				</div>
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+
+															</div>
+														</div>
+
+														<!-- Image with sentence sidewise ends-->
+														</p>
+														<p class="mt-5">
+														</p>
+													</div>
+
+
+													<div class="tab-pane fade" id="pills-history1" role="tabpanel"
+														aria-labelledby="pills-history1-tab">
+														<h2 class="mb-3 text-primary fw-bold">Restriction digestion of
+															Vector and Insert</h2>
+														<p>Prepare a reaction mix by adding reagents in the order
+															indicated in the table below and Incubate at 37°C for 4
+															hours followed by a gel run.</p>
+
+
+														<!-- Table design begins -->
+
+														<div class="container_1" style="margin-bottom: 2rem;">
+															<table class="rwd-table">
+																<tbody>
+																	<tr>
+																		<th>Reagent</th>
+																		<th>Volume</th>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			Nuclease free Water
+
+																		</td>
+																		<td data-th="Volume">
+																			10 μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			Tango buffer (10X)
+
+																		</td>
+																		<td data-th="Volume">
+																			5 μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			DNA (Vector)
+
+																		</td>
+																		<td data-th="Volume">
+																			2.5 μg
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Reagent">
+																			restriction enzyme 1 (Xho1)
+
+																		</td>
+																		<td data-th="Volume">
+																			1.5 µl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Reagent">
+																			restriction enzyme 2 (Nco1 HFI)
+
+																		</td>
+																		<td data-th="Volume">
+																			1.5 μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Column 1">
+																			Total reaction volume
+																		</td>
+																		<td data-th="Column 2">
+																			50 μl
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+
+
+														<!-- Table design ends -->
+
+
+														<!-- Table design begins -->
+
+														<div class="container_1">
+															<table class="rwd-table">
+																<tbody>
+																	<tr>
+																		<th>Reagent</th>
+																		<th>Volume</th>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			Nuclease free Water
+
+																		</td>
+																		<td data-th="Volume">
+																			8 μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			Tango buffer (10X)
+
+																		</td>
+																		<td data-th="Volume">
+																			5 μl
+																		</td>
+																	</tr>
+																	<tr>
+																		<td data-th="Reagent">
+																			DNA (Insert)
+
+																		</td>
+																		<td data-th="Volume">
+																			35 μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Reagent">
+																			restriction enzyme 1 (Xho)
+
+																		</td>
+																		<td data-th="Volume">
+																			1.5 µl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Reagent">
+																			restriction enzyme 2 (Nco HF)
+
+																		</td>
+																		<td data-th="Volume">
+																			1.5 μl
+																		</td>
+																	</tr>
+
+																	<tr>
+																		<td data-th="Column 1">
+																			Total reaction volume
+																		</td>
+																		<td data-th="Column 2">
+																			50 μl
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!-- Table design ends -->
+														<p class="mt-5">
+														</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!-- Slider Section ends -->
+					</ol>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+	<div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+
+					<ol>
+						<h3>
+							<li><b>Ligation of Vector and Insert</b></li>
+						</h3>
+
+						<ul>
+							<li>Elute the vector backbone using a QIAquick Gel Extraction Kit Protocol following the
+								above
+								mentioned protocol. Elute the vector backbone in 30 ul of nuclease free water.</li>
+							<li>Incubate at 37°C for 4 hour followed by a gel run. Purify the digested PCR product using
+								QIA
+								quick PCR purification kit protocol.</li>
+							<li>Set up the following reaction in a microcentrifuge tube on ice. (T4 DNA Ligase should be
+								added
+								last.)</li>
+						</ul>
+
+
+						<!-- Table design begins -->
+
+						<div class="container_1" style="margin-bottom: 2rem;">
+							<table class="rwd-table">
+								<tbody>
+									<tr>
+										<th>Reagent</th>
+										<th>Positive control</th>
+										<th>Negative Control</th>
+									</tr>
+
+									<tr>
+										<td data-th="Reagent">
+											Vector
+										</td>
+										<td data-th="Positive control">
+											50 ug (~3ul)
+										</td>
+										<td data-th="Negative Control">
+											50 ug (~3ul)
+										</td>
+
+									</tr>
+
+									<tr>
+										<td data-th="Reagent">
+											Insert
+										</td>
+										<td data-th="Positive control">
+											14 µl
+										</td>
+										<td data-th="Negative Control">
+											---
+										</td>
+
+									</tr>
+									<tr>
+										<td data-th="Reagent">
+											T4 DNA ligase buffer 10X
+										</td>
+										<td data-th="Positive control">
+											2 µl
+										</td>
+										<td data-th="Negative Control">
+											2 µl
+										</td>
+
+									</tr>
+
+									<tr>
+										<td data-th="Reagent">
+											T4 DNA ligase enzyme
+										</td>
+										<td data-th="Positive control">
+											1 µl
+										</td>
+										<td data-th="Negative Control">
+											1 µl
+										</td>
+
+									</tr>
+
+									<tr>
+										<td data-th="Reagent">
+											Nuclease free water
+										</td>
+										<td data-th="Positive control">
+											---
+										</td>
+										<td data-th="Negative Control">
+											14 µl
+										</td>
+
+									</tr>
+
+									<tr>
+										<td data-th="Reagent">
+											Total volume
+										</td>
+										<td data-th="Positive control">
+											20 µl
+										</td>
+										<td data-th="Negative Control">
+											20 µl
+										</td>
+
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+
+
+						<!-- Table design ends -->
+
+
+						<ul style="margin-bottom: 2rem;">
+							<li>Gently mix the reaction by pipetting up and down and microfuge briefly.</li>
+							<li>For cohesive (sticky) ends, incubate at 16°C overnight or room temperature for 10
+								minutes.</li>
+							<li>For blunt ends or single base overhangs, incubate at 16°C overnight for 16 hours
+								(alternatively, high concentration T4 DNA Ligase can be used in a 10 minute ligation).
+							</li>
+						</ul>
+
+
+						<h3>
+							<li><b>Transformation</b></li>
+						</h3>
+
+						<ul>
+							<li>Pick a single bacterial colony from a plate that has been incubated for 16-20 hours at
+								37°C. </li>
+							<li>Transfer the colony into 100 ml of LB broth. Incubate the culture for 3 hours at 37°C
+								with vigorous agitation, monitoring the growth of the culture. </li>
+							<li>Transfer the bacterial cells to sterile, ice-cold 2ml centrifuge tubes. Cool the
+								cultures to 0°C by storing the tubes on ice for 10 minutes.</li>
+							<li>Recover the cells by centrifugation at 6000 rpm for 10 minutes at 4°C.</li>
+							<li>Decant the medium (supernatant) from the cell pellets. Stand the tubes in an inverted
+								position on a pad of paper towels for 1 minute to allow the last traces of media to
+								drain away.
+							</li>
+							<li>Resuspend each pellet by swirling in 1.5 ml of ice-cold MgCl 2 -CaCl 2 solution
+								(Concentration used 80 mM MgCl 2 and 20 mM CaCl 2 ).
+							</li>
+							<li>Recover the cells by centrifugation at 6000 rpm for 10 minutes at 4°C.
+							</li>
+							<li>Decant the medium from the cell pellets. Stand the tubes in an inverted position on a
+								pad of paper towels for 1 minute to allow the last traces of supernatant to drain away.
+							</li>
+							<li>Resuspend the pellet by swirling in 100 μl of ice-cold 0.1 M CaCl 2 , very slowly.</li>
+							<li>At this point, either use the cells directly for transformation or dispense into
+								aliquots and freeze at -70°C.</li>
+							<li>To transform CaCl 2 -treated cells, in 100 μl of each suspension of competent cells, add
+								5 μl plasmid DNA (pUC19, 20 ng/μl).
+							</li>
+							<li>Mix the contents of the tubes by swirling gently.</li>
+							<li> Store the tubes on ice for 30 minutes.</li>
+							<li>Transfer the tubes to a rack placed in a preheated 42°C water bath for heat shock. Keep
+								the tubes in the rack for exactly 2 minutes. Do not shake the tubes</li>
+							<li>Rapidly transfer the tubes to an ice bath. Allow the cells to chill for 5 minutes.</li>
+							<li>Add 900 μl LB medium into the tube. Incubate the cultures for 45 minutes in a water bath
+								set at 37°C to allow the bacteria to recover and to express the antibiotic resistance
+								marker encoded by the plasmid.
+							</li>
+							<li>Transfer the appropriate volume (up to 100 μl per 90-mm plate) of transformed competent
+								cells onto agar LB medium containing appropriate antibiotic.
+							</li>
+							<li>Store the plates at room temperature until the liquid has been absorbed.</li>
+							<li>Invert the plates and incubate at 37°C. Transformed colonies should appear in 12-16
+								hours.</li>
+						</ul>
+
+
+						<h3 style="margin-top: 3rem;">
+							<li><b>Expression: Colony PCR</b></li>
+						</h3>
+
+						<ul>
+							<li>Make LB agar + Ampicillin plate </li>
+							<li>Pick a single colony from the transformed plate and streak it in the plate.</li>
+							<li>Keep the streaked in the incubator at 37 degrees overnight.</li>
+							<li>After the growth in the plate, arrange 1.5 mL centrifuge tube.</li>
+							<li>Add 50 µL 1X PBS in the tube. With the help of a tip, collect the grown patch from the
+								plate.</li>
+							<li>Then boil the sample at 95 degrees for 20 minutes. Spin it at 12,000 rpm for 10 minutes.
+								(5 µL of this sample will be used for PCR as the template)</li>
+							<li>Take 1µL plasmid &amp; 4 µL of H2O as a positive control (plasmid- with the insert in
+								this case).
+							</li>
+							<li> Similarly take 1µL plasmid (vector backbone plasmid) and 4 µL of H2O as a negative
+								control.</li>
+							<li>Prepare reaction mixture as following:
+								<ul>
+									<li>Template plasmid=5µL</li>
+									<li>Forward primer=1µL</li>
+									<li>Reverse primer=1µL</li>
+									<li>2X PCR master mix = 12.5µL</li>
+									<li>H2O = 5.5µL</li>
+									<li> Total =25µL</li>
+								</ul>
+							</li>
+						</ul>
+
+
+						<h3 style="margin-top: 3rem;">
+							<li><b>Purification</b></li>
+						</h3>
+
+						<p>Buffers required:</p>
+
+						<ol>
+							<li>Lysis buffer-50mM Tris, 200mM NaCl, 1mM PMSF, 1mMDTT, 10% Glycerol,, 10mM imidazole</li>
+							<li>Washing buffer- 50mM Tris, 200mM NaCl, 10% Glycerol, 20mM imidazole</li>
+							<li>Elution buffer - 50mM Tris, 200mM NaCl, 10% Glycerol, 200mM imidazole</li>
+						</ol>
+
+						<p>
+
+						<ul>
+							<li>Store the pellet from -80 degree celsius and other components in ice.</li>
+							<li>Prepare the lysate buffer by adding the components to a 50 ml falcon tube and make up
+								the volume to 20 ml by adding miliQ water to it.</li>
+							<li>Dissolve the pellet and pipette it several times and incubate for 15 minutes.</li>
+							<li>Transfer it to a new falcon tube for sonication.</li>
+							<li>Sonication : temperature-25 degree celsius; time- 1 hour; pulse 10:10 on:off</li>
+							<li>Take the lysate and centrifuge at 12000 rpm for 10-15 minutes and collect the
+								supernatant.</li>
+							<li>Also take the beads and centrifuge at 13000rpm for 1 minute.</li>
+							<li>Remove excess ethanol and mix the beads with the supernatant and incubate for 3 hours.
+							</li>
+							<li>Perform gel electrophoresis for the quality check of protein.</li>
+							<li>Using a dialysis procedure, elute out protein.</li>
+							<li>Concentrated protein using Amicon tubes and centrifugation process.</li>
+						</ul>
+
+						</p>
+
+
+						<div class="section" style="padding-bottom: 1rem;">
+							<div class="container">
+								<div class="row text-left mb-5">
+									<div class="col-lg-6" style="width: 100%;">
+										<h1 class="heading text-primary"><b>Future Experiment Planned</b></h1>
+
+
+										<ol>
+											<h3 style="margin-top: 3rem;">
+												<li><b>SELEX procedure</b></li>
+											</h3>
+
+											<ul>
+
+												<h5><b>Buffers and solutions:</b></h5>
+
+											</ul>
+
+											<ol>
+												<li>Binding buffer- pH 7.4 PBS containing 2.5 mM MgCl2 plus Salmon sperm
+													ssDNA,
+													0.02% Tween
+													20 and 1 mM heparin. The amount of Salmon sperm ssDNA is 75 μg
+													(equivalent to 3
+													nmol of
+													80 nt ssDNA) for round 1 and 5 μg (equivalent to 0.2 nmol of 80 nt
+													ssDNA) for
+													round 2 -
+													4, followed by 20 μg for rounds afterwards.</li>
+												<li>Wash buffer: pH 7.4 PBS containing 2.5 mM MgCl2, and 0.02% Tween 20.
+												</li>
+											</ol>
+
+
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">Round One Selection</li>
+
+												</h3>
+
+											</ul>
+
+
+
+
+
+											<div class="section" style="padding-top: 1rem; padding-bottom: 1rem;">
+												<div class="container">
+													<div class="row text-left mb-5">
+														<div class="col-lg-6">
+															<p class="text-black-50" align="justify">
+															<ol>
+																<p>Initial ssDNA library preparation: </p>
+																<li>Add 30 μL of 100 μM ssDNA library (3 nmol) to 600 μL
+																	of binding buffer.
+																</li>
+																<li> Mix and heat at 95°C for 10 min followed by
+																	chilling the denatured
+																	ssDNA on ice
+																	for 10
+																	minutes.</li>
+																<p>Preparation of beads/protein complex:</p>
+																<li>For protein with molecular weight of 25 kDa, 4 μL
+																	(160μg based on
+																	40mg/mL
+																	concentration) beads are enough to bind 0.1 nmol
+																	proteins for the first
+																	round
+																	SELEX.
+																</li>
+																<li>Add 500 μL of binding buffer to beads in a 1.5 mL
+																	Eppendorf tube, place
+																	the tube
+																	on a
+																	magnet for 2 min, discard supernatant.</li>
+																<li>Prepare 500 μl of cell lysate containing
+																	overexpressed His-tagged
+																	protein target
+																	with
+																	equal volume of 2 ×Binding buffer and then mix well
+																	with beads.
+																</li>
+																<li>Incubate mixture on a roller for 5 min at RT (or
+																	colder if the protein
+																	is
+																	unstable at
+																	RT).</li>
+																<li>Place the tube on the magnet for 2 min, discard the
+																	supernatant.</li>
+																<li>Repeat the wash 4 times each with a 300 μL wash
+																	buffer.</li>
+																<li>10-20mM of imidazole can be added in the washing
+																	buffer to reduce the
+																	background
+																	nonspecific binding.</li>
+																<li>EDTA-free cell lysis buffers should be used since
+																	reducing agents such
+																	as
+																	Dithionite DTT
+																	and EDTA can enhance iron solubility and therefore
+																	pull the iron out of
+																	magnetic
+																	beads.
+																</li>
+																<li>DNase I and 0.05% Tween 20 should be added to the
+																	lysate to help
+																	pelleting beads
+																	under
+																	the magnetic force and to minimize non-specific
+																	binding to plastic.</li>
+															</ol>
+															</p>
+														</div>
+														<div class="col-lg-6">
+
+															<div class="col-lg-7" style="width: 60%;">
+																<div class="img-property-slide-wrap">
+																	<div class="img-property-slide"
+																		style="margin-left: 10rem; margin-right: -8rem;">
+																		<img src="https://static.igem.wiki/teams/4449/wiki/project/selex.jpeg"
+																			alt="Image" class="img-fluid"
+																			style="height: 20rem;">
+
+
+																	</div>
+																</div>
+															</div>
+
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+
+
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">Test for checking binding capacity of
+														beads to
+														proteins
+														by western blotting</li>
+
+												</h3>
+
+											</ul>
+
+											<ol>
+												<li>The beads are resuspended in 1 × SDS PAGE loading buffer.</li>
+												<li> Then it is heated at 90 °C for 5 min and the supernatant is loaded
+													on
+													10%
+													SDS-PAGE gel.
+												</li>
+												<li>The existence of interested protein on beads should be detected with
+													specific
+													primary antibodies following standard Western blot procedure.</li>
+												<li>AThe binding capacity can be calculated by Silver stain or Coomassie
+													blue assay
+													using
+													protein standards.
+												</li>
+
+											</ol>
+
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">Incubation of protein bait with the
+														random DNA
+														library:
+													</li>
+
+												</h3>
+
+											</ul>
+
+
+
+
+											<ol>
+												<li>The bead/protein complex is resuspended in 600 µL of binding buffer
+													including 3
+													nmol of
+													random ssDNA library and 1 mM heparin in a 1.5 mL Eppendorf tube.
+												</li>
+												<li> The mixture is placed on a roller for 1 hour at RT to achieve good
+													magnetic
+													beads
+													suspension.</li>
+												<li>After incubation, the tube will be placed on a magnet for 2 min,
+													then
+													discard
+													the
+													supernatant.</li>
+												<li>The beads are washed 5 times with 500 μL wash buffer, 5 min per
+													wash.
+												</li>
+												<li>The beads should be resuspended thoroughly between each washing
+													step.
+												</li>
+												<li>After the last wash, the bead/protein/ssDNA complex is resuspended
+													in
+													100 μL TE
+													buffer
+													for preparative PCR assay.</li>
+											</ol>
+
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">Preparative PCR1: To determine the
+														optimum cycle
+														number
+														of PCR required:</li>
+
+												</h3>
+
+											</ul>
+
+
+
+
+											<ul>
+												<li>PCR1 involves the standard PCR reaction at 50 µL/tube in 6
+													individual
+													tubes
+													(each for 8,
+													10, 12, 14, 16, 18 cycles) and one additional negative control
+													(absence
+													of DNA
+													template).
+												<li>A 50 µL PCR amplification reaction volume.</li>
+												<li>PCR thermal cycle parameters based on the melting temperature of the
+													designed
+												</li>
+												primers.
+												</li>
+											</ul>
+
+											<p><b>Steps:</b></p>
+											<ul>
+												<li>4% agarose gel is prepared in 1 × TBE buffer.</li>
+												<li> 5 µl sample for each cycle is loaded and electrophoresis is
+													performed
+													at 100 V
+													for 40
+													min.</li>
+												<li>The 8 PCR samples are imaged under a blue light trans-illuminator
+													after
+													GelStarTM stain.
+												</li>
+												<li>The cycle number that yields the strongest band at the expected
+													position
+													will be
+													used
+													for subsequent amplification PCR.</li>
+											</ul>
+
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">PCR2 to amplify the DNA pool for the
+														next
+														round
+														of SELEX:
+													</li>
+
+												</h3>
+
+											</ul>
+
+
+
+
+											<ul>
+												<li>
+													After determining the optimized cycle number, amplification PCR will
+													be
+													conducted using
+													the same PCR procedures as PCR1.
+												</li>
+												<li>
+													To improve the SELEX efficiency, it is important to use all of the
+													100
+													µL
+													beads/protein/ssDNA mixture for PCR2. Therefore, for the first
+													round, a
+													2 µL DNA
+													template per 50 µL reaction should be applied for PCR1.
+												</li>
+												<li>
+													From round 2 onwards, a 1 µL ssDNA mixture should be used for PCR1
+													and a
+													500 -
+													1000 µL
+													PCR2 reaction (need 10 – 20 µL elution) is generally enough to
+													collect
+													0.3 nmol
+													ssDNA
+													for both subsequent round SELEX and binding assessment.
+												</li>
+											</ul>
+
+											</ul>
+
+
+											<p style="padding-top: 1rem;"><b>For subsequent rounds of selection,
+													following
+													the same
+													steps as
+													demonstrated for the second
+													round, but with the following modifications as selection
+													progresses.</b>
+											</p>
+
+											<ul>
+												<li>
+													Gradually reduce the amount of protein baits from 0.1 nmol to 0.01
+													nmol.
+												</li>
+												<li>
+													Gradually reduce the incubation time for ssDNA pool with target from
+													1
+													hour to
+													30 min.
+												</li>
+												<li>
+													Increase the washing time and washing buffer volume.
+												</li>
+												<li>
+													Gradually increase the amount of random sperm ssDNA from an equal
+													amount
+													of
+													ssDNA pool
+													to 10 times more.
+												</li>
+											</ul>
+
+
+
+											<h3>
+												<li style="padding-top: 2rem;"><b>Evaluation binding capacity</b></li>
+											</h3>
+
+											<ul>
+
+												<h3>
+
+													<li>ELISA assay</li>
+												</h3>
+											</ul>
+
+											<ul>
+												<li>Add 1 µg of biotin conjugated anti-His antibody to 100 µL PBS and
+													incubate with
+													streptavidin-coated well at RT for 1 h.</li>
+												<li>After washing with 200 µL PBS for 3 times, incubate the with 150 µL
+													of
+													either
+													positive
+													selection cell lysates or negative control cell lysates at 4 °C
+													overnight.</li>
+												<li>wash the wells with 200 µL PBS for 3 times and each well is blocked
+													with
+													100µg of random herring sperm ssDNAs at RT for 1 h.
+												</li>
+												<li>After thorough wash with PBS, incubate the wells with 100 µl of 100
+													nM
+													ssDNA
+													pools at RT
+													for 1h.</li>
+												<li>
+													wash wells with 200 µL/well wash buffer for 5 times.
+												</li>
+												<li>After incubation with HRP conjugated anti-FITC antibody for 1 h
+													followed
+													by
+													thorough
+													washing, the fluorescence intensity is determined with a plate
+													reader
+													after the
+													addition
+													of QuantaBlu Fluorogenic Peroxidase Substrate according to the
+													manufacturer’s
+													instruction.
+												</li>
+												<li>The selection completes when no further improvement in the binding
+													capacity
+													between
+													pools from successive two or three rounds can be observed.</li>
+											</ul>
+
+											<ul>
+												<h3>
+
+													<li style="padding-top: 2rem;">Validation: Whole SELEX</li>
+
+												</h3>
+											</ul>
+
+											<ul>
+												<li>Dissolve 1.0 µg of double-stranded DNA library, in 50 µL of PBS</li>
+												<li>Then denature it by heating at 95 °C for 10 min and then cool on ice
+													for
+													10 min.
+												</li>
+												<li>Incubate the denatured ssDNA with 100 µL of 1.0 × 10^8 cfu/mL of
+													selected
+													strain, with
+													shaking (1500 rpm) at room temperature for 45 min</li>
+												<li>Then remove the Unbound ssDNA by centrifugation at 8000 g for 10
+													min.
+												</li>
+												<li>After that elute the bound ssDNA in 500 µL of double distilled water
+													(ddH2O) by
+													heating
+													bacteria–DNA complexes at 95 °C for 10 min.
+												</li>
+												<li>Then use the supernatants after the centrifugation for PCR
+													amplification.</li>
+												<li>Then do gel electrophoresis on 2.0% of agarose gel to confirm the
+													purity
+													of the
+													PCR
+													product.</li>
+												<li>lso perform Counter selex rounds after 3 selection cycles.</li>
+											</ul>
+
+
+											<h3>
+												<li style="padding-top: 2rem;"><b>Preparation of aptamer-functionalized
+														AuNPs</b>
+												</li>
+											</h3>
+
+											<ul>
+												<li>Add 9 μL 1 mM aptamers into a 2 mL centrifuge tube. Then 1μL acetate
+													buffer
+													(500mM，pH
+													5.2) and 1.5 μL 10 mM TCEP to it and incubate 1 h at room
+													temperature.
+												</li>
+												<li>Add 3 mL AuNPs and shake slightly, incubate in a dark environment
+													for 16
+													hours.
+												</li>
+												<li>Bring the solution into 300 μL Tris acetic acid buffer (500 mM，pH
+													8.2).
+												</li>
+												<li>Measure 500 μL solution and add into 2 mL centrifuge tube, followed
+													by
+													centrifugation
+													for 15 min at 16110×g and remove supernatant.</li>
+												<li>Resuspend the precipitate with Tris acetic acid buffer (25 mM，pH
+													8.2),
+													and
+													re-centrifuge
+													at the same condition.</li>
+												<li>Disperse the precipitate in each binding buffer.</li>
+											</ul>
+											</ul>
+										</ol>
+
+										<h3 style=" margin-top: 3rem;"><b>References:</b></h3>
+										<ul><li>Wang T, Yin W, AlShamaileh H, Zhang Y, Tran PH, Nguyen TN, Li Y, Chen K, Sun M, Hou Y, Zhang W, Zhao Q, Chen C, Zhang PZ, Duan W. A Detailed Protein-SELEX Protocol Allowing Visual Assessments of Individual Steps for a High Success Rate. Hum Gene Ther Methods. 2019 Feb;30(1):1-16. DOI: <a href="https://doi.org/10.1089/hgtb.2018.237">10.1089/hgtb.2018.237</a></li></ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Sponsor Section begins -->
+
+	<section class="site-section">
+		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+			<div class="row">
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+						class="img-fluid" style="margin-top: 2rem;">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="200">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="300">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+	<script src="js/progress.js"></script>
+
+</body>
+
+</html>

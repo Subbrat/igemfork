@@ -1,0 +1,764 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="iGEM IISER Berhampur">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+
+    <title>iGEM &mdash; Modelling</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="menu-bg-wrap" style="padding: 8px 20px;">
+                <div class="site-navigation">
+                    <!-- <a href="home.html" class="logo m-0 float-start">iGEM</a> -->
+                    <img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+                        style="max-width:3rem">
+
+                    <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                        <li><a href="index">Home</a></li>
+                        <li class="has-children">
+                            <a href="#">Project</a>
+                            <ul class="dropdown">
+                                <li><a href="description">Description</a></li>
+                                <li><a href="engineering">Engineering</a></li>
+                                <li><a href="implementation">Implementation</a></li>
+                                <li><a href="experiment">Experiment</a></li>
+                                <li class="has-children">
+                                    <a href="#">Notebook</a>
+                                    <ul class="dropdown">
+                                        <li><a href="journal">Lab Journals</a></li>
+                                        <li><a href="safety">Safety</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="proof-of-concept">Proof of Concept</a></li>
+                                <li><a href="contribution">Contribution</a></li>
+                                <li><a href="results">Result</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="model">Modelling</a></li>
+                        <li class="has-children">
+                            <a href="#">Human Practices</a>
+                            <ul class="dropdown">
+                                <li><a href="human-practices">Integrated Human Practices</a></li>
+                                <li><a href="communication">Education & Communication</a></li>
+                                <li><a href="collaborations">Collaboration</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Team</a>
+                            <ul class="dropdown">
+                                <li><a href="members">Members</a></li>
+                                <li><a href="attributions">Attribution</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="biobricks">Biobricks</a></li>
+                        <li><a href="partnership">Partnership</a></li>
+                        <li class="has-children">
+                            <a href="#">Achievements</a>
+                            <ul class="dropdown">
+                                <li><a href="awards">Awards and Medals</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-children">
+                            <a href="#">Entrepreneurship</a>
+                            <ul class="dropdown">
+                                <li><a href="overview">Overview</a></li>
+                                <li><a href="market-size">Market Size</a></li>
+                                <li><a href="businessplan">Competitors and Business Plan</a></li>
+                                <li><a href="entrepreneurship_team">Our team</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <a href="#"
+                        class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                        data-toggle="collapse" data-target="#main-navbar">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+
+        <div class="hero-slide">
+            <div class="img overlay"
+                style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/modelling.jpg')">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center">
+                    <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- SLider Section begins -->
+    <div class="section section-5 bg-light" style="padding-bottom: 0rem; --bs-light-rgb: #fff; padding-top: 0rem;">
+        <div class="container">
+
+            <div class="row justify-content-center  text-center mb-5">
+                <div class="col-lg-6 mb-5">
+                    <h2 class="font-weight-bold heading text-primary mb-4" style="margin-top: 2rem;">Modelling</h2>
+                </div>
+            </div>
+
+            <div class="section" style="padding-top: 1rem;">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200" style="width: 100%;">
+
+                            <ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-mission-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-mission" type="button" role="tab"
+                                        aria-controls="pills-mission" aria-selected="true">Strucutre prediction of DNA
+                                        Aptamers and Protein</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-values-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-values" type="button" role="tab"
+                                        aria-controls="pills-values" aria-selected="false">In-silico screening of the
+                                        aptamers
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-signs-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-signs" type="button" role="tab"
+                                        aria-controls="pills-signs" aria-selected="false">Epidemiological modelling
+                                    </button>
+                                </li>
+                            </ul>
+
+
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-mission" role="tabpanel"
+                                    aria-labelledby="pills-mission-tab">
+                                    <h2 class="mb-3 text-primary fw-bold">Strucutre prediction of DNA Aptamers and
+                                        Protein</h2>
+
+
+                                    <!-- Image with sentence sidewise -->
+
+                                    <div class="section" style="padding-bottom: 0rem;">
+                                        <div class="container">
+
+
+                                            <!-- Image with sentence sidewise -->
+
+                                            <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <h3><b>Structure of FimH (Our target protein)</b></h3>
+                                                            <p class="text-black-50" align="justify">
+                                                            <p align="justify">Our target protein is fimbrial protein
+                                                                present on the
+                                                                surface of E.coli called
+                                                                FimH.
+                                                                FimH is a 30kDa protein positioned on the tip of surface
+                                                                filaments called type 1
+                                                                fimbriae that mediate mannose-specific binding and are
+                                                                the most common adhesive
+                                                                organelles in E.coli and other enterobacteria. FimH
+                                                                consists of two
+                                                                immunoglobulin-like domains: an N-terminal lectin domain
+                                                                that binds mannose
+                                                                ligand and a C terminal pilin domain that anchors FimH
+                                                                into the fimbrial tip.
+                                                            </p>
+                                                            <h5><b>FimH as an adhesive protein:</b></h5>
+                                                            <p align="justify">Adhesive proteins of prokaryotic and
+                                                                eukaryotic cells are
+                                                                generally multidomain
+                                                                in nature, with different domains to bind the ligand on
+                                                                the target cell and to
+                                                                anchor the binding protein to the cell membrane or
+                                                                adhesive organelle.</p>
+                                                            <p align="justify">The allosteric catch bond model has been
+                                                                extensively
+                                                                proposed and experimentally
+                                                                supported for the mannose-specific fimbrial adhesin of
+                                                                FimH. The anchoring
+                                                                (pilin) domain of FimH interacts with the manose-binding
+                                                                (lectin) domain and
+                                                                causes a twist in the beta-sandwich fold of the latter.
+                                                            </p>
+                                                            <p align="justify">This loosens the mannose-binding pocket
+                                                                on the opposite
+                                                                end of lectin domain,
+                                                                resulting in an inactive low-affinity state of the
+                                                                adhesin. The autoinhibition
+                                                                effect of the pilin domain is removed by application of
+                                                                tensile force across the
+                                                                bond, which separates the domains and causes the lectin
+                                                                domain to untwist and
+                                                                clamp tightly around ligand like finger trap toy. </p>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-6">
+
+                                                            <div class="col-lg-7" style="width: 80%;">
+                                                                <div class="img-property-slide-wrap">
+                                                                    <div class="img-property-slide">
+                                                                        <img src="https://static.igem.wiki/teams/4449/wiki/modelling/image5.png"
+                                                                            alt="Image" class="img-fluid">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Image with sentence sidewise ends-->
+
+
+                                            <!-- Image with sentence sidewise -->
+
+                                            <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <h3><b>AlphaFold2 model for protein structure
+                                                                    prediction:</b></h3>
+                                                            <p class="text-black-50" align="justify">
+                                                            <p align="justify">Structure prediction has always been an
+                                                                important procedure to study protein-ligand and
+                                                                protein-protein interactions. We have used AlphaFold2
+                                                                deep learning model to generate the prediction of 3D
+                                                                conformation for FimH protein.
+                                                            </p>
+                                                            <p align="justify">AlphaFold 2 has been very successful in
+                                                                3D structure prediction of Proteins. The system created
+                                                                a stir in November 2020 by winning the biennial CASP
+                                                                contest (Critical Assessment of Structure prediction)
+                                                                beating around 100 other software programs.</p>
+                                                            <p align="justify">The program uses a form of attention
+                                                                network, a deep learning technique that focuses on
+                                                                having the AI algorithm identify parts of a larger
+                                                                problem, then piece it together to obtain the overall
+                                                                solution. The overall training was conducted on
+                                                                processing power between 100 and 200 GPUs
+                                                            </p>
+                                                            <p align="justify">We have used AlphaFold2 Google colab
+                                                                notebook for generating the 3D conformation of the
+                                                                Protein sequence provided by our wetlab team after
+                                                                literature survey. <a
+                                                                    href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb">Colab</a>
+                                                            </p>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-6">
+
+                                                            <div class="col-lg-7" style="width: 80%;">
+                                                                <div class="img-property-slide-wrap">
+                                                                    <div class="img-property-slide">
+                                                                        <img src="https://static.igem.wiki/teams/4449/wiki/modelling/image3.gif"
+                                                                            alt="Image" class="img-fluid">
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Image with sentence sidewise ends-->
+
+
+
+                                            <!-- Image sidewise -->
+
+                                            <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                                <div class="container">
+
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-7" style="width: 50%;">
+                                                            <div class="img-property-slide-wrap">
+                                                                <div class="img-property-slide">
+                                                                    <img src="https://static.igem.wiki/teams/4449/wiki/modelling/image9.jpg"
+                                                                        alt="Image" class="img-fluid"
+                                                                        style="height: 30rem;">
+                                                                    <P>Figure: Results from the CASP competitions for
+                                                                        the past few years. </P>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-lg-6" style="width: 50%;">
+                                                            <div class="img-property-slide-wrap"
+                                                                style="padding-top: 20px;">
+                                                                <div class="img-property-slide">
+                                                                    <img src="https://static.igem.wiki/teams/4449/wiki/project/aa.jpg"
+                                                                        alt="Image" class="img-fluid"
+                                                                        style= "height: 30rem;
+																		padding-top: 5rem; padding-bottom: 5rem;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Image sidewise ends-->
+
+                                            <!-- Image sidewise -->
+
+                                            <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                                <div class="container">
+
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-7" style="width: 100%;">
+                                                            <div class="img-property-slide-wrap">
+                                                                <div class="img-property-slide">
+                                                                    <img src="https://static.igem.wiki/teams/4449/wiki/modelling/image1.jpg"
+                                                                        alt="Image" class="img-fluid">
+                                                                    <p align="center">Figure: Overview of the AlphaFold2 model’s
+                                                                        workflow.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Image sidewise ends-->
+
+
+                                            <h2 class="mb-3 text-primary fw-bold">DNA aptamer structure prediction using
+                                                RNAFold and RNAComposer:
+                                            </h2>
+                                            <p>To overcome the challenge of the 3D structure prediction of DNA Aptamers
+                                                we have come with a protocol for our use-case. The steps involved in the
+                                                protocol are as follows:</p>
+                                            <p>
+                                            <ol>
+                                                <li>Translation of DNA sequence to RNA sequence (since, all of the
+                                                    prominent webservers are available for predicting 3D conformation of
+                                                    RNA sequences)</li>
+                                                <li>Feeding the Sequence obtained to RNAFold webserver for generating
+                                                    the 2D conformation. Predicting the 2D structure is half-way to
+                                                    achieve to 3D conformations.
+                                                </li>
+                                                <li>We obtain the dot-bracket form of the 2D structure of the aptamer
+                                                    sequence from RNAFold server and input this into RNAComposer. </li>
+                                                <li>Once we submit the job on the RNAComposer webserver, it stays on the
+                                                    queue. After the computations on the server, we recieve the pdb file
+                                                    of the 3D structure of the aptamer sequence.</li>
+                                                <li>This .pdb file which contains the 3D conformation of the sequence
+                                                    will be used in the main process i.e. In-silico screening of
+                                                    aptamers using molecular docking procedure.</li>
+                                            </ol>
+                                            </p>
+
+
+                                            <!-- Image sidewise -->
+
+                                            <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                                <div class="container">
+
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-7" style="width: 100%;">
+                                                            <div class="img-property-slide-wrap">
+                                                                <div class="img-property-slide">
+                                                                    <img src="https://static.igem.wiki/teams/4449/wiki/modelling/model.jpg"
+                                                                        alt="Image" class="img-fluid">
+                                                                    <p align="center">Figures 1 and 2: Results for the 2D structure prediction of aptamer sequences using RNAFold webserver</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <!-- Image sidewise ends-->
+
+
+
+                                            <h3 style="margin-top: 2rem">References:</h3>
+                                            <ol>
+                                                <li>Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein
+                                                    structure prediction with AlphaFold. Nature 596, 583–589 (2021). <a
+                                                        href="https://doi.org/10.1038/s41586-021-03819-2">https://doi.org/10.1038/s41586-021-03819-2</a>
+                                                </li>
+                                                <li>AlphaFold Wikipedia: <a
+                                                        href="https://en.wikipedia.org/wiki/AlphaFold">https://en.wikipedia.org/wiki/AlphaFold</a>
+                                                </li>
+                                                <li>RNAFold webserver <a
+                                                        href="http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi">http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi</a>
+                                                </li>
+                                                <li>RNAComposer webserver <a
+                                                        href="https://rnacomposer.cs.put.poznan.pl/">https://rnacomposer.cs.put.poznan.pl/</a>
+                                                </li>
+                                            </ol>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <p class="mt-5">
+                                    </p>
+                                </div>
+
+
+
+                                <div class="tab-pane fade" id="pills-values" role="tabpanel"
+                                    aria-labelledby="pills-values-tab">
+                                    <h2 class="mb-3 text-primary fw-bold">In-silico screening of the aptamers:
+                                    </h2>
+                                    <p>Aptamers shows high potential of application in therapeutics and diagnostics.
+                                        Aptamers are usually obtained through rigorous in-vitro screening procedures
+                                        known as Systematic Evolution of Ligands by EXponential enrichment (SELEX). </p>
+                                    <p>While, screening aptamers through conventional methods such as SELEX is time
+                                        consuming and require high-end laboratory setup and access to large DNA library
+                                        database, screening aptamers through computational docking and molecular
+                                        dynamics study are highly sorted. </p>
+                                    <p>In our drylab, we aim to approach the process of aptamer screening through
+                                        computatoinal methods such as molecular docking and Molecular modelling (MD)
+                                        simulations.
+                                        This approach will be really beneficial due to minimal use of chemical and
+                                        reagents. Since, SELEX is both time consuming and requires a lot of
+                                        resources(reagents, lab equipment etc.).
+                                    </p>
+                                    <p>However, the challenge of computational costs proved to be a barrier for the
+                                        drylab to achieve maximum screening of aptamer library for finding the best
+                                        aptamer which has highest affinity for the target protein.</p>
+                                    <p>In-silico approaches were able to poke the details of aptamer-ligand interactions
+                                        which is hard to elucidate experimentally. </p>
+                                    <p class="mt-5">
+                                    </p>
+
+                                    <h2 class="mb-3 text-primary fw-bold">Molecular simulation and Docking:
+                                    </h2>
+                                    <p>Molecular simulation involves preparation of our aptamer and Target protein for
+                                        the docking procedure. We used autodock tools, cygwin, Discovery studio
+                                        visualization software to perform the molecular simulation of protein-ligand
+                                        interactions. The best Docked pose is the one with the least amount of the
+                                        binding free energy. Docking scores will be obtained and be used to screen best
+                                        ranked dockings. Simulations will be perfomed on the generated aptamer library
+                                        with each aptamer from the library and target protein and achieve a dataset of
+                                        containing important features set like binding free energy of the formed complex
+                                        to screen the aptamer library.</p>
+
+                                    <p>“Our drylab work can act as a verification mechanism parallel with wetlab work to
+                                        make sure the observations match both in-silico and in-vitro.“</p>
+
+                                    <h2 class="mb-3 text-primary fw-bold">Future work:
+                                    </h2>
+                                    <p>We plan to continue the In-silico screening of the aptamer sequences with our
+                                        drylab team to screen our preliminary library of random aptamers generated (500
+                                        sequences) putting a constraint on the ratio of different amino acids in the
+                                        sequence) and narrow down to a small library for our wetlab team to screen them
+                                        experimentally.</p>
+
+                                    <p>We plan to automate the protocol inorder to make it possible to screen large
+                                        aptamer libraries and create a tool for further research into In-silico aptamer
+                                        screening.</p>
+
+
+
+										<h3 style="margin-top: 2rem">References:</h3>
+										<ol>
+											<li>Mohamad Zulkeflee Sabri, Azzmer Azzar Abdul Hamid, Sharifah Mariam Sayed Hitam, Mohd. Zulkhairi Abdul Rahim,
+												In-Silico Selection of Aptamer: A Review on the Revolutionary Approach to Understand the Aptamer Design and Interaction Through Computational Chemistry <a href="https://www.sciencedirect.com/science/article/pii/S2214785319338714">(https://www.sciencedirect.com/science/article/pii/S2214785319338714)</a>
+											</li>
+										</ol>
+
+
+                                    <p class="mt-5">
+                                    </p>
+                                </div>
+
+
+
+                                <div class="tab-pane fade" id="pills-signs" role="tabpanel"
+                                    aria-labelledby="pills-signs-tab">
+                                    <h2 class="mb-3 text-primary fw-bold">Epidemiological modelling
+                                    </h2>
+                                    <!-- Image with sentence sidewise -->
+
+                                    <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                        <div class="container">
+                                            <div class="row text-left mb-5">
+                                                <div class="col-lg-6">
+                                                    <p class="text-black-50" align="justify">
+                                                    <p>We performed data visualisation of the UTI incidence, prevalence,
+                                                        death across
+                                                        all countries by generating a world heat map of UTI spread. </p>
+                                                    <p>We obtained the dataset from the Global burden of disease
+                                                        database available for
+                                                        public use. The Global Burden of Disease (GBD) provides a tool
+                                                        to quantify
+                                                        health loss from hundreds of diseases, injuries, and risk
+                                                        factors, so that
+                                                        health systems can be improved and disparities can be
+                                                        eliminated.</p>
+                                                    <p>Using geopandas library for generating the world heat map of UTI
+                                                        spread. We
+                                                        generated the visualization of the data to gain insights into
+                                                        the prevalence of
+                                                        UTI cases, and number of deaths caused every year due to UTI.
+                                                    </p>
+                                                    <p>We performed normalization on the data with the country’s
+                                                        population to study the
+                                                        UTI deaths in India and other countries.</p>
+                                                    </p>
+
+
+                                                    <h3 style="margin-top: 2rem;">References:</h3>
+                                                    <p>
+                                                    <ol>
+                                                        <li>Global Burden of Disease Study 2019 (GBD 2019) Data
+                                                            Resources: <a
+                                                                href="https://ghdx.healthdata.org/gbd-2019">https://ghdx.healthdata.org/gbd-2019</a>
+                                                        </li>
+                                                        <li>Global Burden of Disease search tool <a
+                                                                href="https://vizhub.healthdata.org/gbd-results/">https://vizhub.healthdata.org/gbd-results/</a>
+                                                        </li>
+                                                        <li>Jordahl, K., 2014. GeoPandas: Python tools for geographic
+                                                            data. URL: <a
+                                                                href="https://github.com/geopandas/geopandas.">https://github.com/geopandas/geopandas.</a>
+                                                        </li>
+                                                    </ol>
+                                                    </p>
+
+
+                                                </div>
+                                                <div class="col-lg-6">
+
+                                                    <div class="col-lg-7" style="width: 80%;">
+                                                        <div class="img-property-slide-wrap">
+                                                            <div class="img-property-slide">
+                                                                <img src="https://static.igem.wiki/teams/4449/wiki/worldheatmap-deaths-n.jpeg"
+                                                                    alt="Image" class="img-fluid">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+                                    <p class="mt-5">
+                                    </p>
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Slider Section ends -->
+
+
+
+    <!-- Sponsor Section begins -->
+
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+                        class="img-fluid" style="margin-top: 2rem;">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section ends -->
+
+
+    <!-- Footer Setion begins -->
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>About us</h3>
+                        <address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+                            solution to detect uropathogenic bacteria at the point-of-care" </address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>Address</h3>
+                        <address>IISER Berhampur </br>
+                            Transit campus (Govt. ITI Building) </br>
+                            Engg. School Junction, Berhampur </br>
+                            Odisha 760010</address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4" style="width: 30%;">
+                    <div class="widget">
+                        <h3>Links</h3>
+                        <!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+                                        class="icon-instagram"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+                            <li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+                                        class="icon-linkedin"></span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+            </div> <!-- /.row -->
+
+
+
+
+
+            <div class="row mt-5" style="margin-top: 1rem !important;">
+                <div class="col-12 text-center">
+                    <p>Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> &mdash; Content on this site is
+                        licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+                            Attribution 4.0 International license.</a>
+                        <br>The repository used to create this website is available at <a
+                            href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+                        <br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+                            wiki Team</a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <!-- Footer Setion Ends -->
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+
+    <!-- Javascript Links -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/loader1.js"></script>
+</body>
+
+</html>

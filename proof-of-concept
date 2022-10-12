@@ -10,7 +10,6 @@
 	<meta name="description" content="iGEM IISER Berhampur" />
 	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
 
-
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
 	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 
@@ -20,7 +19,7 @@
 	<link rel="stylesheet" href="css/loader1.css">
 
 
-	<title>iGEM &mdash; Project</title>
+	<title>iGEM &mdash; Market Size</title>
 </head>
 
 <body onload="loaderFunc()">
@@ -43,8 +42,8 @@
 						style="max-width:3rem">
 
 					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li class="has-children">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children active">
 							<a href="#">Project</a>
 							<ul class="dropdown">
 								<li><a href="description">Description</a></li>
@@ -58,7 +57,7 @@
 										<li><a href="safety">Safety</a></li>
 									</ul>
 								</li>
-								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li class="active"><a href="proof-of-concept">Proof of Concept</a></li>
 								<li><a href="contribution">Contribution</a></li>
 								<li><a href="results">Result</a></li>
 							</ul>
@@ -116,7 +115,7 @@
 
 		<div class="hero-slide">
 			<div class="img overlay"
-				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/home/try-2.gif')">
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/poc.png')">
 			</div>
 		</div>
 
@@ -136,179 +135,112 @@
 
 	<div class="section" style="padding-bottom: 1rem;">
 		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-1.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Proof Of Concept</h2>
 				</div>
+			</div>
 
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">What are Urinary Tract Infections?</h2>
-					<p class="text-black-50" align="justify">Urinary Tract Infections are bacterial infections affecting
-						the epithelium lining the organs of the urinary tract, including the kidney, ureters, urinary
-						bladder and the urethra. These infections occur when bacteria enter the urinary tract via the
-						urethra and begin multiplying. They can be divided into the following categories based on the
-						organs affected:
-					<ol>
-						<li>Upper UTI: These infections can be divided into pyelonephritis, renal abscess, and
-							Perinephric abscess. </li>
-						<li>Lower UTI: These infections can be divided into cystitis, urethritis, and prostatitis. </li>
-					</ol>
-					<p class="text-black-50">The most common bacterial species that cause Urinary Tract Infections are
-						Escherichia coli K-12, Proteus mirabilis, and Klebsiella pneumoniae.</P>
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<b>
+						<h2>Introduction</h2>
+					</b>
+					<p class="text-black-50" align="justify">Bacteria invade and grow in the urinary tract (the kidneys,
+						ureters, bladder, and urethra). Most urinary tract infections occur in the bladder or
+						urethra.They are mainly caused by bacteria, although fungi and some viruses have also been
+						implicated. E. coli is the dominant causative agent in all patient groups, causing 80–90% of all
+						UTIs and hence serves as a model pathogen for studying UTIs.It is the 2nd most commonly
+						diagnosed infectious disease worldwide. It is the most common bacterial infection in children.
+						We use the aptamer based detection.Aptamers are single-stranded oligonucleotides,fold into
+						defined architectures and bind to targets such as proteins, inhibit protein–protein
+						interactions,elicit therapeutic effects such as antagonism,discovered using SELEX. (Systematic
+						Evolution of Ligands byEXponential enrichment)The target protein used is Fimh. FimH adhesin
+						confers a higher tropism on E. coli for extraintestinal sites and urinary bladder. FimH is
+						selected as target for aptamer designing. N-terminal for FimH being highly conservative is
+						considered for aptamer binding and tagged with 6 Histidine tags since we target cell membrane
+						protein.Selex is further carried out and aptamers are obtained, which is further used in the
+						designing of the diagnostic kit.
+				</div>
+			</div>
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<b>
+						<h2>Design</h2>
+					</b>
+					<p class="text-black-50" align="justify">The method we will be adapting to design kit is known as
+						Aptamer-based lateral flow assay. A two-colored line result indicates negativity and a
+						control-only line indicates positivity.Typically, antibodies comprise both the specific
+						recognition molecules in the conjugate pad and the target-binding biosensors and capture
+						molecules on the membrane. Because nucleotide acid aptamers can recognize targets of interest
+						specifically, antibodies for LFA can be replaced with aptamers. Aptamer-based LFAs (ALFA) offers
+						a more flexible design and the ability to detect a wider range of targets.
+
+				</div>
+			</div>
+
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<b>
+						<h2 style="margin-bottom: 2rem;">Construction</h2>
+					</b>
+					<h3>Hardware:</h3>
+					<p class="text-black-50" align="justify">Our main goal is to create a kit which will detect the
+						presence of uropathogens through color change due to disintegration of the gold nanoparticle
+						aggregation which is tagged to the aptamers. And to optimize the signal to noise ratio we are
+						planning to do different assays and also are trying to find the optimum sample to aptamer ratio
+						which can be use.</p>
+
+
+					<b>
+						<h3>Cost aspect:</h3>
+					</b>
+					<p class="text-black-50" align="justify">We intend to make the APT4UTI kit a rapid detection kit
+						which would provide the results in 20 minutes or less with absolutely no expertise in the field.
+						The usual cost of antibody based detection kits available in the market need to have expert
+						invigilation and a laboratory setup and maintenance. With this kit there will be no need for
+						such a highly maintained infrastructure and expert presence which reduces the cost to build the
+						setup and also reduces the burden on the healthcare professionals. The taboo of not speaking in
+						public about urinary tract infection can also be tackled because an infected person can test in
+						a private space on their own. With high reduction in the cost of infrastructure, manforce
+						payment and daily visit fee of the individual, this kit will prove to be highly cost effective.
 					</p>
+					<p class="text-black-50" align="justify">On the industry level, we as a team have pitched the idea
+						for a startup and it has been appreciated by the state government. We are in the process of
+						taking it to the small scale manufacturing level, where the cost of manufacturing a kit as a
+						hardware will be estimated.</p>
+
 				</div>
 			</div>
 
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<b>
+						<h2>Conclusion</h2>
+					</b>
+					<p class="text-black-50" align="justify">The aim of this project is to develop a novel aptamer based
+						low cost UTI detection kit at the POC. Efforts are made to design the kit that will follow
+						lateral flow assay with aptamer binding principle. Aptamers are better than antibodies in this
+						regard for detection of uropathogens and hence aptamer based strategy is used. The aptamers for
+						the kit are designed and screened and the kit is designed. Physically when the urine sample is
+						loaded, the kit will show colorimetric changes depending on the presence of the uropathogen.
+
+				</div>
+			</div>
+
+
 		</div>
 	</div>
+
+
 
 	<!-- Image with sentence sidewise ends-->
 
 
 
-
-	<!-- Image with sentence sidewise -->
-
-	<div class="section" style="padding-bottom: 1rem;">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading text-primary">Current statistics on Urinary Tract Infections</h2>
-					<p class="text-black-50">Urinary Tract Infections are the third most prevalent bacterial infections
-						and the second most diagnosed infectious disease worldwide. Based on the data gathered by Global
-						Burden of Diseases (GHDx), India had showed a total of nearly 100 million cases in the year 2019
-						and about 55,500 deaths the same year.</p>
-					<p class="text-black-50">With the global data available regarding deaths caused by UTIs from the
-						same source, we generated a heat map with the mortality rates normalized to the respective
-						countries.</p>
-				</div>
-				<div class="col-lg-6">
-
-					<div class="col-lg-7" style="width: 80%;">
-						<div class="img-property-slide-wrap">
-							<div class="img-property-slide">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/graph.png"
-									alt="Image" class="img-fluid">
-								<P>Figure 1 and 2: Global data from 1990 regarding the number of cases and deaths
-									regarding Urinary tract infections in India.</P>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Image with sentence sidewise ends-->
-
-
-	<!-- Image with sentence sidewise -->
-
-	<div class="section" style="padding-bottom: 1rem;">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-7" style="width: 40.33333%;">
-					<div class="img-property-slide-wrap">
-						<div class="img-property-slide">
-							<img src="https://static.igem.wiki/teams/4449/wiki/home/image-3.jpg" alt="Image" class="img-fluid">
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6" style="width: 59%;">
-					<h2 class="heading text-primary">Why did we choose UTIs?</h2>
-					<p class="text-black-50" align="justify">Lack of sanitary hygiene, awareness of UTI and the
-						unavailability of easy-to-use diagnosis methods at the point-of-care leads to the high
-						prevalence of UTIs, particularly in the rural set-up. Currently, only antibody-based testing
-						methods are available for the identification of uropathogenic bacteria, which require the
-						availability of a cold chain and technical expertise in performing the culture of the urine
-						samples and the analysis of these cultures. Due to the lack of such infrastructure and
-						laboratory personnel in the rural set-up, UTIs often are overlooked or misdiagnosed and the
-						patients are prescribed common antipyretics and broad-spectrum antibiotics without UTI specific
-						drug administration.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<!-- Image with sentence sidewise ends-->
-
-
-	<!-- Image with sentence sidewise -->
-
-	<div class="section">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading text-primary">Apt4UTI</h2>
-					<p class="text-black-50">Our project aims at developing an aptamer-based solution for the detection
-						of uropathogenic bacteria at the point-of-care. This diagnostic toolkit has the potential to
-						detect several uropathogenic bacterial strains due to a multiplex aptamer tuned to accuracy by
-						repeated testing against negative controls. The aptamer generated is verified via both in vitro
-						and in silico methods. This toolkit is accurate, rapid and efficient, does not need a cold
-						chain, and can be employed in regions without a laboratory set-up.</p>
-				</div>
-				<div class="col-lg-6">
-
-					<div class="col-lg-7" style="width: 60%;">
-						<div class="img-property-slide-wrap">
-							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<img src="https://static.igem.wiki/teams/4449/wiki/home/fig-4-apt4uti-logo.png"
-									alt="Image" class="img-fluid">
-								<P>Figure: Apt4UTI: An Aptamer-based solution to detect uropathogenic bacteria at the
-									point-of-care</P>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-
-	<!-- Promo Video Layout -->
-
-	<div class="section">
-		<div class="container">
-			<div class="row text-left mb-5">
-				<div class="col-lg-6">
-					<h2 class="heading text-primary">Our Promotional Video</h2>
-					<p class="text-black-50">Urinary Tract Infection is the third most prevalent infectious disease worldwide. The lack of awareness regarding its symptoms has led to Chronic UTIs which cause recurrence, antibiotic resistance and kidney infections. The current diagnostic methods include antibody-based assays which require cold-chain, technical expertise and laboratory conditions. We therefore propose a novel, cost-effective and point-of-care solution for the detection of UTI-causing bacteria using an aptamer-based strategy.</p>
-				</div>
-				<div class="col-lg-6">
-
-					<div class="col-lg-7" style="width: 75%;">
-						<div class="img-property-slide-wrap">
-							<div class="img-property-slide" style="margin-left: 10rem; margin-right: -8rem;">
-								<div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-									<iframe
-										title="IISER_Berhampur: Apt4UTI: An Aptamer Based Diagnostic Kit for UTI (2022) - Project Promotion [English]"
-										width="100%" height="100%"
-										src="https://video.igem.org/videos/embed/05c68943-687d-441a-a82d-33aeda76eeba"
-										frameborder="0" allowfullscreen=""
-										sandbox="allow-same-origin allow-scripts allow-popups"
-										style="position:absolute; top:0; left: 0"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Promo Video Ends -->
 
 	<!-- Sponsor Section begins -->
 
@@ -317,23 +249,26 @@
 			<div class="row">
 				<div class="col" data-aos="fade-in" data-aos-delay="0">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
-                        class="img-fluid" style="margin-top: 2rem;">
+						class="img-fluid" style="margin-top: 2rem;">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="0">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="200">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
 				<div class="col" data-aos="fade-in" data-aos-delay="300">
 					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
-                        class="img-fluid">
+						class="img-fluid">
 				</div>
+				<!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
 			</div>
 		</div>
 	</section>
@@ -376,14 +311,14 @@
 							</ul> -->
 
 						<ul class="list-unstyled social">
-							<li><a
-									href="https://www.instagram.com/igem.iiserbpr/"><span class="icon-instagram"></span></a>
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
 							</li>
 							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
 							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
 							</li>
-							<li><a
-									href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span class="icon-linkedin"></span></a>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
 							</li>
 						</ul>
 					</div> <!-- /.widget -->

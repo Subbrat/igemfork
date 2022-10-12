@@ -1,0 +1,1037 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/table_1.css">
+	<link rel="stylesheet" href="css/loader1.css">
+
+	<title>iGEM &mdash; Results</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<!-- <a href="home.html" class="logo m-0 float-start">iGEM</a> -->
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children active">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a>
+										</li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li><a href="contribution">Contribution</a></li>
+								<li class="active"><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+						<li><a href="partnership">Partnership</a></li>
+						<li class="has-children">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/results.jpg')"></div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 0rem;">
+		<div class="container">
+
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Results</h2>
+				</div>
+			</div>
+
+
+			<!-- Image with sentence sidewise -->
+
+			<div class="section" style="padding-bottom: 1rem;">
+				<div class="container">
+					<div class="row text-left mb-5">
+						<div class="col-lg-6">
+							<h2> <b>Experimental Results:</b></h2>
+							<p class="text-black-50">For an aptamer based detection kit for Urinary Tract Infections, we
+								started with two approaches, Whole cell based and ligand based approach. The plan made
+								out for a whole cell based approach did not meet the facilities available in the
+								institute currently. The team decided to shift to a ligand based approach. However,
+								IISER berhampur being in the rural area, there were delays in ordering and
+								transportation which slowed the process. With the best pf our capabilities we performed
+								the experiments and the results obtained till now are as follows:
+							</p>
+							<h2> <b>DH5 Alpha Plasmid:</b></h2>
+							<p>Cells transformed with pET28b+ plasmid, kindly provided by iGEM team CODEM, IISER
+								Berhampur, were inoculated into LB media.
+							</p>
+						</div>
+						<div class="col-lg-6">
+
+							<div class="col-lg-7" style="width: 80%;">
+								<div class="img-property-slide-wrap">
+									<div class="img-property-slide">
+										<img src="https://static.igem.wiki/teams/4449/wiki/project/results/flow1.png"
+											alt="Image" class="img-fluid">
+
+									</div>
+								</div>
+							</div>
+
+
+
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Image with sentence sidewise ends-->
+
+
+
+
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+
+	<!-- Image sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+		<div class="container">
+
+			<div class="row text-left mb-5">
+				<div class="col-lg-7" style="width: 50%;">
+					<div class="img-property-slide-wrap">
+						<div class="img-property-slide">
+							<img src="https://static.igem.wiki/teams/4449/wiki/project/results/results-1.png"
+								alt="Image" class="img-fluid" style="height: 45rem; height: 30rem;	margin-top: 8rem;">
+							<p>pET28b+ plasmid isolation</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6" style="width: 50%;">
+					<div class="img-property-slide-wrap" style="padding-top: 20px;">
+						<div class="img-property-slide">
+							<img src="https://static.igem.wiki/teams/4449/wiki/project/results/slide21.jpg" alt="Image"
+								class="img-fluid" style="height: 45rem;">
+							<P>Figure: Lane 1 & 2 represent plasmids from the QIAGEN Kit and Lane 3 is plasmid from
+								Promega</P>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image sidewise ends-->
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6">
+					<p class="text-black-50" align="justify">Plasmid was isolated from transformed cells using different
+						methods. Alkaline lysis for plasmid isolation created purity issues. Therefore, the team decided
+						to shift to kit based methods. Promega kit and QIAGEN were then used to perform the analysis. We
+						got the highest concentration of plasmid when we used the QIAGEN kit and this was mainly used
+						for further experiments.Through Alkaline lysis method we got very less concentration but through
+						the gel electrophoresis it was confirmed that there was no genomic DNA contamination. The
+						plasmid produced results are shown here.
+					</p>
+					<p class="text-black-50" align="justify"> Concentration of the plasmids obtained from different
+						methods using nandrop is shown here:
+					</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 80%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide">
+								<!-- SLider Section begins -->
+								<div class="section section-5 bg-light"
+									style="padding-bottom: 0rem; --bs-light-rgb: #fff; padding-top: 0rem;">
+									<div class="container">
+										<div class="section" style="padding-top: 1rem;">
+											<div class="container">
+												<div class="row justify-content-between">
+													<div class="col-lg-5 pe-lg-5" data-aos="fade-up"
+														data-aos-delay="200" style="width: 100%;">
+
+														<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab"
+															role="tablist">
+															<li class="nav-item" role="presentation">
+																<button class="nav-link active" id="pills-mission-tab"
+																	data-bs-toggle="pill"
+																	data-bs-target="#pills-mission" type="button"
+																	role="tab" aria-controls="pills-mission"
+																	aria-selected="true">QIAGEN Kit</button>
+															</li>
+															<li class="nav-item" role="presentation">
+																<button class="nav-link" id="pills-values-tab"
+																	data-bs-toggle="pill" data-bs-target="#pills-values"
+																	type="button" role="tab"
+																	aria-controls="pills-values"
+																	aria-selected="false">Promega Kit
+																</button>
+															</li>
+															<li class="nav-item" role="presentation">
+																<button class="nav-link" id="pills-signs-tab"
+																	data-bs-toggle="pill" data-bs-target="#pills-signs"
+																	type="button" role="tab" aria-controls="pills-signs"
+																	aria-selected="false">Alkaline Lysis
+																</button>
+															</li>
+														</ul>
+
+
+														<div class="tab-content" id="pills-tabContent">
+															<div class="tab-pane fade show active" id="pills-mission"
+																role="tabpanel" aria-labelledby="pills-mission-tab">
+																<h2 class="mb-3 text-primary fw-bold">QIAGEN Kit</h2>
+																<!-- Timeline_1 begins -->
+
+
+																<!-- Table design begins -->
+
+																<div class="container_1">
+																	<table class="rwd-table">
+																		<tbody>
+																			<tr>
+																				<th>Colony</th>
+																				<th>Concentration (ng/μl)</th>
+																				<th>A260/A280</th>
+																				<th>A260/A230</th>
+																			</tr>
+																			<tr>
+																				<td data-th="Colony">
+																					C1
+																				</td>
+																				<td data-th="Concentration (ng/μl)">
+																					87.2
+																				</td>
+																				<td data-th="A260/A320">
+																					1.98
+																				</td>
+																				<td data-th="A260/A280">
+																					2.10
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td data-th="Colony">
+																					C1 (Replicate)
+																				</td>
+																				<td data-th="Concentration (ng/μl)">
+																					73.2
+																				</td>
+																				<td data-th="A260/A320">
+																					1.99
+																				</td>
+																				<td data-th="A260/A280">
+																					2.02
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+
+
+																<!-- Table design ends -->
+																<!-- Timeline_1 ends -->
+																<p class="mt-5">
+																</p>
+															</div>
+
+
+
+															<div class="tab-pane fade" id="pills-values" role="tabpanel"
+																aria-labelledby="pills-values-tab">
+																<h2 class="mb-3 text-primary fw-bold">Promega Kit
+																</h2>
+																<!-- Table design begins -->
+
+																<div class="container_1">
+																	<table class="rwd-table">
+																		<tbody>
+																			<tr>
+																				<th>Colony</th>
+																				<th>Concentration (ng/μl)</th>
+																				<th>A260/A280</th>
+																				<th>A260/A230</th>
+																			</tr>
+																			<tr>
+																				<td data-th="Colony">
+																					C1
+																				</td>
+																				<td data-th="Concentration (ng/μl)">
+																					28.8
+																				</td>
+																				<td data-th="A260/A320">
+																					1.77
+																				</td>
+																				<td data-th="A260/A280">
+																					1.79
+																				</td>
+																			</tr>
+
+																			<tr>
+																				<td data-th="Colony">
+																					C1 (Replicate)
+																				</td>
+																				<td data-th="Concentration (ng/μl)">
+																					30.1
+																				</td>
+																				<td data-th="A260/A320">
+																					1.80
+																				</td>
+																				<td data-th="A260/A280">
+																					1.72
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+
+
+																<!-- Table design ends -->
+
+
+
+																<p class="mt-5">
+																</p>
+															</div>
+
+
+
+															<div class="tab-pane fade" id="pills-signs" role="tabpanel"
+																aria-labelledby="pills-signs-tab">
+																<h2 class="mb-3 text-primary fw-bold">Alkaline Lysis
+																</h2>
+																<!-- Table design begins -->
+
+																<div class="container_1">
+																	<table class="rwd-table">
+																		<tbody>
+																			<tr>
+																				<th>Colony</th>
+																				<th>Concentration (ng/μl)</th>
+																				<th>A260/A280</th>
+																				<th>A260/A230</th>
+																			</tr>
+																			<tr>
+																				<td data-th="Colony">
+																					C1
+																				</td>
+																				<td data-th="Concentration (ng/μl)">
+																					31
+																				</td>
+																				<td data-th="A260/A320">
+																					1.87
+																				</td>
+																				<td data-th="A260/A280">
+																					2.20
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+
+
+																<!-- Table design ends -->
+																<p class="mt-5">
+																</p>
+															</div>
+
+
+
+
+
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<!-- Slider Section ends -->
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;     padding-top: 0rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6">
+					<h2> <b>FimH fragment PCR gel electrophoresis:</b></h2>
+					<p class="text-black-50">For the cloning experiment, the FimH fragments were amplified using
+						polymerase chain reaction. For the optimization, annealing temperature was kept at 58 degree
+						celsius. After the amplification, the PCR product and isolated plasmid were digested using
+						appropriate restriction enzymes. Gel bands and concentration obtained as a result are shown
+						below:
+					</p>
+				</div>
+				<div class="col-lg-6">
+
+					<div class="col-lg-7" style="width: 80%;">
+						<div class="img-property-slide-wrap">
+							<div class="img-property-slide">
+								<img src="https://static.igem.wiki/teams/4449/wiki/project/results/flow2.png"
+									alt="Image" class="img-fluid">
+
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 0rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+
+					<!-- Image sidewise -->
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 4rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-7" style="width: 40%;">
+									<div class="img-property-slide-wrap">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/slide1.jpg"
+												alt="Image" class="img-fluid">
+
+											<p class="text-black-50" align="center"> PCR amplified FimH insert
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6" style="width: 50%;">
+									<div class="img-property-slide-wrap" style="padding-top: 0px;">
+										<div class="img-property-slide">
+											<!-- Table design begins -->
+
+											<div class="container_1" style="padding-bottom: 2rem; width: 60%;">
+												<table class="rwd-table">
+													<tbody>
+														<tr>
+															<th>ds DNA</th>
+															<th>Concentration (ng/μl)</th>
+															<th>A260/A280</th>
+															<th>A260/A230</th>
+														</tr>
+														<tr>
+															<td data-th="ds DNA">
+																FimH Insert
+															</td>
+															<td data-th="Concentration (ng/μl)">
+																58.1
+															</td>
+															<td data-th="A260/A280">
+																1.70
+															</td>
+															<td data-th="A260/A230">
+																0.19
+															</td>
+														</tr>
+													</tbody>
+												</table>
+
+											</div>
+											<!-- Table design ends -->
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image sidewise ends-->
+
+
+					<!-- Image sidewise -->
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 4rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-7" style="width: 40%;">
+									<div class="img-property-slide-wrap">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/slide3.jpg"
+												alt="Image" class="img-fluid">
+
+											<p class="text-black-50" align="center"> Digested Plasmid and Insert.
+												Plasmid is of 5368 bps and insert is of 557 bps.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6" style="width: 50%;">
+									<div class="img-property-slide-wrap" style="padding-top: 0px;">
+										<div class="img-property-slide">
+											<!-- Table design begins -->
+
+											<div class="container_1" style="padding-bottom: 2rem; width: 60%;">
+												<table class="rwd-table">
+													<tbody>
+														<tr>
+															<th>ds DNA</th>
+															<th>Concentration (ng/μl)</th>
+															<th>A260/A280</th>
+															<th>A260/A230</th>
+														</tr>
+														<tr>
+															<td data-th="ds DNA">
+																pET28+
+															</td>
+															<td data-th="Concentration (ng/μl)">
+																19.3
+															</td>
+															<td data-th="A260/A280">
+																1.85
+															</td>
+															<td data-th="A260/A230">
+																0.01
+															</td>
+														</tr>
+														<tr>
+															<td data-th="ds DNA">
+																FimH
+															</td>
+															<td data-th="Concentration (ng/μl)">
+																34.2
+															</td>
+															<td data-th="A260/A280">
+																1.61
+															</td>
+															<td data-th="A260/A230">
+																0.14
+															</td>
+														</tr>
+
+													</tbody>
+												</table>
+
+											</div>
+											<!-- Table design ends -->
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image sidewise ends-->
+
+
+
+
+					<p>After the restriction digestion, digested products were extracted and used for ligation. Ligated
+						products were then used for transformation of DH5 alpha colonies. For the confirmation of
+						ligated plasmids the colonies were used to perform Colony PCR. We are still in the process of optimization of the purification process.</p>
+
+
+
+					<!-- Image sidewise -->
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+						<div class="container">
+
+							<div class="row text-left mb-5">
+								<div class="col-lg-7" style="width: 100%;">
+									<div class="img-property-slide-wrap">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/presentation1.jpg"
+												alt="Image" class="img-fluid"
+												style="display: block; box-sizing: border-box; margin-right: auto; margin-left: auto;">
+												<P align="center"><b>Transformed colonies of Ligated Product</b></P>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image sidewise ends-->
+
+					<!-- Image sidewise -->
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+						<div class="container">
+
+							<div class="row text-left mb-5">
+								<div class="col-lg-7" style="width: 100%;">
+									<div class="img-property-slide-wrap">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/ccr.png"
+												alt="Image" class="img-fluid"
+												style="display: block; box-sizing: border-box; margin-right: auto; margin-left: auto;">
+												<p align="center"><b>Map of restriction digestion of Xho Ⅰ and Nco Ⅰ and ligation using snapgene</b></p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image sidewise ends-->
+
+
+
+
+
+
+
+					<div class="section" style="padding-bottom: 0rem;  margin-top: -3rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-6" style="width: 100%;">
+									<h2 class="heading text-primary" align="left">Cloning</h2>
+									<p class="text-black-50" align="justify">For the cloning experiment we have
+										developed three plasmids using Snapgene. down below are shown the plasmids designed by the biobrick team for cloning experiments: </p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image with sentence sidewise ends-->
+
+
+					<!-- Image sidewise -->
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+						<div class="container">
+
+							<div class="row text-left mb-5">
+								<div class="col-lg-7" style="width: 50%;">
+									<div class="img-property-slide-wrap">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-4.png"
+												alt="Image" class="img-fluid">
+											<p align="center">Figure: This plasmid is obtained from the cloning of FimH
+												into pET28+ for the expression of FimH protein. </p>
+
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6" style="width: 50%;">
+									<div class="img-property-slide-wrap" style="padding-top: 20px;">
+										<div class="img-property-slide">
+											<img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-5.png"
+												alt="Image" class="img-fluid">
+											<p align="center">Figure: This plasmid is for the assurance that the aptamer
+												does not bind to the his tag instead binds to the FimH protein only.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image sidewise ends-->
+
+
+
+					<div class="section" style="padding-bottom: 1rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-6">
+									<p class="text-black-50">
+									<ul>
+										<li>In future planned experiments, the cloned plasmid and transformed cells we
+											can now initiate the process of purification of FimH protein using Ni-NTA
+											Kit. Which will be then used for the ligand based SELEX to find the aptamer
+											high specific binding affinity towards the fimH protein and which will then
+											be validated by the whole cell selex.</li>
+									</ul>
+									</p>
+								</div>
+								<div class="col-lg-6">
+
+									<div class="col-lg-7" style="width: 80%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-6.png"
+													alt="Image" class="img-fluid">
+												<p>Figure: This plasmid is for the negative control to ensure that the
+													aptamers don't bind to protein other than FimH.</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<!-- Image with sentence sidewise -->
+					<div class="section" style="padding-bottom: 1rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-6">
+									<p class="text-black-50">
+									<h2 class="heading text-primary">Modelling Work</h2>
+									<ul>
+										<li>We generated the 3D conformation of aptamer sequences(ssDNA sequences) using
+											a similar protocol used for RNA sequence structure prediction.</li>
+										<li>We also generated the 3D structure of FimH sequence using AlphaFold2 deep
+											learning model
+											Through our dry lab work, we screened aptamers with highest affinity for
+											ligand FimH. After the purification of the protein this in-silico generated
+											library will be used for the screening of the best aptamer for usage in the
+											detection kit.
+										</li>
+										<li>Using the end product from aptamer assay, we intend to develop the UTI
+											detection kit.</li>
+									</ul>
+									</p>
+								</div>
+								<div class="col-lg-6">
+
+									<div class="col-lg-7" style="width: 80%;">
+										<div class="img-property-slide-wrap">
+											<div class="img-property-slide">
+												<img src="https://static.igem.wiki/teams/4449/wiki/project/results/modelling-result.png"
+													alt="Image" class="img-fluid">
+												<p align="center"><b>3D structure of an Aptamer from our Aptamer library</b></p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Image with sentence sidewise ends-->
+
+
+					<!-- Image with sentence sidewise -->
+
+					<div class="section" style="padding-bottom: 0rem;">
+						<div class="container">
+							<div class="row text-left mb-5">
+								<div class="col-lg-6" style="width: 100%;">
+									<h2 class="heading text-primary">Project beyond the detection kit</h2>
+									<p class="text-black-50" align="justify">
+									<ul>
+										<li>The target of our project of building a detection kit doesn't stop there, we
+											on a small level in rural areas of Odisha tried to spread awareness about
+											UTI so people become aware of the disease first. We as a team then spread
+											the word in regional language so that the taboo of talking about UTI in
+											public could be demolished. Only once rurals will talk about this infection,
+											will they come forward to use a device like a Detection kit. </li>
+										<li>We held an awareness campaign to spread the word of usage of detection
+											methods, current methods of detection and precautionary measures that can be
+											taken even in underdeveloped villages with minimal or no sanitary
+											conditions.
+										</li>
+										<li>In our efforts we conducted an awareness campaign and generated a survey
+											which would help us to lead our further research.
+
+										</li>
+										<li>As a little step we proposed to build public toilets and water supply to
+											villages lacking basic sanitation, for which we are seeking out funds.
+										</li>
+										<li>With the information obtained from the survey we tried our research to be
+											based on their underdeveloped condition where a laboratory and expertise
+											can’t be managed easily. </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image with sentence sidewise ends-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- Image with sentence sidewise ends-->
+
+
+	<!-- Sponsor Section begins -->
+
+	<section class="site-section">
+		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+			<div class="row">
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+						class="img-fluid" style="margin-top: 2rem;">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="200">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="300">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+						class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+</body>
+
+</html>

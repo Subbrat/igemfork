@@ -1,0 +1,1067 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="iGEM IISER Berhampur">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader1.css">
+    <link rel="stylesheet" href="css/timeline_1.css">
+
+
+    <title>iGEM &mdash; Education & Communication</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="menu-bg-wrap" style="padding: 8px 20px;">
+                <div class="site-navigation">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+                        style="max-width:3rem">
+
+                    <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="has-children">
+                            <a href="#">Project</a>
+                            <ul class="dropdown">
+                                <li><a href="description">Description</a></li>
+                                <li><a href="engineering">Engineering</a></li>
+                                <li><a href="implementation">Implementation</a></li>
+                                <li><a href="experiment">Experiment</a></li>
+                                <li class="has-children">
+                                    <a href="#">Notebook</a>
+                                    <ul class="dropdown">
+                                        <li><a href="journal">Lab Journals</a></li>
+                                        <li><a href="safety">Safety</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="proof-of-concept">Proof of Concept</a></li>
+                                <li><a href="contribution">Contribution</a></li>
+                                <li><a href="results">Result</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="model">Modelling</a></li>
+                        <li class="has-children active">
+                            <a href="#">Human Practices</a>
+                            <ul class="dropdown">
+                                <li><a href="human-practices">Integrated Human Practices</a></li>
+                                <li class="active"><a href="communication">Education & Communication</a></li>
+                                <li><a href="collaborations">Collaboration</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Team</a>
+                            <ul class="dropdown">
+                                <li><a href="members">Members</a></li>
+                                <li><a href="attributions">Attribution</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="biobricks">Biobricks</a></li>
+                        <li><a href="partnership">Partnership</a></li>
+                        <li class="has-children">
+                            <a href="#">Achievements</a>
+                            <ul class="dropdown">
+                                <li><a href="awards">Awards and Medals</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-children">
+                            <a href="#">Entrepreneurship</a>
+                            <ul class="dropdown">
+                                <li><a href="overview">Overview</a></li>
+                                <li><a href="market-size">Market Size</a></li>
+                                <li><a href="businessplan">Competitors and Business Plan</a></li>
+                                <li><a href="entrepreneurship_team">Our team</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <a href="#"
+                        class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                        data-toggle="collapse" data-target="#main-navbar">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+
+        <div class="hero-slide">
+            <div class="img overlay"
+                style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/education-and-communication.jpg')">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center">
+                    <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Image with sentence sidewise -->
+
+    <div class="section" style="padding-bottom: 1rem;">
+        <div class="container">
+            <div class="row justify-content-center  text-center mb-5">
+                <div class="col-lg-6 mb-5">
+                    <h2 class="font-weight-bold heading text-primary mb-4">Education & Communication</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+    <!-- Image with sentence sidewise -->
+
+    <div class="section" style="padding-bottom: 1rem;">
+        <div class="container">
+            <div class="row text-left mb-5">
+                <div class="col-lg-6">
+
+                    <b>
+                        <h3>
+                            <li>Survey</li>
+                        </h3>
+                    </b>
+                    <p class="text-black-50" align="justify">We conducted an awareness survey in the online format
+                        as an
+                        evaluation and informative tool. We were able to gather nearly 250 responses, which helped
+                        us
+                        evaluate how to educate people regarding Urinary Tract Infections and propagate our solution
+                        to
+                        the locals. Dr. Blessy, our Institute’s Chief Medical Officer, helped us shape our survey to
+                        get
+                        the most accurate responses suitable for our analysis.</p>
+                    <p class="text-black-50" align="justify">This survey was useful in creating our flyers, which
+                        was
+                        curated with the help of our institute’s Jigyansa team. These flyers were spread throughout
+                        our
+                        institute as well as the villages we visited. This survey helped us and the villagers
+                        comprehend
+                        the urgency with which we needed to address the question of the diagnosis of Urinary Tract
+                        Infections. Based on the survey, we received the following statistics:</p>
+                    <p class="text-black-50" align="justify">
+                    <ul>
+                        <li>Out of the 202 people who answered the survey, 108 were males and 94 were females.
+                        </li>
+                        <li>89.3% of the respondents were aware of what Urinary Tract Infections are.</li>
+                        <li>91.6% of the respondents believed that UTIs are treatable, while 7.9% believed that UTIs
+                            are
+                            not completely treatable.</li>
+                        <li>91.1% of the respondents believed that females were affected more than males.
+                        </li>
+                    </ul>
+                    </p>
+
+                    <p>We received the statistics that out of all the uropathogenic bacteria that cause UTIs, 42.6%
+                        of
+                        the infections were caused by E. coli. Results from isolated urine samples showed that 90.3%
+                        of
+                        the infections caused were due to Gram Negative Bacteria.
+                    </p>
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="col-lg-7">
+                        <div class="img-property-slide-wrap">
+                            <div class="img-property-slide">
+                                <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image1.jpg" alt="Image"
+                                    class="img-fluid" style="width: calc(100%);">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-6">
+                    <b>
+                        <h3>
+                            <li>Village</li>
+                        </h3>
+                    </b>
+                    <p class="text-black-50" align="justify">We extended our awareness program to four villages local to
+                        the Permanent campus, IISER Berhampur. With the help of our friend from BS-MS 2020, Usha Kiran
+                        Sahoo and our team member Sandesh Katakam, we were able to successfully conduct this survey by
+                        breaking language barriers and communicating in Odia, Telugu and Hindi.
+                        The following villages were under this initiative:
+                    </p>
+                    <p class="text-black-50" align="justify">The following villages were under this initiative:
+                    <ul>
+                        <li>Laudigaum</li>
+                        <li>Keluapalli</li>
+                        <li>Kirtipur</li>
+                        <li>Solabindha</li>
+                    </ul>
+
+                    People from different age groups were asked questions regarding the sanitation conditions of their
+                    restrooms and the frequency of the symptoms pertaining to Urinary Tract Infections.
+                    </p>
+                    <p class="text-black-50" align="justify">
+                        We learnt that :
+                    <ul>
+                        <li>None of the villages that we visited had a public washroom.
+                        </li>
+                        <li>Each house had one washroom, which was used by nearly 4-6 people.</li>
+                        <li>This Washroom was cleaned every 3-4 days.</li>
+                        <li>Urinary Tract Infections are more common during summer, with nearly 9-10 people having
+                            experienced it in April 2022.</li>
+                        <li>People assume that UTIs are caused due to dehydration - they drink a lot of water and ignore
+                            the symptoms post this.</li>
+                        <li>This has led to a higher number of kidney infections in Laudigaum this summer.</li>
+                        <li>Local doctors, near Laudigaum, are not giving specialized antibiotics to treat UTIs. A
+                            common set of medicines including general antibiotics and paracetamol are given for all
+                            medical problems.</li>
+                        <li>It was reported by the villages authority that there is a sharp rise in the kidney-related
+                            medical conditions among the village population.</li>
+                        <li>There was a stigma associated with the urinary tract information among the locals, most were
+                            very shy to answer to survey questions honestly.</li>
+                    </ul>
+                    </p>
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="col-lg-7">
+                        <div class="img-property-slide-wrap">
+                            <div class="img-property-slide">
+                                <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image9.jpg" alt="Image"
+                                    class="img-fluid" style="width: calc(100%);">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Image sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                    <div class="container">
+
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-7" style="width: 40%;">
+                                <div class="img-property-slide-wrap">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image7.jpg"
+                                            alt="Image" class="img-fluid" style="height: 18rem;">
+                                            <p align="justify">Figure: Our visit to the village of Keluapalli</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6" style="width: 60%;">
+                                <div class="img-property-slide-wrap" style="padding-top: 20px;">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/e-c/flyer.png" alt="Image"
+                                            class="img-fluid" style="margin-top: -1rem; height: 18rem;">
+                                            <p align="justify">Figure: Flyer
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image sidewise ends-->
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6" style="width: 100%;">
+                                <b>
+                                    <h2 class="heading text-primary">Talk by Dr. Blessy, Dr. Anjana</h2>
+                                </b>
+                                <p class="text-black-50" align="justify">Dr. Blessy conducted a talk on Basics and
+                                    Clinical Aspects of UTI, in collaboration with our team, and held it in the offline
+                                    mode. Dr. Blessy extended her advice in the improvement of the surveys we had
+                                    planned to publicise and helped us understand the interactions between virulence
+                                    factors and the uroepithelium. She advised us about the sensitivity of the survey
+                                    and aided us in revising and updating the questionnaire to suit the mindsets of
+                                    people. </p>
+                                <p>Dr. Anjana introduced us to the strong link between Diabetes and UTI. Her expertise
+                                    in the field of Diabetes has helped us focus on how diabetic medications can trigger
+                                    urinary tract infections and how kidney abscesses can also be traced back to UTIs.
+                                    She also instructed on the importance of asymptomatic UTIs and how to trace and
+                                    track them. Her advice has helped us shape how we approach diabetics regarding our
+                                    project and how to modify our questions when we reach out to diabetologists for a
+                                    statistical perspective.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6" style="width: 100%;">
+                                <b>
+                                    <h2 class="heading text-primary"> Epidemiological Modeling</h2>
+                                </b>
+                                <p class="text-black-50" align="justify">In collaboration with the members of the
+                                    modeling team, we helped generate a world heat map that depicted the incidence and
+                                    mortality rates of Urinary Tract Infections, normalized to the population of each
+                                    country. This work involved manually adding the incidence and corresponding death
+                                    rates for nearly 177 countries and then normalizing them with the total population
+                                    index. The information for these charts and visualization graphs were obtained from
+                                    the Global Burden of Disease, from the year 2019.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+                <!-- Image sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                    <div class="container">
+
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-7" style="width: 100%;">
+                                <div class="img-property-slide-wrap">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image5.jpg"
+                                            alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image sidewise ends-->
+
+
+                <p>This website also provided the incidence and mortality rates of UTIs in India from 1990 to 2019, and
+                    provided charts for the same. This data and the map have helped us immensely while pitching and
+                    portraying our project to investors, sponsors and the public forum. In addition, on our visit to the
+                    local diagnostic and research lab, Nidan, we came across data involving children below the age of 5
+                    to have a startlingly higher number of cases. This also helped us reform our target populations to
+                    include toddlers and babies.
+                </p>
+
+
+
+                <!-- Image sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                    <div class="container">
+
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-7" style="width: 50%;">
+                                <div class="img-property-slide-wrap">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image10.png"
+                                            alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6" style="width: 50%;">
+                                <div class="img-property-slide-wrap" style="padding-top: 20px;">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image19.png"
+                                            alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image sidewise ends-->
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <p class="text-black-50" align="justify">During our pitch to our Institute’s director,
+                                    Dr. K. V. R. Chary, epidemiological modeling had helped us highlight the importance
+                                    of our project in the local areas, via the survey, as well as portray the global
+                                    significance of our solution. In addition, presentation in the Startup Odisha 2.0
+                                    Program, these graphs had helped us emphasize on the empathetic nature with which we
+                                    would have to address this issue and allowed us to put across the key point of how
+                                    countries in underdeveloped or developing continents still face a staggeringly huge
+                                    number of cases and deaths primarily related to Urinary Tract Infections.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image17.jpg"
+                                                alt="Image" class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <h2>Talk on Women’s Health - Dr. Indira Palo <h5><i>(Asst. Prof. OBGYN)</i></h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">We have collaborated with IIT Roorkee, IISER
+                                    Tirupati, IISER Mohali and IISER Trivandrum to conduct a women health talk series,
+                                    conducted in an online format on October 1 and 2.
+                                </p>
+                                <p class="text-black-50" align="justify">We-Talk is a collaborative event organised by
+                                    four iGEM teams from across IISER Tirupati, IISER Thiruvananthapuram, IISER
+                                    Berhampur and IIT Roorkee.
+                                </p>
+                                <p class="text-black-50" align="justify">It was a collaborative 3-day event highlighting
+                                    conversations centred around women’s health issues. Featuring an informational array
+                                    of talks, interviews, a panel discussion, and an exciting quiz!
+                                </p>
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image21.png"
+                                                alt="Image" class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+                <!-- Timeline_1 begins -->
+
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <ul>
+                            <li style="background-color: #203246;">
+                                <div class="timeline-content">
+                                    <h3 class="date" style="color: #fcf7db;">1st October, 2022</h3>
+                                    <h1 style="color: #fcf7db;">Interview with Dr. Manjiri Bakre, CEO and Founder of
+                                        OncoStem Diagnostics</h1>
+                                    <p style="color: #fcf7db;">11:00 AM -12:00 PM IST</p>
+                                </div>
+                            </li>
+                            <li style="background-color: #203246;">
+                                <div class="timeline-content">
+                                    <h3 class="date" style="color: #fcf7db;">1st October, 2022</h3>
+                                    <h1 style="color: #fcf7db;">Quiz: Let's celebrate Women in STEM</h1>
+                                    <p style="color: #fcf7db;">12:00 PM - 1:00 PM IST</p>
+                                </div>
+                            </li>
+                            <li style="background-color: #203246;">
+                                <div class="timeline-content">
+                                    <h3 class="date" style="color: #fcf7db;">2nd October, 2022</h3>
+                                    <h1 style="color: #fcf7db;">Topic: Menstrual Hygiene and Challenges in Adolescent
+                                        Girls</h1>
+                                    <p style="color: #fcf7db;">Talk: Dr. Indira Palo, Gynecologist & Obstetrician Doctor
+                                    </p>
+                                    <p style="color: #fcf7db;">10:00 AM - 11:00 AM IST</p>
+                                </div>
+                            </li>
+                            <li style="background-color: #203246;">
+                                <div class="timeline-content">
+                                    <h3 class="date" style="color: #fcf7db;">2nd October, 2022</h3>
+                                    <h1 style="color: #fcf7db;">Topic: Cervical Cancer & Breast Cancer</h1>
+                                    <p style="color: #fcf7db;">Talk: Dr Prerna Lakhwani, Senior Gynecologic Oncologist
+                                    </p>
+                                    <p style="color: #fcf7db;">5:00 PM - 6:00 PM IST</p>
+                                </div>
+                            </li>
+                            <li style="background-color: #203246;">
+                                <div class="timeline-content">
+                                    <h3 class="date" style="color: #fcf7db;">3nd October, 2022</h3>
+                                    <h1 style="color: #fcf7db;">Panel discussion: A round-robin among collaborators</h1>
+                                    <p style="color: #fcf7db;">3:00 PM - 4:00 PM IST</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Timeline_1 ends -->
+
+
+
+                <h2>Synthetic Biology</h2>
+                <p>Furthermore, IISER Berhampur and IISER Trivandrum joined together to spread awareness awareness about
+                    synbio in their local schools using fun games and activities which would entertain the young minds
+                    while also educating them about various topics such genetic engineering and GMOs.</p>
+
+
+                <!-- Image sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                    <div class="container">
+
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-7" style="width: 100%;">
+                                <div class="img-property-slide-wrap">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/educomm/image3.jpg"
+                                            alt="Image" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image sidewise ends-->
+
+
+                <!-- Image sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                    <div class="container">
+
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-7" style="width: 100%;">
+                                <div class="img-property-slide-wrap">
+                                    <div class="img-property-slide">
+                                        <img src="https://static.igem.wiki/teams/4449/wiki/hp/syn-bio.png" alt="Image"
+                                            class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image sidewise ends-->
+
+
+                <h2><b>Discussion with experts</b></h2>
+                <p>Our research and our efforts in bringing up a user-friendly solution are important but are valued
+                    several times more when the real world deems it necessary and useful. Wide-spread awareness on the
+                    importance of our project is highly critical in order to assign significance based on the demography
+                    of concern. Since we intend to help women, people from the economically weaker sections and patients
+                    with uncontrolled diabetes in particular, we requested for advice and guidance from experts in the
+                    fields of diabetics, aptamer designing and women’s health.</p>
+
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <h2 class="heading text-primary">Dr. K. V. R. Chary <h5><i>(Director, IISER
+                                            Berhampur)</i> </h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">Dr. K.V.R. Chary, our honorable director, has
+                                    provided us
+                                    with instrumental advice regarding our laboratory procedures and the outlook of our
+                                    project to
+                                    the local masses. He asked us to get a perspective from the rural populations local
+                                    to
+                                    Brahmapur, Odisha and prompted us to carry forward with this project post iGEM by
+                                    pushing to
+                                    build public toilets in these villages. It was due to his guidance that we were able
+                                    to conduct
+                                    an awareness initiative in villages near our campus to understand the frequency of
+                                    usage and
+                                    cleaning in these washrooms. He was also instrumental in our registration for Grand
+                                    Jamboree and
+                                    we are extremely grateful for his consistent support for our research and our
+                                    project.</p>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/team/attribution/kvrchary.jpg"
+                                                alt="Image" class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <h2 class="heading text-primary">Dr. Blessymol Varghese <h5><i>(Chief Medical Officer,
+                                            IISER
+                                            Berhampur)</i> </h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">Dr. Blessy extended her advice in the
+                                    improvement of the
+                                    surveys we had planned to publicise and helped us understand the interactions
+                                    between virulence
+                                    factors and the uroepithelium. She advised us about the sensitivity of the survey
+                                    and aided us
+                                    in revising and updating the questionnaire to suit the mindsets of people. Dr.
+                                    Blessy also
+                                    helped us spread the awareness regarding UTIs by offering to conduct a talk in the
+                                    offline mode
+                                    in our institute.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/hp/blessy-talk.jpg"
+                                                alt="Image" class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <h2 class="heading text-primary">Dr. R M Anjana <h5><i> (Managing Director of Dr.
+                                            Mohan’s Diabetes
+                                            Specialities Centre and Vice President of Madras Diabetes Research
+                                            Foundation)</i></h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">Dr. Anjana introduced us to the strong link
+                                    between
+                                    Diabetes and UTI. Her expertise in the field of Diabetes has helped us focus on how
+                                    diabetic
+                                    medications can trigger urinary tract infections and how kidney abscesses can also
+                                    be traced
+                                    back to UTIs. She also instructed on the importance of asymptomatic UTIs and how to
+                                    trace and
+                                    track them. Her advice has helped us shape how we approach diabetics regarding our
+                                    project and
+                                    how to modify our questions when we reach out to diabetologists for a statistical
+                                    perspective.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/hp/anjana.jpg"
+                                                alt="Image" class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6">
+                                <h2 class="heading text-primary">Dr. Swapnil Sinha <h5><i>(Founder of Altanostics Pvt.
+                                            Ltd.)</i></h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">We were given the great opportunity to converse
+                                    with Dr.
+                                    Swapnil Sinha, the founder of Altanostics Pvt. Ltd. She is an expert in working with
+                                    aptamers
+                                    and their selection by SELEX. It was a very enlightening experience and we would
+                                    truly love to
+                                    interact with her in the future aspects of our project.</p>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="col-lg-7" style="width: 80%;">
+                                    <div class="img-property-slide-wrap">
+                                        <div class="img-property-slide">
+                                            <img src="https://static.igem.wiki/teams/4449/wiki/hp/sinha.png" alt="Image"
+                                                class="img-fluid" style="width: calc(80%);">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6" style="width: 100%;">
+                                <h2 class="heading text-primary">Dr. Narendra Chirmule <h5><i> (Founder-director of
+                                            SymphonyTech Biologics)</i></h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">We had a telephonic conversation with Dr.
+                                    Narendra
+                                    Chirmule, founder-director of SymphonyTech Biologics. He was also the Head of R&D of
+                                    Biocon
+                                    Research Labs, Bangalore. He was extremely enthusiastic to hear about our project
+                                    and advised us
+                                    to look into Intellectual Property Rights for the further development and industrial
+                                    scale-up of
+                                    our prototype. He extended his support and prompted us to reach out to him in case
+                                    we encounter
+                                    any speed bump in the course of the project.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+                <!-- Image with sentence sidewise -->
+
+                <div class="section" style="padding-bottom: 1rem;">
+                    <div class="container">
+                        <div class="row text-left mb-5">
+                            <div class="col-lg-6" style="width: 100%;">
+                                <h2 class="heading text-primary">Dr. Vasan Sambandamurthy <h5><i>(Senior Vice-President,
+                                            Global Operations, Bugworks)</i></h5>
+                                </h2>
+                                <p class="text-black-50" align="justify">Dr. Vasan was instrumental in reforming our
+                                    perspective and
+                                    pitch of the project. He took the time to shape our responses to questions commonly
+                                    asked by
+                                    judges and interviewers and also shared contacts who could help us go further in the
+                                    project.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Sponsor Section begins -->
+
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+                        class="img-fluid" style="margin-top: 2rem;">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section ends -->
+
+
+    <!-- Footer Setion begins -->
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>About us</h3>
+                        <address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+                            solution to detect uropathogenic bacteria at the point-of-care" </address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>Address</h3>
+                        <address>IISER Berhampur </br>
+                            Transit campus (Govt. ITI Building) </br>
+                            Engg. School Junction, Berhampur </br>
+                            Odisha 760010</address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4" style="width: 30%;">
+                    <div class="widget">
+                        <h3>Links</h3>
+                        <!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+                                        class="icon-instagram"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+                            <li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+                                        class="icon-linkedin"></span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+            </div> <!-- /.row -->
+
+
+
+
+
+            <div class="row mt-5" style="margin-top: 1rem !important;">
+                <div class="col-12 text-center">
+                    <p>Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> &mdash; Content on this site is
+                        licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+                            Attribution 4.0 International license.</a>
+                        <br>The repository used to create this website is available at <a
+                            href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+                        <br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+                            wiki Team</a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <!-- Footer Setion Ends -->
+
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript Links -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/loader1.js"></script>
+    <script src="js/progress.js"></script>
+
+</body>
+
+</html>

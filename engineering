@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="iGEM IISER Berhampur">
+	<link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loader1.css">
+	<link rel="stylesheet" href="css/table_1.css">
+
+
+	<title>iGEM &mdash; Engineering</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap" style="padding: 8px 20px;">
+				<div class="site-navigation">
+					<img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+						style="max-width:3rem">
+
+					<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+						<li><a href="index.html">Home</a></li>
+						<li class="has-children active">
+							<a href="#">Project</a>
+							<ul class="dropdown">
+								<li><a href="description">Description</a></li>
+								<li class="active"><a href="engineering">Engineering</a></li>
+								<li><a href="implementation">Implementation</a></li>
+								<li><a href="experiment">Experiment</a></li>
+								<li class="has-children">
+									<a href="#">Notebook</a>
+									<ul class="dropdown">
+										<li><a href="journal">Lab Journals</a></li>
+										<li><a href="safety">Safety</a></li>
+									</ul>
+								</li>
+								<li><a href="proof-of-concept">Proof of Concept</a></li>
+								<li><a href="contribution">Contribution</a></li>
+								<li><a href="results">Result</a></li>
+							</ul>
+						</li>
+						<li><a href="model">Modelling</a></li>
+						<li class="has-children">
+							<a href="#">Human Practices</a>
+							<ul class="dropdown">
+								<li><a href="human-practices">Integrated Human Practices</a></li>
+								<li><a href="communication">Education & Communication</a></li>
+								<li><a href="collaborations">Collaboration</a></li>
+							</ul>
+						</li>
+						<li class="has-children">
+							<a href="#">Team</a>
+							<ul class="dropdown">
+								<li><a href="members">Members</a></li>
+								<li><a href="attributions">Attribution</a></li>
+							</ul>
+						</li>
+						<li><a href="biobricks">Biobricks</a></li>
+						<li><a href="partnership">Partnership</a></li>
+						<li class="has-children">
+							<a href="#">Achievements</a>
+							<ul class="dropdown">
+								<li><a href="awards">Awards and Medals</a></li>
+							</ul>
+						</li>
+
+						<li class="has-children">
+							<a href="#">Entrepreneurship</a>
+							<ul class="dropdown">
+								<li><a href="overview">Overview</a></li>
+								<li><a href="market-size">Market Size</a></li>
+								<li><a href="businessplan">Competitors and Business Plan</a></li>
+								<li><a href="entrepreneurship_team">Our team</a></li>
+							</ul>
+						</li>
+
+					</ul>
+
+					<a href="#"
+						class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+						data-toggle="collapse" data-target="#main-navbar">
+						<span></span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero">
+
+
+		<div class="hero-slide">
+			<div class="img overlay"
+				style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/engineering.jpg')">
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-9 text-center">
+					<form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+						data-aos-delay="200">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem;">
+		<div class="container">
+			<div class="row justify-content-center  text-center mb-5">
+				<div class="col-lg-6 mb-5">
+					<h2 class="font-weight-bold heading text-primary mb-4">Engineering</h2>
+				</div>
+			</div>
+
+			<!-- Image with sentence sidewise -->
+
+			<div class="section" style="padding-bottom: 1rem;">
+				<div class="container">
+					<div class="row text-left mb-5">
+						<div class="col-lg-6">
+							<h3>Introduction</h3>
+							<p class="text-black-50">In this section we present the engineering process and how we
+								designed different processes in the cycle for our project, Apt4UTI.
+							</p>
+							<h3>Overview</h3>
+							<p class="text-black-50">Engineering part is like the heart of every igem project. Using
+								engineering as part of the journey of synthetic biology based projects to get meaningful
+								results is necessary as well as enjoying. We followed the following cycle to complete
+								the engineering part of our project.</p>
+							<p>Initially, we identified previously discovered aptamers in the same direction as of our
+								project followed by our own target as FimH protein. We did build part by contributing in
+								the BioBrick part. Our test section contains two different approaches, one from the
+								wetlab team and other from the modelling team. During our journey, we learned many
+								things and also brought improvements to the learned parts, which we have mentioned under
+								the learn and Improve section.</p>
+						</div>
+						<div class="col-lg-6">
+
+							<div class="col-lg-7" style="width: 80%;">
+								<div class="img-property-slide-wrap">
+									<div class="img-property-slide">
+										<img src="https://static.igem.wiki/teams/4449/wiki/project/image15.jpg"
+											alt="Image" class="img-fluid">
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Image with sentence sidewise ends-->
+		</div>
+	</div>
+
+
+
+
+
+	</div>
+
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h2 class="heading text-primary">Design</h2>
+					<h3>Introduction</h3>
+					<p>Our proposed aptamer based kit apt4uti kit is an engineered syn-bio device that can be used to
+						detect urinary tract infections in minutes with higher sensitivity and specificity. Aptamer is
+						developed based on the selex process. Selex is of two types, one ligand based selex and another
+						whole cell selex. Ligand based selex approaches target a particular component of target organism
+						which can be protein, DNA etc. whereas in whole cell selex, it is the whole cell is targeted.
+					</p>
+					<h2 class="heading text-primary">Aptamer Production</h2>
+					<h3><b>Method 1: Whole cell based selex approach</b></h3>
+					<p class="text-black-50" align="justify">We started our project ideas on this approach based on
+						previous research findings, after intense search and readings we got 5 random aptamer sequences
+						which are supposed to bind to uropathogenic bacteria and help in detection of uropathogens.</p>
+					<ol>
+						<li>Aptamer sequence 1- GGGAGGGGCGGCGAAGGAGTGGCG</li>
+						<li>Aptamer sequence 2- GGGCCCGAGTGGCGGTAGTTTCAG</li>
+						<li>Aptamer sequence 3- GGGCCGGAGGGGCGCCTGCACCCA</li>
+						<li>Aptamer sequence 4- GGCGAGGCAGGGTGCGGGGGCCCG</li>
+						<li>Aptamer sequence 5- GGCTTGGCTCCTCACGGGGGGTGA</li>
+					</ol>
+					<p>We placed the order of these 5 aptamer sequences from IDT for further characterization and
+						specificity
+						check.
+						Future prospective- We will test the specificity of each aptamer against negative control and
+						will reach
+						a conclusion of best aptamer sequence.
+					</p>
+
+					<h3><b>Method 2: Ligand based approach</b></h3>
+					<p>Groups of Uropathogenic bacteria have many basic similarities which can be targeted as ligand
+						based
+						approaches for aptamer design. We searched and cited a lot of paper to reach a conclusion on
+						targeting a
+						particular ligand. </p>
+
+					<!-- SLider Section begins -->
+					<div class="section section-5 bg-light" style="padding-bottom: 0rem;  --bs-light-rgb: #fff;">
+						<div class="container">
+							<div class="section" style="padding-top: 1rem; padding-bottom: 0rem;">
+								<div class="container">
+									<div class="row justify-content-between">
+										<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200"
+											style="width: 100%;">
+
+											<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab"
+												role="tablist">
+												<li class="nav-item" role="presentation">
+													<button class="nav-link active" id="pills-mission-tab"
+														data-bs-toggle="pill" data-bs-target="#pills-mission"
+														type="button" role="tab" aria-controls="pills-mission"
+														aria-selected="true">Target 01</button>
+												</li>
+												<li class="nav-item" role="presentation">
+													<button class="nav-link" id="pills-values-tab" data-bs-toggle="pill"
+														data-bs-target="#pills-values" type="button" role="tab"
+														aria-controls="pills-values" aria-selected="false">Target 02
+													</button>
+												</li>
+											</ul>
+											<div class="tab-content" id="pills-tabContent">
+												<div class="tab-pane fade show active" id="pills-mission"
+													role="tabpanel" aria-labelledby="pills-mission-tab">
+													<h2 class="mb-3 text-primary fw-bold">Surface structures</h2>
+													<!-- Image with sentence sidewise -->
+
+													<div class="section" style="padding-bottom: 1rem;">
+														<div class="container">
+															<div class="row text-left mb-5">
+																<div class="col-lg-6">
+																	<p class="text-black-50">Initially we thought to use
+																		a surface structure like fimbriae or pilli as a
+																		target but upon further citations and careful
+																		examinations, we found some drawbacks associated
+																		with targeting surface structures as a target
+																	</p>
+																	<p class="text-black-50">Problem associated with
+																		targeting surface structure was that fimbriae
+																		and pili have many types and were varying among
+																		different uropathogen categories hence targeting
+																		one of them is supposed to not provide better
+																		specificity and can target only few strains of
+																		uropathogens.</p>
+																</div>
+																<div class="col-lg-6">
+
+																	<div class="col-lg-7" style="width: 80%;">
+																		<div class="img-property-slide-wrap">
+																			<div class="img-property-slide">
+																				<img src="https://static.igem.wiki/teams/4449/wiki/home/engineering-surface.jpeg"
+																					alt="Image" class="img-fluid">
+																				<p>Figure: List of virulence factors of
+																					different uropathogens.
+																				</p>
+
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+
+														</div>
+													</div>
+
+													<!-- Image with sentence sidewise ends-->
+
+													<p class="mt-5">
+													</p>
+												</div>
+												<div class="tab-pane fade" id="pills-values" role="tabpanel"
+													aria-labelledby="pills-values-tab">
+													<h2 class="mb-3 text-primary fw-bold">Fimh protein</h2>
+													<p>Upon more careful examinations and readings, we reported Fimh as
+														a better
+														target than surface structures as it is common in almost all
+														uropathogens.
+														We ordered the Fimh protein sequence from Twist biosciences.</p>
+													<p>The ordered sequence is: </p>
+													<p style="margin-bottom: 0rem;">
+														aaacgtgtgattaccctgtttgcagttctgctgatgggttggagcgttaatgcatggtcatttgcatgtaaaaccgcaaa
+													</p>
+													<p style="margin-bottom: 0rem;">
+														tggcaccgcaattccgattggtggtggtagcgcaaatgtttatgttaatctggcaccggcagttaatgttggtcagaatc
+													</p>
+													<p style="margin-bottom: 0rem;">
+														tggttgttgatctgagcacccagattttttgccataatgattatccggaaaccatcaccgattatgttaccctgcagcgt
+													</p>
+													<p style="margin-bottom: 0rem;">
+														ggtgcagcatatggtggtgttctgagcagctttagcggcaccgtgaaatataacggtagcagctatccgtttccgaccac
+													</p>
+													<p style="margin-bottom: 0rem;">
+														cagtgaaacaccgcgtgttgtgtataatagccgtaccgataaaccgtggcctgttgcactgtatctgacaccggttagca
+													</p>
+													<p style="margin-bottom: 0rem;">
+														gtgccggtggtgttgcaattaaagcaggtagcctgattgccgttctgattctgcgtcagaccaataactataactccgat
+													</p>
+													<p style="margin-bottom: 0rem;">
+														gattttcagtttgtgtggaacatctatgccaataatgatgttgttgttccgacg
+													</p>
+
+
+													<!-- Image with sentence sidewise -->
+
+													<div class="section" style="padding-bottom: 1rem;">
+														<div class="container">
+															<div class="row text-left mb-5">
+																<div class="col-lg-6">
+																	<h4 class="mb-3 text-primary fw-bold">Hardware
+																	</h4>
+																	<p class="text-black-50" align="justify">The method
+																		we will be
+																		adapting to design kit is known as Aptamer-based
+																		lateral flow assay. An LFA system is composed of
+																		five parts a pad for sample loading; a conjugate
+																		pad containing the conjugate of target-specific
+																		recognition molecules with colored or
+																		fluorescent particles (CPs); a membrane
+																		immobilizing the sensor that recognizes targets
+																		at the test line and molecules that capture
+																		conjugate from the conjugate pad at the control
+																		line; an absorbent pad for wicking the sample
+																		liquid flow through the conjugate pad and the
+																		membrane; and a supportive backing pad for the
+																		system. Generally, LFAs can be divided into two
+																		formats: direct assay and competitive assay. For
+																		direct assays, target-containing samples
+																		infiltrate the conjugate pad where targets bind
+																		recognition molecules conjugated with CPs. CPs
+																		are detained in the test line, as bound targets
+																		contain an immobilized sensor. The remaining CPs
+																		are captured and retained by the immobilized CPs
+																		binding molecules. As a result, both the test
+																		and control lines will be colored. However, if
+																		the sample lacks the target, only the control
+																		line becomes colored. For competitive format
+																		assays, the principle is the same as direct
+																		assays, but the result interpretation is
+																		reversed, i.e., a two-colored line result
+																		indicates negativity and a control-only line
+																		indicates positivity.Typically, antibodies
+																		comprise both the specific recognition molecules
+																		in the conjugate pad and the target-binding
+																		biosensors and capture molecules on the
+																		membrane. Because nucleotide acid aptamers can
+																		recognize targets of interest specifically,
+																		antibodies for LFA can be replaced with
+																		aptamers. Aptamer-based LFAs (ALFA) offers a
+																		more flexible design and the ability to detect a
+																		wider range of targets.
+																	</p>
+																</div>
+																<div class="col-lg-6">
+
+																	<div class="col-lg-7" style="width: 80%;">
+																		<div class="img-property-slide-wrap">
+																			<div class="img-property-slide">
+																				<img src="https://static.igem.wiki/teams/4449/wiki/home/wetlab-hardware.jpg"
+																					alt="Image" class="img-fluid">
+																				<p>Figure: Schematic representation of
+																					ALFA.
+																				</p>
+
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+
+														</div>
+													</div>
+
+													<!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+
+													<p class="mt-5">
+													</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- Slider Section ends -->
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+
+	<!-- Image with sentence sidewise -->
+
+	<div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+		<div class="container">
+			<div class="row text-left mb-5">
+				<div class="col-lg-6" style="width: 100%;">
+					<h3><b>Build</b></h3>
+					<p class="text-black-50" align="justify">From literature and countless brainstorming sessions, we
+						finalized upon using aptamers to detect the FimH proteins which is a component of type 1
+						fimbriae which helps in the adhesion of the bacteria to the host in most of the UTIs. Easy
+						detection strategy and high specificity of aptamers made us choose this for our project.</p>
+					<p>Since our project Apt4UTI focuses on developing a novel aptamer-based diagnostic kit for
+						detecting UTI-causing pathogens, so our team has introduce some coding sequences, some
+						constructs and several other relevant parts as BioBricks in the part registry.</p>
+
+					<h3><b>Proposed constructs</b></h3>
+					<p>Using various basic parts, we assembled them into the required constructs for our project. Check
+						out the constructs in the table below:
+					</p>
+
+
+					<!-- Image with sentence sidewise -->
+
+
+					<div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+						<div class="container">
+							<div class="row justify-cont">
+							</div>
+							<div class="row text-left mb-5">
+
+
+								<div class="col-lg-6" style="width: 100%;">
+
+									<!-- Table design begins -->
+
+									<div class="container_1" style="padding-bottom: 3rem;">
+										<table class="rwd-table">
+											<tbody>
+												<tr>
+													<th>Serial Number</th>
+													<th>Description</th>
+													<th>Part Number</th>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														1
+													</td>
+													<td data-th="Description">
+														Apt4UTI C1
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449009">BBa_K4449009</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														2
+													</td>
+													<td data-th="Description">
+														Apt4UTI C2
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449010">BBa_K4449010</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														3
+													</td>
+													<td data-th="Description">
+														Apt4UTIC3
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449011">BBa_K4449011
+														</a>
+													</td>
+											</tbody>
+										</table>
+									</div>
+
+
+									<!-- Table design ends -->
+
+									<p>These are some of our new basic part that we have used in our construct:</p>
+
+
+									<!-- Table design begins -->
+
+									<div class="container_1" style="padding-bottom: 3rem;">
+										<table class="rwd-table">
+											<tbody>
+												<tr>
+													<th>Serial Number</th>
+													<th>Description</th>
+													<th>Part Number</th>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														1
+													</td>
+													<td data-th="Description">
+														Expression of FimH1 gene
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449000">BBa_K4449000</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														2
+													</td>
+													<td data-th="Description">
+														Expression of Fim H2 gene
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449001">BBa_K4449001</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														3
+													</td>
+													<td data-th="Description">
+														Expression of Staphylococcus epidermidis Bap like Bhp gene
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449002">BBa_K4449002
+														</a>
+													</td>
+											</tbody>
+										</table>
+									</div>
+
+
+									<!-- Table design ends -->
+
+									<p>These are some of primers design by our team for our Apt4UTI construct: </p>
+
+									<!-- Table design begins -->
+
+									<div class="container_1" style="padding-bottom: 3rem;">
+										<table class="rwd-table">
+											<tbody>
+												<tr>
+													<th>Serial Number</th>
+													<th>Description</th>
+													<th>Part Number</th>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														1
+													</td>
+													<td data-th="Description">
+														pET28b FimH1 F 
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449003">BBa_K4449003</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														2
+													</td>
+													<td data-th="Description">
+														pET28b FimH1 R
+													</td>
+													<td data-th="Part Number">
+														<a
+															href="http://parts.igem.org/Part:BBa_K4449004">BBa_K4449004</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														3
+													</td>
+													<td data-th="Description">
+														pET15b FimH2 F
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449005">BBa_K4449005
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														4
+													</td>
+													<td data-th="Description">
+														pET15b FimH2 R
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449006">BBa_K4449006
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														5
+													</td>
+													<td data-th="Description">
+														pET28b Bhp F
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449007">BBa_K4449007
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td data-th="Serial Number">
+														6
+													</td>
+													<td data-th="Description">
+														pET28b Bhp R
+													</td>
+													<td data-th="Part Number">
+														<a href="http://parts.igem.org/Part:BBa_K4449008">BBa_K4449008
+														</a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+
+									<!-- Table design ends -->
+
+
+								<h2>Building our BioBricks</h2>
+								<ol>
+									<li>To construct Apt4UTIC1, FimH1 which contains the coding sequence of the E.coli UTI89 FimH signal peptide and lectin domain which forms a subunit of Type 1 fimbriae is added, having 6 X His tagged at the C-terminal of Fim H1 protein.
+									</li>
+									<li>Apt4UTIC2 composite part is formed by assembling the coding region of FimH2 (534 bp) by performing PCR amplification of the gene sequence derived from pBAD FimH 9X His(Addgene #97305), into the expression vector pET15b+(Novagen, EMD Millipore), in frame with the T7 promoter and N terminal 6 X-His affinity tag of the expression vector.</li>
+									<li>Apt4UTIC3 composite part is formed by assembling the coding region of Bhp (6909 bp) into the expression vector pET28b+, in frame with the T7 promoter and 6 X His affinity tag (5617 bp to 675634 bp) of the expression vector.</li>
+								</ol>
+
+								<p>Visit <a href="https://2022.igem.wiki/iiser-berhampur/biobricks">BioBricks</a> page and the <a href="https://2022.igem.wiki/iiser-berhampur/biobricks">Contribution</a> page for more details.</p>
+
+
+								<h2>Test:</h2>
+								<h3>Summary Wet Lab Test:</h3>
+								<p>We started our wet lab work by growing the E Coli strain ATCC25922 and made the growth curve. Then the competent cells which were transformed with pET28b+ were cultured and the plasmid was isolated from them through different methods (alkaline lysis method and using kits). After calculating the concentration, the plasmid was used for cloning and expression. The plasmid and the vector (FimH) were treated for restriction digestion followed by ligation of the fimH gene (after PCR). These modified pET28b+ plasmids were used for transformation of the e coli strain DH5 alpha.</p>
+								<p>We are now planning the colony PCR of these transformed cells and after purifying the protein (FimH) we will do the ligand based selex to identify the aptamers with high binding affinity towards the fimH protein and which will then be validated by the whole cell SELEX. And we are also planning to optimize various conditions involved in the reaction.</p>
+
+								<h3>Summary Modelling Test:</h3>
+								<p>The drylab team will act as a verification mechanism in our aptamer screening process. The In-silico modeling will let us verify the candidate aptamers for the detection kit. Since computational approaches will give an edge over the experimental approach in terms of the resources required, the molecular simulation techniques will let us narrow and verify the aptamer sequence’s affinity towards the target protein and let us make important decisions together with the wet lab in designing our multiplex aptamer library.</p>
+
+
+								<h2>Learn and Improve:</h2>
+								<p>At the starting of the project, we enlisted all possible methods we needed to do in our project. After enlisting all those methods, we started practicing each one by one. The methods we practiced at the start of the project are:</p>
+								<ol>
+									<li><b>Bacterial growth curve:</b>
+										The most basic aspect of the project and it was necessary to practice so that our experiment runs smoothly as we can start working by looking at the different stages of the project. We failed three times to get a better plot. The lesson we learned from it was that don't think that small steps will go smoothly during experiments in biology. 
+										</li>
+									<li><b>Plasmid isolation:</b>
+										We started learning this step by alkaline lysis method followed by kit method. Failed 2 times with alkaline lysis method. We succeeded at 3rd time by bringing some changes in the protocols.
+										We did plasmid isolation protocols by 2 different companies (Promega and Qiagen plasmid isolation kit ). Failed in first but succeeded in second.
+										</li>
+									<li><b>Gel electrophoresis:</b> We runned isolated plasmid and succeeded at the first chance, everytime.
+										</li>
+									<li><b>PCR:</b> We did pcr as well and succeeded at the first chance.</li>
+										<li><b>Gel extraction:</b> For the gel extraction, we as a team learned to excise the band in the presence of UV under expert supervision, without exposing ourselves to the UV.</li>
+									<li><b>Cloning:</b>The restriction and ligation step went smoothly fortunately in the first go. We learned the steps we need to be specifically careful with. The handling of enzymes while cloning was taught by the experts in the laboratory. </li>
+								</ol>
+
+
+								<h3>Designing and optimization:</h3>
+								<p>For the optimization of experiments we modified the planned experiment based on the availability of facilities in our lab and whenever faced with failure how to troubleshoot. Guidance was provided by the respective mentors throughout the project. Special thanks to Dr Bhavana for the constant help in web lab experiments.</p>
+
+								<h3>Biology softwares:</h3>
+								<p>For the cloning experiment and aptamer designing, we got hands on experience of snapgene and pymol for the designing of plasmid with our insert and simulation of FimH and aptamers respectively.</p>
+
+								<h2><b>References:</b></h2>
+								<ol>
+									<li>Wan, Q., Liu, X. and Zu, Y. (2021). Oligonucleotide aptamers for pathogen detection and infectious disease control. Theranostics, 11(18), pp.9133–9161. DOI: <a href="https://doi.org/10.7150/thno.61804">10.7150/thno.61804</a></li>
+									<li>Schembri, M.A., Hasman, H. and Klemm, P. (2000). Expression and purification of the mannose recognition domain of the FimH adhesin. FEMS Microbiology Letters, 188(2), pp.147–151. DOI: <a href="https://doi.org/10.1111/j.1574-6968.2000.tb09186.x">10.1111/j.1574-6968.2000.tb09186.x</a>
+									</li>
+									<li>Savory, N., Nzakizwanayo, J., Abe, K., Yoshida, W., Ferri, S., Dedi, C., Jones, B.V. and Ikebukuro, K. (2014). Selection of DNA aptamers against uropathogenic Escherichia coli NSM59 by quantitative PCR controlled Cell-SELEX. Journal of Microbiological Methods, [online] 104, pp.94–100. DOI: <a href="https://doi.org/10.1016/j.mimet.2014.06.016">10.1111/j.1574-6968.2000.tb09186.x</a></li>
+									<li>Flores-Mireles, A.L., Walker, J.N., Caparon, M. and Hultgren, S.J. (2015). Urinary Tract infections: epidemiology, Mechanisms of Infection and Treatment Options. Nature Reviews Microbiology, 13(5), pp.269–284. DOI: <a href="https://doi.org/10.1038/nrmicro3432">10.1038/nrmicro3432</a></li>
+								</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Image with sentence sidewise ends-->
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Image with sentence sidewise ends-->
+
+	<!-- Sponsor Section begins -->
+
+	<section class="site-section">
+		<div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+			<div class="row">
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+						class="img-fluid" style="margin-top: 2rem;">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="200">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<div class="col" data-aos="fade-in" data-aos-delay="300">
+					<img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+						class="img-fluid">
+				</div>
+				<!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Sponsor Section ends -->
+
+
+	<!-- Footer Setion begins -->
+
+	<div class="site-footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>About us</h3>
+						<address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+							solution to detect uropathogenic bacteria at the point-of-care" </address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+				<div class="col-lg-4" style="width: 35%;">
+					<div class="widget">
+						<h3>Address</h3>
+						<address>IISER Berhampur </br>
+							Transit campus (Govt. ITI Building) </br>
+							Engg. School Junction, Berhampur </br>
+							Odisha 760010</address>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+
+				<div class="col-lg-4" style="width: 30%;">
+					<div class="widget">
+						<h3>Links</h3>
+						<!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+						<ul class="list-unstyled social">
+							<li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+										class="icon-instagram"></span></a>
+							</li>
+							<li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+							</li>
+							<li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+										class="icon-linkedin"></span></a>
+							</li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-4 -->
+
+			</div> <!-- /.row -->
+
+
+
+
+
+			<div class="row mt-5" style="margin-top: 1rem !important;">
+				<div class="col-12 text-center">
+					<p>Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> &mdash; Content on this site is
+						licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+							Attribution 4.0 International license.</a>
+						<br>The repository used to create this website is available at <a
+							href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+						<br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+							wiki Team</a>
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+	<!-- Footer Setion Ends -->
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+
+
+	<!-- Javascript Links -->
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+	<script src="js/progress.js"></script>
+
+</body>
+
+</html>

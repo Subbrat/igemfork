@@ -1,0 +1,1305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="iGEM IISER Berhampur">
+    <link rel="shortcut icon" href="https://static.igem.wiki/teams/4449/wiki/favicon.png">
+
+	<meta name="description" content="iGEM IISER Berhampur" />
+	<meta name="keywords" content="iGEM IISER Berhampur, iGEM, IISER"/>
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table_1.css">
+	<link rel="stylesheet" href="css/loader1.css">
+
+    <title>iGEM &mdash; Biobricks</title>
+</head>
+
+<body onload="loaderFunc()">
+	<div id="loading1"></div>
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="menu-bg-wrap" style="padding: 8px 20px;">
+                <div class="site-navigation">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/favicon1.png" alt="Image" class="img-fluid"
+                        style="max-width:3rem">
+
+                    <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="has-children">
+                            <a href="#">Project</a>
+                            <ul class="dropdown">
+                                <li><a href="description">Description</a></li>
+                                <li><a href="engineering">Engineering</a></li>
+                                <li><a href="implementation">Implementation</a></li>
+                                <li><a href="experiment">Experiment</a></li>
+                                <li class="has-children">
+                                    <a href="#">Notebook</a>
+                                    <ul class="dropdown">
+                                        <li><a href="journal">Lab Journals</a></li>
+                                        <li><a href="safety">Safety</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="proof-of-concept">Proof of Concept</a></li>
+                                <li><a href="contribution">Contribution</a></li>
+                                <li><a href="results">Result</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="model">Modelling</a></li>
+                        <li class="has-children">
+                            <a href="#">Human Practices</a>
+                            <ul class="dropdown">
+                                <li><a href="human-practices">Integrated Human Practices</a></li>
+                                <li><a href="communication">Education & Communication</a></li>
+                                <li><a href="collaborations">Collaboration</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#">Team</a>
+                            <ul class="dropdown">
+                                <li><a href="members">Members</a></li>
+                                <li><a href="attributions">Attribution</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="biobricks">Biobricks</a></li>
+                        <li><a href="partnership">Partnership</a></li>
+                        <li class="has-children">
+                            <a href="#">Achievements</a>
+                            <ul class="dropdown">
+                                <li><a href="awards">Awards and Medals</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-children">
+                            <a href="#">Entrepreneurship</a>
+                            <ul class="dropdown">
+                                <li><a href="overview">Overview</a></li>
+                                <li><a href="market-size">Market Size</a></li>
+                                <li><a href="businessplan">Competitors and Business Plan</a></li>
+                                <li><a href="entrepreneurship_team">Our team</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <a href="#"
+                        class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+                        data-toggle="collapse" data-target="#main-navbar">
+                        <span></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+
+
+        <div class="hero-slide">
+            <div class="img overlay"
+                style="background-image: url('https://static.igem.wiki/teams/4449/wiki/headers/bio-bricks.jpg')"></div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center">
+                    <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Image with sentence sidewise -->
+
+    <div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+        <div class="container">
+            <div class="row justify-content-center  text-center mb-5">
+                <div class="col-lg-6 mb-5">
+                    <h2 class="font-weight-bold heading text-primary mb-4" style="padding-top: 4rem;">Biobricks</h2>
+                </div>
+            </div>
+            <div class="row text-left mb-5">
+                <div class="col-lg-6" style="width: 100%;">
+                    <ol>
+                        <h2 class="heading text-primary">
+                            <li>Urinary tract infections, Uro-pathogens and their associated virulence factors</li>
+                        </h2>
+                        <p class="text-black-50" align="justify">Urinary tract infections (UTIs) are one of the most
+                            common
+                            pathological conditions in both community and hospital settings. It has been estimated that
+                            about 150 million people worldwide develop UTI each year. Among the common uropathogens
+                            associated with UTIs, UroPathogenic Escherichia coli (UPEC) is the primary cause.
+                            UPEC strains possess a plethora of both structural (as fimbriae, pili, curli, flagella) and
+                            secreted (toxins, iron-acquisition systems) virulence factors that contribute to their
+                            capacity
+                            to cause disease, although the ability to adhere to host epithelial cells in the urinary
+                            tract
+                            represents the most important determinant of pathogenicity.<sup>7</sup> Among the large
+                            variety
+                            of bacterial adhering factors (adhesins) that promote adhesion and internalization into host
+                            cells, type 1 fimbriae are remarkably versatile virulence factors. Therefore our project is
+                            primarily focused on the Type 1 fimbriae, since it is commonly found in most of the UPECs
+                            and
+                            other uropathogens.<sup>8</sup></p>
+
+
+                        <!-- Image sidewise -->
+
+                        <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                            <div class="container">
+
+                                <div class="row text-left mb-5">
+                                    <div class="col-lg-7" style="width: 100%;">
+                                        <div class="img-property-slide-wrap">
+                                            <div class="img-property-slide">
+                                                <img src="https://static.igem.wiki/teams/4449/wiki/biobricks/image5.png"
+                                                    alt="Image" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Image sidewise ends-->
+
+                        <h2 class="heading text-primary">
+                            <li>Type 1 fimbriae: the virulence factor</li>
+                        </h2>
+                        <p class="text-black-50" align="justify">Type 1 fimbriae, specifically helps the uropathogens to
+                            adhere to a spectrum of alpha-D-mannosides found in mammalian tissue surface. It has a 7nm
+                            wide and 1 μm long heteropolymer structure, out of which approximately 1000 copies are of
+                            the major subunit, FimA,that are polymerised into a right-handed helical structure.
+                            Additionally it also contains a few percent of the minor components FimF, FimG and FimH.
+                            <sup>1</sup>
+                        </p>
+
+                        <p>The functions of the components of Type 1 fimbriae are:</p>
+                        <ol type="I">
+                            <li>FimH acts as a receptor- recognition element of type 1 fimbriae . It is located at the
+                                tip of the organelle as an integral part of a short fibrillum.</li>
+                            <li>FimF and FimG proteins act as adapters for integration of adhesins into the fimbrial
+                                organelle.</li>
+                            <li>FimC and FimD are the proteins used to assemble fimbriae on the surface of the
+                                cell.<sup>1</sup></li>
+                        </ol>
+
+                        <p class="text-black-50" align="justify">Since Fim H is the main protein interacting with the
+                            alpha D mannoside receptors of the host cell , our project aims to use Fim H as a bait to
+                            detect Uropathogens using a combination of aptamers that show high affinity towards Fim H.
+                        </p>
+
+
+                        <h2 class="heading text-primary">
+                            <li style="margin-top: 3rem;">FimH - the target protein</li>
+                        </h2>
+                        <div class="section" style="padding-top: 1rem">
+                            <div class="container">
+                                <div class="row text-left mb-5">
+                                    <div class="col-lg-6" style="width: 50%;">
+                                        <p class="text-black-50" align="justify">FimH is the mannose-binding adhesin
+                                            found at the tip of the type 1 pilus produced by UPEC. It is a two-domain
+                                            protein in which the N-terminal domain contains the receptor-binding site
+                                            and the C-terminal domain is required for organelle integration.<sup>1</sup>
+                                            The interaction between these two domains, determines the conformational
+                                            state of the FimH adhesin, and therefore influencing the level of affinity
+                                            of FimH with the related molecule/receptor/ligand. The conformation of FimH
+                                            is highly dynamic, and interdomain interactions can be influenced by
+                                            different factors, including the shear stress.<sup>9</sup> Besides UPEC,
+                                            many other uropathogens also express Fim H as their virulence
+                                            factor.<sup>8</sup></p>
+                                        <p class="text-black-50" align="justify">
+                                            The figure shows the 3 dimensional cartoon representation of FimH structure
+                                            containing the two primary domains -The N-terminal domain or lectin domain
+                                            (depicted in cyan) that is required for receptor-binding and the C-terminal
+                                            domain or the pillin domain (depicted in blue) which is required for
+                                            organelle integration. An elongated linker (in orange) connects the pilin
+                                            and the lectin domain of FimH. The protein is bound to alpha D mannose
+                                            molecule that is depicted as atom colored Vanderwaal spheres.(Adapted from EvaMaria Krammer et al., Molecules 2018)<sup>10</sup></a>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-lg-6">
+
+                                        <div class="col-lg-7" style="width: 100%;">
+                                            <div class="img-property-slide-wrap">
+                                                <div class="img-property-slide"
+                                                    style="margin-left: 1rem; margin-right: 1rem;">
+                                                    <img src="https://static.igem.wiki/teams/4449/wiki/image2.jpg"
+                                                        alt="Image" class="img-fluid"
+                                                        style="width: calc(100%);">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <ol>
+
+
+                            <!-- Image with sentence sidewise -->
+
+
+                            <div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+                                <div class="container">
+                                    <div class="row justify-cont">
+                                    </div>
+                                    <div class="row text-left mb-5">
+
+
+                                        <div class="col-lg-6" style="width: 100%;">
+                                            <h2 class="heading text-primary">Basic Parts</h2>
+                                            <p class="text-black-50" align="justify">These are the parts of our cloned
+                                                constructs that will be generated in our project Apt4UTI: </p>
+
+                                            <!-- Table design begins -->
+
+                                            <div class="container_1" style="padding-bottom: 3rem;">
+                                                <table class="rwd-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>Serial</th>
+                                                            <th>Description</th>
+                                                            <th>Part Number</th>
+                                                            <th>Type</th>
+                                                            <th>Length(bp)</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                1
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                Expression of FimH1 gene
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449000">BBa_K4449000</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Coding
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                540
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                2
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                Expression of FimH2 gene
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449001">BBa_K4449001</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Coding
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                534
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                3
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                Expression of Staphylococcus epidermidis Bap like Bhp
+                                                                gene
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449000">BBa_K4449002</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Coding
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                6909
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                4
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET28b FimH1 F
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449003">BBa_K4449003</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Coding
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                32
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                5
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET28b FimH1 R
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449004">BBa_K4449004</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Primer
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                30
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                6
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET15b FimH2 F
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449005">BBa_K4449005</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Primer
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                29
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                7
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET15b FimH2 R
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449006">BBa_K4449006</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Primer
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                29
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                8
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET28b Bhp F
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449007">BBa_K4449007</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Primer
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                28
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                9
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                pET28b Bhp R
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a href="http://parts.igem.org/Part:BBa_K4449008">BBa_K4449008
+                                                                </a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                Primer
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                28
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td data-th="Colony">
+                                                                10
+                                                            </td>
+                                                            <td data-th="Concentration (ng/μl)">
+                                                                Aptamer Sequences
+                                                            </td>
+                                                            <td data-th="A260/A320">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449012">BBa_K4449012</a>
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                DNA
+                                                            </td>
+                                                            <td data-th="A260/A280">
+                                                                80
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+                                            <!-- Table design ends -->
+
+
+
+
+                                            <h2 class="heading text-primary">
+                                                <p>FimH1 and FimH2
+                                                <p>
+                                            </h2>
+                                            <div class="section" style="padding-top: 1rem">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6" style="width: 100%">
+                                                            <p class="text-black-50" align="justify">Both FimH1 and
+                                                                FimH2 primarily contains the coding sequence of the
+                                                                FimH gene retrieved from the plasmid pBAD - Fim H -9X
+                                                                His that is deposited in the Addgene repository (Addgene
+                                                                # 97305) by Per Svenningsen Lab. </p>
+                                                            <p class="text-black-50" align="justify">But, in order to
+                                                                clone the FimH gene in two different vectors some
+                                                                modifications had been done in the sequences to maintain
+                                                                the reading frame and hence we have two sequences FimH1
+                                                                and FimH2, without affecting their functionality.</p>
+                                                            <p>Here FimH1(BBa_K4449000) is cloned in the pET28b+
+                                                                vector between Nco1 and Xho 1 sites to generate the
+                                                                construct Apt4UTI C1 (BBa_K4449009). Again, the FimH2 (BBa_K4449001)
+                                                                gene was cloned between the BamH1 and Blp1 sites of
+                                                                pET28b+ vector to generate the construct Apt4UTI
+                                                                C2(BBa_K4449010).</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                    
+
+                                                </div>
+                                            </div>
+
+
+                                            <h3 class="heading text-primary">Aptamer Sequences</h3>
+                                            <p>We have generated our own aptamer library which will be utilized in the
+                                                subsequent
+                                                rounds of the ligand based SELEX , to select for the best aptamer
+                                                candidates that
+                                                will show highest affinity towards FimH1 and FimH2 . This library is
+                                                characterized
+                                                by the presence of 40 random nucleotides in between flanked by a common
+                                                known 5’ and
+                                                3’ sequences on both sides which will act as the primer binding sites .
+                                                These known
+                                                sequences were added so that the selected aptamer sequences can be
+                                                subjected to PCR
+                                                amplification in the positive selection rounds of SELEX technique.</p>
+                                            <p>The aptamer sequences were generated using python with the help of
+                                                Jupyter
+                                                Notebook.<sup>2</sup></p>
+
+
+                                                
+
+
+                                    <!-- Image sidewise -->
+
+
+                                    <div class="section" style="padding-bottom: 1rem; padding-top: 1rem;">
+                                        <div class="container">
+
+                                            <div class="row text-left mb-5">
+                                                <div class="col-lg-7" style="width: 100%;">
+                                                    <div class="img-property-slide-wrap">
+                                                        <div class="img-property-slide">
+                                                            <img src="https://static.igem.wiki/teams/4449/wiki/biobricks/image4.png"
+                                                                alt="Image" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <p>Here are the list of generated Aptamer Sequences: <a href="https://docs.google.com/spreadsheets/d/1MICJ94mhiy_pHvqC_b31TbRaymPHyPen/edit?usp=sharing&ouid=114372498163057334768&rtpof=true&sd=true">Click Here</a></p>
+
+                                    <!-- Image sidewise ends-->
+
+
+
+                                            <div class="section" style="padding-top: 1rem">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <p class="text-black-50" align="justify">
+                                                            <p>The given script was used to generate the output:
+                                                            <p style="padding-bottom: 0rem;">
+                                                            <p style="margin-bottom: 0rem;">list_1 = [ ]</p>
+                                                            <p style="margin-bottom: 0rem;">for y in range(0,500):</p>
+                                                            <p style="margin-bottom: 0rem;">s =
+                                                                "AAAAAAAAAAAACCCCCCCCCCCCGGGGGGGGTTTTTTTT"</p>
+                                                            <p style="margin-bottom: 0rem;">t =
+                                                                ''.join(random.sample(s,len(s)))"</p>
+                                                            <p style="margin-bottom: 0rem;">list_1.append(t)</p>
+                                                            <p style="margin-bottom: 0rem;">print(list_1)</p>
+                                                            </p>
+                                                            </p>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Image with sentence sidewise ends-->
+
+
+                            <!-- Image with sentence sidewise -->
+
+
+                            <div class="section" style="padding-bottom: 1rem; padding-top: 0rem;">
+                                <div class="container">
+                                    <div class="row justify-cont">
+                                    </div>
+                                    <div class="row text-left mb-5">
+
+
+                                        <div class="col-lg-6" style="width: 100%;">
+                                            <h2 class="heading text-primary">Composite parts</h2>
+                                            <p class="text-black-50" align="justify">These are the proposed parts that
+                                                will be generated in our project Apt4UTI: </p>
+
+                                            <!-- Table design begins -->
+
+                                            <div class="container_1" style="padding-bottom: 3rem;">
+                                                <table class="rwd-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>Serial number</th>
+                                                            <th>Description</th>
+                                                            <th>Part Number</th>
+                                                            <th>Components</th>
+                                                            <th>Stratergy</th>
+                                                            <th>Type</th>
+                                                            <th>Length(bp)</th>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Serial number">
+                                                                1
+                                                            </td>
+                                                            <td data-th="Description">
+                                                                Apt4UTIC1
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449009">BBa_K4449009</a>
+                                                            </td>
+                                                            <td data-th="Components">
+                                                                <ol>
+                                                                    <li>BBa_K3830009</li>
+                                                                    <li>BBa_K389005</li>
+                                                                    <li>BBa_K4103004</li>
+                                                                    <li>BBa_K4047028</li>
+                                                                    <li>BBa_K2259010</li>
+                                                                    <li>BBa_K082004</li>
+                                                                    <li>BBa_K3842018</li>
+                                                                    <li>BBa_I719005</li>
+                                                                    <li>BBa_K4284000</li>
+                                                                    <li>BBa_K4159001</li>
+                                                                    <li>BBa_K4449000</li>
+                                                                    <li>BBa_K1362468</li>
+                                                                    <li>BBa_K731721</li>
+                                                                </ol>
+
+                                                            </td>
+                                                            <td data-th="Stratergy">
+                                                                <p>Cloning the gene encoding the FimH1(BBa_K4449000)
+                                                                    obtained from modifying the Fim H gene from plasmid
+                                                                    pBAD-Fim H-9XHis (Addgene plasmid #97305) into
+                                                                    pET28b+ (EMD Biosciences) expression vector between
+                                                                    the Nco1 and Xho1 restriction sites.</p>
+                                                            </td>
+                                                            <td data-th="Type">
+                                                                Composite
+                                                            </td>
+                                                            <td data-th="Length(bp)">
+                                                                5773
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Serial number">
+                                                                2
+                                                            </td>
+                                                            <td data-th="Description">
+                                                                Apt4UTIC2
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449010">BBa_K4449010</a>
+                                                            </td>
+                                                            <td data-th="Components">
+                                                                <ol>
+                                                                    <li>BBa_K3982027</li>
+                                                                    <li>BBa_K4284007</li>
+                                                                    <li>BBa_K4103004</li>
+                                                                    <li>BBa_K2259010</li>
+                                                                    <li>BBa_K082004</li>
+                                                                    <li>BBa_K3842018</li>
+                                                                    <li>BBa_I719005</li>
+                                                                    <li>BBa_K4284000</li>
+                                                                    <li>BBa_K4159001</li>
+                                                                    <li>BBa_K1362468</li>
+                                                                    <li>BBa_K1362456</li>
+                                                                    <li>BBa_K4449001</li>
+                                                                    <li>BBa_K731721</li>
+                                                                </ol>
+
+                                                            </td>
+                                                            <td data-th="Stratergy">
+                                                                <p>Cloning the gene FimH2(BBa_K4449001) (gene sequence
+                                                                    obtained from modifying the Fim H gene from plasmid
+                                                                    pBAD-Fim H-9XHis Addgene plasmid #97305 ) into
+                                                                    pET15b+ (Novagen) expression vector between the Bam
+                                                                    H1 and Blp1 restriction sites.</p>
+                                                            </td>
+                                                            <td data-th="Type">
+                                                                Composite
+                                                            </td>
+                                                            <td data-th="Length(bp)">
+                                                                6197
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Serial number">
+                                                                3
+                                                            </td>
+                                                            <td data-th="Description">
+                                                                Apt4UTIC3
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4449011">BBa_K4449011</a>
+                                                            </td>
+                                                            <td data-th="Components">
+                                                                <ol>
+                                                                    <li>BBa_K3830009</li>
+                                                                    <li>BBa_K389005</li>
+                                                                    <li>BBa_K4103004</li>
+                                                                    <li>BBa_K4047028</li>
+                                                                    <li>BBa_K2259010</li>
+                                                                    <li>BBa_K082004</li>
+                                                                    <li>BBa_K3842018</li>
+                                                                    <li>BBa_I719005</li>
+                                                                    <li>BBa_K4284000</li>
+                                                                    <li>BBa_K2685025</li>
+                                                                    <li>BBa_K4449002</li>
+                                                                    <li>BBa_K1362468</li>
+                                                                    <li>BBa_K731721</li>
+                                                                </ol>
+
+                                                            </td>
+                                                            <td data-th="Stratergy">
+                                                                <p>Cloning the gene encoding Staphylococcus epidermidis
+                                                                    Bap like Bhp (BBa_K4449002)( coding sequence
+                                                                    obtained from European Nucleotide Archive browser)
+                                                                    in pET28b+ expression vector (EMD Biosciences)
+                                                                    between the Nco1 and Xho1 restriction sites.</p>
+                                                            </td>
+                                                            <td data-th="Type">
+                                                                Composite
+                                                            </td>
+                                                            <td data-th="Length(bp)">
+                                                                12136
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+
+                                            <!-- Table design ends -->
+
+
+
+
+                                            <h2 class="heading text-primary">
+                                                <li>Apt4UTI C1</li>
+                                            </h2>
+                                            <div class="section" style="padding-top: 1rem">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <p class="text-black-50" align="justify">The DNA insert, Fim
+                                                                H1 (BBa_K4449000) in this construct Apt4UTI
+                                                                C1(BBa_K4449001) contains the coding sequence of the
+                                                                E.coli UTI89 FimH signal peptide and lectin domain which
+                                                                forms a subunit of Type 1 fimbriae, located at the tip
+                                                                of the organelle as an integral part of short fimbriae.
+                                                                This construct will enable the expression of a C
+                                                                terminal -6 X His tagged FimH1 protein which will be
+                                                                purified by a Ni-NTA affinity column and will
+                                                                subsequently be used for conducting assays like SDS
+                                                                PAGE, Receptor Blots and ELISA Based binding assays. The
+                                                                expressed protein, FimH1-6XHis (target) will be also
+                                                                tested with our aptamer library during the ligand based
+                                                                SELEX technique to find out the aptamer showing highest
+                                                                affinity towards the target. The construct map was
+                                                                created by using SnapGene.
+                                                            </p>
+                                                            <P>To know more related to testing of this part visit <a href="https://2022.igem.wiki/iiser-berhampur/contribution">Contribution Page</a></P>
+                                                        </div>
+                                                        <div class="col-lg-6">
+
+                                                            <div class="col-lg-7" style="width: 100%;">
+                                                                <div class="img-property-slide-wrap">
+                                                                    <div class="img-property-slide"
+                                                                        style="margin-left: 1rem; margin-right: 1rem;">
+                                                                        <img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-4.png"
+                                                                            alt="Image" class="img-fluid"
+                                                                            style="width: calc(100%);">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <h2 class="heading text-primary">
+                                                <li>Apt4UTI C2</li>
+                                            </h2>
+                                            <div class="section" style="padding-top: 1rem">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <p class="text-black-50" align="justify">The DNA insert Fim
+                                                                H2 in this construct contains the coding sequence of the
+                                                                E.coli UTI89 FimH signal peptide and lectin domain which
+                                                                forms a subunit of type 1 fimbriae, located at the tip
+                                                                of the organelle as an integral part of short fimbriae.
+                                                                This construct will enable the expression of a N
+                                                                terminal -6 X His tagged FimH2 protein with a thrombin
+                                                                site which will be purified by a Ni-NTA affinity column
+                                                                and will subsequently be used for conducting assays like
+                                                                SDS PAGE, Receptor Blots and ELISA Based binding assays.
+                                                                The thrombin site will be used to remove the 6X His tag
+                                                                by using the thrombin enzyme which cleaves between the
+                                                                Arginine and Glycine residue. This composite part will
+                                                                enable us to validate if our candidate aptamers are
+                                                                truly binding to the purified Fim H 2 protein and are
+                                                                showing no interaction with the His Tag. By designing
+                                                                this construct we will be setting up a platform to
+                                                                purify tag free Fim H protein. The expressed protein,
+                                                                FimH2 (target) will be also tested with our generated
+                                                                aptamer library during the ligand based SELEX technique
+                                                                to find out the aptamer showing highest affinity. The
+                                                                construct map was created by using SnapGene.
+                                                            </p>
+                                                            <P>To know more related to testing of this part visit <a href="https://2022.igem.wiki/iiser-berhampur/contribution">Contribution Page</a></P>
+                                                        </div>
+                                                        <div class="col-lg-6">
+
+                                                            <div class="col-lg-7" style="width: 100%;">
+                                                                <div class="img-property-slide-wrap">
+                                                                    <div class="img-property-slide"
+                                                                        style="margin-left: 1rem; margin-right: 1rem;">
+                                                                        <img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-5.png"
+                                                                            alt="Image" class="img-fluid"
+                                                                            style="width: calc(100%);">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <h2 class="heading text-primary">
+                                                <li>Apt4UTI C3</li>
+                                            </h2>
+                                            <div class="section" style="padding-top: 1rem">
+                                                <div class="container">
+                                                    <div class="row text-left mb-5">
+                                                        <div class="col-lg-6">
+                                                            <p class="text-black-50" align="justify">The DNA insert (Bap
+                                                                like Bhp) in this construct Apt4UTI C3 encodes a
+                                                                virulence factor of S. epidermidis that helps in biofilm
+                                                                accumulation is Bap (biofilm associated protein) which
+                                                                is known as a surface adhesion protein that is commonly
+                                                                found in S. epidermidis strains.<sup>3</sup> This
+                                                                construct will enable the expression of Bhp protein with
+                                                                a C terminal 6X His tag in E Coli strain BL21DE3. The
+                                                                expressed fusion protein will subsequently be purified
+                                                                by using the Ni-NTA affinity column due to the presence
+                                                                of the His tag.
+                                                                Bhp will be used for the negative selection round of
+                                                                ligand based SELEX and will serve as a negative control
+                                                                in our ELISA based binding assays. We have chosen this
+                                                                part from Staphylococcus epidermis because
+                                                                Staphylococcus epidermidis comprises a minority of the
+                                                                microflora of the lower part of the Urethra , and can be
+                                                                expected to be present as a contaminant in the urine
+                                                                cultures.<sup>4</sup> Assays like SDS PAGE, Receptor
+                                                                blots and ELISA based binding assays will be conducted
+                                                                for testing this part.The construct map was created by
+                                                                using SnapGene.
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-lg-6">
+
+                                                            <div class="col-lg-7" style="width: 100%;">
+                                                                <div class="img-property-slide-wrap">
+                                                                    <div class="img-property-slide"
+                                                                        style="margin-left: 1rem; margin-right: 1rem;">
+                                                                        <img src="https://static.igem.wiki/teams/4449/wiki/project/results/result-6.png"
+                                                                            alt="Image" class="img-fluid"
+                                                                            style="width: calc(100%);">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-lg-6" style="width: 100%;">
+                                            <h2 class="heading text-primary">Existing parts</h2>
+                                            <p class="text-black-50" align="justify">The following existing parts will
+                                                be used in our project: </p>
+
+                                            <!-- Table design begins -->
+
+                                            <div class="container_1" style="padding-bottom: 3rem;">
+                                                <table class="rwd-table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th>Biobrick</th>
+                                                            <th>Part Number</th>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                f1 ori
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K3830009">BBa_K3830009</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                KanR
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K389005">BBa_K389005</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                ori
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4103004">BBa_K4103004</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                bom
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4047028">BBa_K4047028</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                rop
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K2259010">BBa_K2259010</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                lacI
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K082004">BBa_K082004</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                lacI promotor
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K3842018">BBa_K3842018</a>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                T7 promoter
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_I719005">BBa_I719005</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                lac operator
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4284000">BBa_K4284000</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                RBS
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K2685025">BBa_K2685025</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                6x His
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K1362468">BBa_K1362468</a>
+                                                            </td>
+                                                        </tr>
+
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                T7 terminator
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K731721">BBa_K731721</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                Thrombin site
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K1362456">BBa_K1362456</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                AmpR promoter
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K3982027">BBa_K3982027</a>
+                                                            </td>
+                                                        </tr>
+
+
+                                                        <tr>
+                                                            <td data-th="Biobrick">
+                                                                Amp R
+                                                            </td>
+                                                            <td data-th="Part Number">
+                                                                <a
+                                                                    href="http://parts.igem.org/Part:BBa_K4284007">BBa_K4284007</a>
+                                                            </td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+
+                                            <!-- Table design ends -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Image with sentence sidewise ends-->
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <h2>References: </h2>
+            <ol>
+                <li>Schembri, M.A., Hasman, H. and Klemm, P. (2000). Expression and purification of the mannose
+                    recognition domain of the FimH adhesin. FEMS Microbiology Letters, 188(2), pp.147–151.DOI: <a
+                        href="https://doi.org/10.1111/j.1574-6968.2000.tb09186.x">10.1111/j.1574-6968.2000.tb09186.x</a>
+                </li>
+                <li>Tao Wang , Wang Yin,Hadi AlShamaileh, Yumei Zhang, Phuong Ha-Lien Tran, Tuong Ngoc-Gia Nguyen, Yong
+                    Li, Kuisheng Chen, Miaomiao Sun, Yingchun Hou, Weihong Zhang, Qingxia Zhao, Changying Chen, Pei-Zhuo
+                    Zhang, and Wei Duan, 2019 Feb; 30(1), A detailed protein-SELEX protocol allowing visual assessments
+                    of individual steps for high success rate, DOI: <a
+                        href="https://doi.org/10.1089/hgtb.2018.237">10.1089/hgtb.2018.237</a></li>
+                <li>Amirmorteza ,EbrahimzadehNamvar,Sara Bastarahang,Niloufar Abbasi,Ghazaleh Sheikhi,Ghehi
+                    ,Sara,Farhadbakhtiarian,Parastoo Arezi,Mahsa Hosseini,Sholeh Zaeemi Baravati, Zahra Jokar,Sara Ganji
+                    Chermahin ,Clinical characteristics of Staphylococcus epidermidis: a systematic review ,2014 Sep 30,
+                    GMS Hygiene and Infection Control 2014, Vol. 9(3), DOI: <a
+                        href="https://doi.org/10.3205/dgkh000243">10.3205/dgkh000243</a></li>
+                <li>Shankar Upadhyayula, Mamatha Kambalapalli, and Basim . Asmar, Staphylococcus epidermidis Urinary
+                    Tract Infection in an Infants;24 July 2012,Case Reports in Infectious Disease,Volume 2012, Article
+                    ID 983153. DOI:<a href="https://doi.org/10.1155/2012/983153">10.1155/2012/983153</a></li>
+                <li>Meysam Sarshar , Payam Behzadi , Cecilia Ambrosi , Carlo Zagaglia , Anna Teresa Palamara ,and
+                    Daniela Scribano ,FimH and Anti-Adhesive Therapeutics: A Disarming Strategy Against Uropathogen,10
+                    July 2020,Antibiotics (Basel),
+
+                    <a href="https://doi.org/10.3390/antibiotics9070397">10.3390/antibiotics9070397</a>
+                </li>
+                <li>Terlizzi, M.E. , Gribaudo, G. , and Maffei, M.E. ‘UroPathogenic Escherichia coli (UPEC) Infections:
+                    Virulence Factors, Bladder Responses, Antibiotic, and Non-antibiotic Antimicrobial Strategies.’,2017
+                    DOI: <a href="https://doi.org/10.3389%2Ffmicb.2017.01566">10.3389/fmicb.2017.01566</a></li>
+                <li>Meysam Sarshar,Payam Behzadi, Cecilia Ambrosi,Carlo Zagaglia,Anna Teresa Palamara, and Daniela
+                    Scribano , FimH and Anti-Adhesive Therapeutics: A Disarming Strategy Against Uropathogens, 2020 Jul
+                    10,Antibiotics (Basel). Doi: <a
+                        href="https://doi.org/10.3390/antibiotics9070397">10.3390/antibiotics9070397</a></li>
+                <li>Pavel Aprikia , Veronika Tchesnokova, Brian Kidd , Olga Yakovenko, Vladimir Yarov-Yarovoy , Elena
+                    Trinchina , Viola Vogel , Wendy Thomas , and Evgeni Sokurenko,Interdomain Interaction in the FimH
+                    Adhesin of Escherichia coli Regulates the Affinity to Mannose,March 8, 2007,THE JOURNAL OF
+                    BIOLOGICAL CHEMISTRY VOL. 282, NO. 32, pp. 23437–23446, DOI:<a
+                        href="https://doi.org/10.1074/jbc.M702037200Doi">10.1074/jbc.M702037200Doi</a></li>
+                <li>Eva Maria Krammer,Jerome D Ruyck,Goedele Roos, Julie Bouckaert,Mark.F.Lensink;
+                    Targeting Dynamical Binding Processes in the Design of Non-Antibiotic Anti-Adhesives by Molecular
+                    Simulation—The Example of FimH ;5 July 2018,MDPI, Doi: <a
+                        href="https://doi.org/10.3390/molecules23071641">10.3390/molecules23071641</a></li>
+                <li>Roger D Klein , Scott J Hultgren ;Urinary tract infections: microbial pathogenesis, host-pathogen
+                    interactions and new treatment strategies;2020 Apr;18(4);Nat Rev Microbiol</li>
+                <li>G Godaly , C Svanborg;Urinary tract infections revisited;2007 Apr7;Kidney Int</li>
+
+
+            </ol>
+
+        </div>
+    </div>
+
+    <!-- Image with sentence sidewise ends-->
+
+
+    <!-- Sponsor Section begins -->
+
+    <section class="site-section">
+        <div class="container" style="background-color: #ffffff; padding-top: 30px; padding-bottom: 70px;">
+            <div class="row">
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/iiserbpr.svg" alt="Image"
+                        class="img-fluid" style="margin-top: 2rem;">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/new-engs.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="0" style="padding-top: 25px;">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/idt.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="200">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/snapgene-logo.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <div class="col" data-aos="fade-in" data-aos-delay="300">
+                    <img src="https://static.igem.wiki/teams/4449/wiki/sponsors/twist.svg" alt="Image"
+                        class="img-fluid">
+                </div>
+                <!-- <div class="col" data-aos="fade-in" data-aos-delay="300">
+				<img src="images/Sponsor/clients-05.svg" alt="Image" class="img-fluid">
+			</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section ends -->
+
+
+    <!-- Footer Setion begins -->
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>About us</h3>
+                        <address> iGEM team of IISER Berhampur working on a project titled "Apt4UTI: An Aptamer-based
+                            solution to detect uropathogenic bacteria at the point-of-care" </address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+                <div class="col-lg-4" style="width: 35%;">
+                    <div class="widget">
+                        <h3>Address</h3>
+                        <address>IISER Berhampur </br>
+                            Transit campus (Govt. ITI Building) </br>
+                            Engg. School Junction, Berhampur </br>
+                            Odisha 760010</address>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+
+                <div class="col-lg-4" style="width: 30%;">
+                    <div class="widget">
+                        <h3>Links</h3>
+                        <!-- <ul class="list-unstyled links">
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+								<li><a href="igem@iiserbpr.ac.in">igem@iiserbpr.ac.in</a></li>
+							</ul> -->
+
+                        <ul class="list-unstyled social">
+                            <li><a href="https://www.instagram.com/igem.iiserbpr/"><span
+                                        class="icon-instagram"></span></a>
+                            </li>
+                            <li><a href="https://twitter.com/igem_iiserbpr"><span class="icon-twitter"></span></a></li>
+                            <li><a href="https://m.facebook.com/igem.iiserbpr/"><span class="icon-facebook"></span></a>
+                            </li>
+                            <li><a href="https://in.linkedin.com/company/igem-iiser-berhampur-team"><span
+                                        class="icon-linkedin"></span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- /.widget -->
+                </div> <!-- /.col-lg-4 -->
+
+            </div> <!-- /.row -->
+
+
+
+
+
+            <div class="row mt-5" style="margin-top: 1rem !important;">
+                <div class="col-12 text-center">
+                    <p>Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> &mdash; Content on this site is
+                        licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"> Creative Commons
+                            Attribution 4.0 International license.</a>
+                        <br>The repository used to create this website is available at <a
+                            href="https://gitlab.igem.org/2022/iiser-berhampur">https://gitlab.igem.org/2022/iiser-berhampur</a>
+                        <br> Designed with love by <a href="https://2022.igem.wiki/iiser-berhampur">iGEM_IISER Berhampur
+                            wiki Team</a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
+
+    <!-- Footer Setion Ends -->
+
+
+    <!-- Preloader -->
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+
+    <!-- Javascript Links -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+	<script src="js/loader1.js"></script>
+</body>
+
+</html>
